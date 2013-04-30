@@ -1,6 +1,6 @@
-awesomeincx
+awesomeincu
 ===========
 
-Marketing site for Awesome Inc Experience 2013, a startup accelerator program in Lexington, KY.
+Website for Awesome Inc University, a series of experiential education courses based in Lexington, KY.
 
-Find out more at http://awesomeincx.com
+Find out more at http://awesomeincu.com
