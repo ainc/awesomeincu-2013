@@ -244,7 +244,7 @@ a.enlarge:before {
 
 .intro {text-align: center; display:block; position:absolute; z-index:100; }
 .intro h1{font: 90px 'ExoBlack', Arial, sans-serif; text-transform: uppercase; color: #f4f4f4; margin:30px 0px 0px 0px; display:block; width: 100%;}
-.intro p{font: 57px 'JournalRegular', Arial, sans-serif; color:#acacaa;line-height:57px;display:block; width: 100%;} 
+.intro p{font: 57px 'JournalRegular', Arial, sans-serif; color: #E6E6E6;text-shadow: 1px 1px 1px black;line-height: 5px;display:block; width: 100%;} 
 
 .more {background: url(../img/more.png) center no-repeat ;text-align: center; height:70px; padding-top:25px; position:absolute; bottom:0px; margin-bottom:-13px; display:block; z-index:100; }
 .more a {font: 35px 'JournalRegular', Arial, sans-serif; color:#ff1440;}
