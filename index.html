@@ -65,48 +65,36 @@
     
     <div class="home" id="home">
       <div class="container">
-        
         <div class="row ">
-              <div class="span12 intro" id="intro">
-                <img src="img/Awesome Inc U -Logo_square - mobile.png" class="visible-phone" id="logo" alt="Awesome Inc U - learn to code" height="74" align="middle">
-            <img src="img/logo_big.png" class="hidden-phone" alt="" >
-                <h1 class="hidden-phone">Awesome Inc U</h1>
-                <p class="hidden-phone">Because everyone should learn how to code!</p>
-                <br>
-                <a class="btn btn-red" href="register.html">Register Now</a>
-              </div>
-          </div> 
-      
-          <div class="row hidden-phone">
-              <div class="span12 more" id="more">
-                <p><a href="#about">more</a></p>
-              </div>
-          </div> 
-         
+          <div class="span12 intro" id="intro">
+            <img src="img/Awesome Inc U -Logo_square - mobile.png" class="visible-phone" id="logo" alt="Awesome Inc U - learn to code" height="74">
+            <img src="img/logo_big.png" class="hidden-phone" alt="Awesome Inc logo" >
+            <h1 class="hidden-phone">Awesome Inc U</h1>
+            <p class="hidden-phone">Because everyone should learn how to code!</p>
+            <br>
+            <a class="btn btn-red" href="register.html">Register Now</a>
+          </div>
+        </div> 
+        <div class="row hidden-phone">
+          <div class="span12 more" id="more">
+            <p><a href="#about">more</a></p>
+          </div>
+        </div> 
       </div> <!-- /container -->
       
-      <span id="intro-slider-container">
+      <div id="intro-slider-container">
         <div class="visible-phone" ><p><img src="img/home_bg.jpg" alt=""/></p></div>
-            <!-- flexslider -->
-        <div class="flexslider hidden-phone" id="intro-slider">
-          <div ></div>
-          <ul class="slides"  >
-            <li><img src="img/home_bg.jpg" id="slide1" alt=""/></li>
-            <li><img src="img/home_bg2.jpg" id="slide2" alt=""/></li>
-          </ul>
-        </div> <!-- /flexslider -->
-      </span>
+      </div>
  
     </div> <!-- /home -->
     
     <!-- /HOME ############################################### -->
 
 
-
  
     <!-- ABOUT ############################################### --> 
     <div id="about">
-      <div class="container">
+      <div class="container" id="abouttext">
         <div class="row head1">
               <div class="span12" >
                 <h2>About</h2>
@@ -120,18 +108,17 @@
               <br/><br/>
               — STEVE JOBS
               </h4>
-            </div>
+            </div><!-- /abouttext -->
           </div>
 
           <div class="span8 offset1" >
-            <div id="abouttext"><!-- /abouttext -->
+            <div>
               <h3>What is it?</h3>
               <iframe width="350" height="197" src="http://www.youtube.com/embed/g_ytoNfe83Y?showinfo=0" frameborder="0" class="hidden-phone"></iframe>
               <p>Awesome Inc U is a code school. Through hands-on, in-person classes, we help people learn how to create software. It’s never too early or too late to learn how to code. You don’t have to be a genius to learn to code, you just need to be determined. From musicians, to athletes, to billionaire founders of tech companies, <a href="http://www.youtube.com/watch?v=qYZF6oIZtfc" target="_blank" title="1 minute video from Code.org">lots of successful people want YOU to learn to code</a>.</p>
               <p> Want to learn more? Check out the <a href="faq.html">Frequently Asked Questions -&gt;</a></p>
-              <p><a class="btn btn-red" href="register.html">Register Now</a></p>
-                 
-            </div><!-- /abouttext -->
+              <p><a class="btn btn-red" href="register.html">Register Now</a></p>                 
+            </div>
           </div><!-- span8 -->
         </div><!-- /starlight-row  -->
       </div> <!-- /container -->
@@ -161,7 +148,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="hourofcode.html"><img src="img/logo-csedweek2013.png" width="70"></a>
+                  <a href="hourofcode.html"><img src="img/logo-csedweek2013.png" alt="CSEdWeek logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>SPECIAL OFFER FOR SCHOOLS: Hour of Code</strong></p>
@@ -176,7 +163,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="http://awesomeincu-android-day.eventbrite.com/" target="_blank"><img src="img/logo-android.png" width="70"></a>
+                  <a href="http://awesomeincu-android-day.eventbrite.com/" target="_blank"><img src="img/logo-android.png" alt="Android logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>Android 1-Day Crash Course</strong></p>
@@ -191,7 +178,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="http://awesomeincu-web-day.eventbrite.com" target="_blank"><img src="img/logo-html.png" width="70"></a>
+                  <a href="http://awesomeincu-web-day.eventbrite.com" target="_blank"><img src="img/logo-html.png" alt="HTML5 logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>Basic Web Development 1-Day Crash Course</strong></p>
@@ -206,7 +193,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="http://awesomeincu-iphone-day.eventbrite.com" target="_blank"><img src="img/logo-ios.png" width="70"></a>
+                  <a href="http://awesomeincu-iphone-day.eventbrite.com" target="_blank"><img src="img/logo-ios.png" alt="iOS logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>iPhone App Development 1-Day Crash Course</strong></p>
@@ -221,7 +208,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="http://awesomeincu-php-day.eventbrite.com" target="_blank"><img src="img/logo-php.png" width="70"></a>
+                  <a href="http://awesomeincu-php-day.eventbrite.com" target="_blank"><img src="img/logo-php.png" alt="PHP logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>PHP Web Development 1-Day Crash Course</strong></p>
@@ -240,7 +227,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="#" target="_blank"><img src="img/logo-js.png" width="70"></a>
+                  <a href="#" target="_blank"><img src="img/logo-js.png" alt="JavaScript logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>JavaScript Web Development</strong></p>
@@ -253,7 +240,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="#" target="_blank"><img src="img/logo-rails.png" width="70"></a>
+                  <a href="#" target="_blank"><img src="img/logo-rails.png" alt="Ruby on Rails logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>Ruby on Rails Web Development</strong></p>
@@ -266,7 +253,7 @@
 
               <div class="row">
                 <div class="span1">
-                  <a href="#" target="_blank"><img src="img/logo-unity3d.png" width="70"></a>
+                  <a href="#" target="_blank"><img src="img/logo-unity3d.png" alt="Unity3D logo" width="70"></a>
                 </div>
                 <div class="span4">
                   <p><strong>Unity Game Development</strong></p>
@@ -303,10 +290,8 @@
     <!-- /COURSES, formerly PERKS ############################################### -->
 
     <!-- /INSTRUCTORS ############################################### -->
-
-    <div id="instructors">
     
-      <div class="container">
+      <div class="container" id="instructors">
           
         <div class="row head1" >
               <div class="span12" >
