@@ -442,3 +442,9 @@ a.enlarge:before {
 
 #footer_bar p {font-weight:200; color:#575757;font-size: 12px; line-height:22px; margin:20px 0px;}
 
+
+/* FOOTER  */
+div#mc_embed_signup {
+	width: 50%;
+	margin: auto;
+}
