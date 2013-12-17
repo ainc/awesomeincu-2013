@@ -1,45 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.awesomeincu.com/</loc>
-  <lastmod>2013-11-04T23:11:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.awesomeincu.com/faq.html</loc>
-  <lastmod>2013-11-04T23:09:33+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.awesomeincu.com/register.html</loc>
-  <lastmod>2013-11-04T23:09:33+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.awesomeincu.com/curriculum.html</loc>
-  <lastmod>2013-10-21T14:48:38+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.awesomeincu.com/hourofcode.html</loc>
-  <lastmod>2013-10-25T06:22:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.awesomeincu.com/index.html</loc>
-  <lastmod>2013-11-04T23:11:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://www.aweosmeincu.com/jekyll/2013/12/16/ios-crash-course/</loc>
+        <lastmod>2013-12-16T21:15:04-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/jekyll/update/2013/12/16/welcome-to-jekyll/</loc>
+        <lastmod>2013-12-16T19:15:17-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/curriculum/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/faq/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/hoc/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/hoc2/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/hourofcode/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/info/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/missing/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.aweosmeincu.com/register/</loc>
+        <lastmod>2013-12-17T00:08:50-05:00</lastmod>
+    </url>
 </urlset>
