@@ -1,51 +1,447 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Your New Jekyll Site</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Inc U - learn to code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Awesome Inc U is a school that teaches you how to code by having you actually write code.">
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="HISrxp_NYG4qcm_rI_9vuenf2u1lVLIq-FCLo3ymlCo" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link href="css/exo-font.css" rel="stylesheet">
+    <link href="css/journal-font.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet"> 
+  <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">  
+  <link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Script files -->
+  <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.flexslider.js"></script> 
+  <script src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script src="js/jquery.form.js"></script>   
+    <script src="js/custom.js"></script>
+  <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
+	
+	<!-- Mailchimp CSS -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:d4e3e5; clear:left; font:14px Helvetica,Arial,sans-serif;}
+	</style>
+   
+  </head>
 
-    </head>
-    <body>
+  <body data-spy="scroll" data-target=".navbar">
+  
+    <!-- NAVBAR ############################################### -->
+    <div class="navbar navbar-fixed-top" id="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+         
+         <a href="#home" class="brand hidden-phone" id="brand" ><img src="img/logo_header.png" alt="Awesome Inc U - Learn to code" height="28"></a>
+         
+          
+            <ul class="nav">
+              <!-- <li><a href="#home">Home</a></li> -->
+              <li><a href="#about">About</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#instructors">Instructors</a></li>
+              <li><a href="#employers">Employers</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="register.html" style="color: #FF1440;">Register</a></li>
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+    <!-- /NAVBAR ############################################### -->
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">Your New Jekyll Site</a></h1>
-            <a class="extra" href="/">home</a>
+
+    <!-- HOME ############################################### -->
+    
+    <div class="home" id="home">
+      <div class="container">
+        <div class="row ">
+          <div class="span12 intro" id="intro">
+            <img src="img/logo_square-mobile.png" class="visible-phone" id="logo" alt="Awesome Inc U - learn to code" height="74">
+            <img src="img/logo_big.png" class="hidden-phone" alt="Awesome Inc logo" >
+            <h1 class="hidden-phone">Awesome Inc U</h1>
+            <p class="hidden-phone">Because everyone should learn how to code!</p>
+            <br>
+            <a class="btn btn-red" href="register.html">Register Now</a>
+          </div>
+        </div> 
+        <div class="row hidden-phone">
+          <div class="span12 more" id="more">
+            <p><a href="#about">more</a></p>
+          </div>
+        </div> 
+      </div> <!-- /container -->
+      
+      <div id="intro-slider-container">
+        <div class="visible-phone" ><p><img src="img/home_bg.jpg" alt=""/></p></div>
+      </div>
+ 
+    </div> <!-- /home -->
+    
+    <!-- /HOME ############################################### -->
+
+
+ 
+    <!-- ABOUT ############################################### --> 
+    <div id="about">
+      <div class="container" id="abouttext">
+        <div class="row head1">
+              <div class="span12" >
+                <h2>About</h2>
+              </div>
+        </div>
+        <div class="row" id="starlight">  
+          <div class="span3" >
+            <div>
+              <h4>“I think everybody in this country should learn how to program a computer
+              because it teaches you how to think.” 
+              <br/><br/>
+              — STEVE JOBS
+              </h4>
+            </div><!-- /abouttext -->
           </div>
 
-          <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-      <li><span>16 Dec 2013</span> &raquo; <a href="/jekyll/update/2013/12/16/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
-    
-  </ul>
-</div>
+          <div class="span8 offset1" >
+            <div>
+              <h3>What is it?</h3>
+              <iframe width="350" height="197" src="http://www.youtube.com/embed/g_ytoNfe83Y?showinfo=0" frameborder="0" class="hidden-phone"></iframe>
+              <p style="color:black;">Awesome Inc U is a code school. Through hands-on, in-person classes, we help people learn how to create software. It’s never too early or too late to learn how to code. You don’t have to be a genius to learn to code, you just need to be determined. From musicians, to athletes, to billionaire founders of tech companies, <a href="http://www.youtube.com/watch?v=qYZF6oIZtfc" target="_blank" title="1 minute video from Code.org">lots of successful people want YOU to learn to code</a>.</p>
+              <p style="color:black;"> Want to learn more? Check out the <a href="faq.html">Frequently Asked Questions -&gt;</a></p>
+              <p><a class="btn btn-red" href="register.html">Register Now</a></p>                 
+            </div>
+          </div><!-- span8 -->
+        </div><!-- /starlight-row  -->
+      </div> <!-- /container -->
+    </div> <!-- /about -->   
+    <!-- ABOUT ############################################### --> 
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
+    <hr>
+	
+    <!-- COURSES, formerly PERKS ############################################### -->
+    <div id="courses">
+      <div class="container">
+        <div class="row head1">
+            <div class="span12">
+              <h2>Courses</h2>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
+        </div>
+    
+		<br>
+		<br>
+	
+		<!-- TABLE ############################################### -->	
+	
+			    <style type="text/css">
+			    .classtable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+			    .classtable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+			    .classtable tr {background-color:#d4e3e5;}
+			    .classtable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+			    </style>
+
+
+
+			    <table class="classtable" border="1">
+					
+		   		 <td colspan="4">
+		   		<!-- Begin MailChimp Signup Form -->
+		
+		   			<br>
+		   			<center><h3>Stay Connected + Learn About Upcoming Courses</h3></center>
+		   			<br>
+		   		<div id="mc_embed_signup">
+		   		<form style="padding:0px" action="http://awesomeinc.us2.list-manage.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=4249701e12" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		   			<input style="margin: auto" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		   			<div class="clear"><input style="margin: auto;margin-top: 1em" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		   		</form>
+		   		</div>
+		   		</td>
+		   		<!--End mc_embed_signup-->
+	  
+			    <tr><th>Date/Time</th><th>Course</th><th>Price</th><th>Availability</th></tr>
+   
+			    <tr><td><a href="curriculum.html#ios-crash"><img src="img/logo-ios.png" alt="Awesome Inc iPhone App Development" width="40px"></a>&nbsp;&nbsp;Jan 19, 12pm - 6pm</td><td><a href="curriculum.html#ios-crash">iPhone App Development 1-Day<a/></td><td>$50 (students), $75 (early bird - ends Dec 20), $100 (standard)</td><td>
+          <center><a class="btn btn-red btn-large" href="http://awesomeincu-iphone-day.eventbrite.com" target="_blank">Register</a></center></td></tr>
+
+			    <tr><td><a href="curriculum.html#php-crash"><img src="img/logo-php.png" alt="Awesome Inc PHP Web Development" width="40px"></a>&nbsp;&nbsp;Jan 26, 12pm - 6pm</td><td><a href="curriculum.html#php-crash">PHP Web Development 1-Day<a/></td><td>$50 (students), $75 (early bird - ends Jan 3), $100 (standard)</td><td>  
+          <center><a class="btn btn-red btn-large" href="http://awesomeincu-php-day.eventbrite.com" target="_blank">Register</a></center></td></tr>
+  
+          <tr><td><a href="curriculum.html#basicweb-crash"><img src="img/logo-html.png" alt="Awesome Inc Basic Web Development" width="40px"></a>&nbsp;&nbsp;Feb 15, 9am - 4pm</td><td><a href="curriculum.html#basicweb-crash">Basic Web Development 1-Day</a><br></td><td>$50 (students), $75 (early bird - ends Jan 31), $100 (standard)</td><td>
+          <center><a class="btn btn-red btn-large" href="http://awesomeincu-web-day.eventbrite.com" target="_blank">Register</a></center></td></tr>
+
+          <tr><td><a href="curriculum.html#k12-day"><img src="img/logo_big.png" alt="Awesome Inc U Logo" width="40px"></a>&nbsp;&nbsp;March 1, 9am - 4pm</td><td><a href="curriculum.html#k12-day">Day of Code for Kids</a><br></td><td>$50 (early bird - ends Feb 1st), $75 (standard)</td><td>
+          <center><a class="btn btn-red btn-large" href="http://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-9821565567?aff=aincwebsite" target="_blank">Register</a></center></td></tr>
+
+          <tr><td><a href="curriculum.html#k12-week"><img src="img/logo_big.png" alt="Awesome Inc U logo" width="40px"></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#k12-week">Week of Code for Kids</a><br></td><td>$875 (early bird), $975 (standard)</td><td>
+          <center><a class="btn btn-red btn-large" href="http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite" target="_blank">Register</a></center></td></tr>
+
+          <tr><td><a href="hourofcode.html" target="_blank"><img src="img/logo-csedweek2013.png" alt="Awesome Inc Hour of Code" width="40px"></a>&nbsp;&nbsp;Dec 9-13</td><td><a href="hourofcode.html" target="_blank">Hour of Code for Schools</a></td><td>Nominal fee per school</td><td>
+          <center><a href="http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/">See photos</a></center></td></tr>
+
+          <tr><td><a href="curriculum.html#android-crash"><img src="img/logo-android.png" alt="Awesome Inc Android 1-Day" width="40px" ></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#android-crash">Android App Development 1-Day</a></td><td>$50 (students), $75 (early bird - TBD), $100 (standard)</td><td>
+          <center>Coming Soon!</center></td></tr>
+
+          <tr><td><a href="curriculum.html#javascript-crash"><img src="img/logo-js.png" alt="Awesome Inc JavaScript Web Development" width="40px"></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#javascript-crash">JavaScript Web Development 1-Day<a/></td><td>$50 (students), $75 (early bird - TBD), $100 (standard)</td><td><center>Coming Soon!</center></td></tr>
+  
+			    <tr><td><a href="curriculum.html#rubyonrails-crash"><img src="img/logo-rails.png" alt="Awesome Inc Ruby on Rails" width="40px"></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#rubyonrails-crash">Ruby on Rails Web Development 1-Day</a></td><td>$50 (students), $75 (early bird - TBD), $100 (standard)</td><td><center>Coming Soon!</center></td></tr>
+
+          <tr><td><a href="curriculum.html#unity-crash"><img src="img/logo-unity3d.png" alt="Awesome Inc Unity Game Development" width="40px"></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#unity-crash">Unity Game Development 1-Day</a></td><td>$50 (students), $75 (early bird - TBD), $100 (standard)</td><td><center>Coming Soon!</center></td></tr>
+
+          <tr><td><a href="curriculum.html#python-crash"><img src="img/logo-python.png" alt="Awesome Inc Python Crash Course" width="40px"></a>&nbsp;&nbsp;TBD</td><td><a href="curriculum.html#python-crash">Python Web Development 1-Day</a></td><td>$50 (students), $75 (early bird - TBD), $100 (standard)</td><td><center>Coming Soon!</center></td></tr>
+
+   </table>	
+
+
+<!-- /TABLE ############################################### -->	
+</div>
+	
+	
+		<br>
+	
+
+
+    <!-- /COURSES, formerly PERKS ############################################### -->
+
+    <!-- /INSTRUCTORS ############################################### -->
+    
+      <div class="container" id="instructors">
+          
+        <div class="row head1" >
+              <div class="span12" >
+                <h2>Instructors</h2>
+              </div>
+        </div> 
+        <div class="row" id="team">   
+          <div class="row">
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/pub/justin-raney/3/b3a/696" target="_blank"><img src="img/justin_raney.jpg" alt="Justin Raney"><h4>Justin Raney</h4></a><h5>Co-founder, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a>
+            <br/>iOS instructor
+            </h5>
             </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/meisterjohn" target="_blank"><img src="img/john_meister.jpg" alt="John Meister"><h4>John Meister</h4></a><h5>Co-founder, <a href="http://supersoul.co" target="_blank">Super Soul Studios</a>
+            <br/>Unity instructor
+            </h5>
+            </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/thatjpk" target="_blank"><img src="img/john_kiffmeyer.jpg" alt="John Kiffmeyer"><h4>John Kiffmeyer</h4></a><h5>Co-founder, <a href="http://buildinglayer.com" target="_blank">BuildingLayer</a>
+            <br/>Python &amp; Django instructor
+            </h5>
+            </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/ronatrnsoft" target="_blank"><img src="img/ron_northrip.jpg" alt="Ron Northrip"><h4>Ron Northrip</h4></a><h5>President, <a href="http://cogitools.com" target="_blank">Cogitools</a>
+            <br/>JavaScript instructor
+            </h5>
+            </div>
+
+          </div>
+          <div class="row">
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/pub/aaron-arnett/61/594/b08" target="_blank"><img src="img/aaron_arnett.jpg" alt="Aaron Arnett"><h4>Aaron Arnett</h4></a><h5>Software Architect, <a href="http://www.hp.com/Exstream‎" target="_blank">Hewlett-Packard</a>
+            <br/>Ruby on Rails instructor
+            </h5>
+            </div>
+          
+            <div class="span3">
+            <a href= "http://www.linkedin.com/pub/nick-profitt/6b/ab1/434" target="_blank"><img src="img/nick_profitt.jpg" alt="Nick Profitt"><h4>Nick Profitt</h4></a><h5>Mobile Developer, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a>
+            <br/>iOS instructor
+            </h5>
+            </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/pub/justin-hall/67/853/8a6" target="_blank"><img src="img/justin_hall.jpg" alt="Justin Hall"><h4>Justin Hall</h4></a><h5>Co-founder, <a href="http://www.neatfactory.com/" target="_blank">Neat Factory</a>
+            <br/>Unity instructor
+            </h5>
+            </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/nicksuch" target="_blank"><img src="img/nick_such.jpg" alt="Nick Such"><h4>Nick Such</h4></a><h5>Co-founder, <a href="http://awesomeinc.org" target="_blank">Awesome Inc</a>
+            <br/>iOS, Python &amp; Basic Web instructor
+            </h5>
+            </div>
+
+          </div><!-- /row -->
+          <div class="row">
+          
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/tommycrush" target="_blank"><img src="img/tommy_crush.jpg" alt="Tommy Crush"><h4>Tommy Crush</h4></a><h5>Software Engineering Intern, <a href="http://developers.facebook.com/" target="_blank">Facebook</a>
+            <br/>PHP instructor
+            </h5>
+            </div>
+          
+            <div class="span3">
+            <a href= "http://www.linkedin.com/in/brianraney" target="_blank"><img src="img/brian_raney.jpg" alt="Brian Raney"><h4>Brian Raney</h4></a><h5>Co-founder, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a> &amp; <a href="http://awesomeinc.org" target="_blank">Awesome Inc</a>
+            <br/>iOS &amp; Basic Web instructor
+            </h5>
+            </div>
+
+            <div class="span3">
+            <a href= "http://www.linkedin.com/pub/chris-allen/35/a36/1b2" target="_blank"><img src="img/chris_allen.jpg" alt="Chris Allen"><h4>Chris Allen</h4></a><h5>Software Engineer, <a href="http://www.volarvideo.com/" target="_blank">Volar Video</a>
+            <br/>Android instructor
+            </h5>
+            </div>
+
+          </div><!-- /row -->
+        </div><!-- /team-row -->
+      </div><!-- /container -->
+
+<!-- /INSTRUCTORS ############################################### -->
+	  
+	  <hr>
+	  
+<!-- /TESTIMONIALS ############################################### -->	  
+	  
+    	<div class="container" ng-controller="MentorsCtrl">
+    		
+  			<div class="row head1">
+    			<div class="span12" >
+    				<h2>Testimonials</h2>
+    			</div>
+      		</div>
+<div class="faq_content">
+<h2 align="center">Alumni Reviews!</h2> <br />
+<br />
+
+
+<p><img src="img/testimonials/robert.jpg" alt="Robert Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">"Good introduction to Android programming for both new and experienced programmers. The instructors were very knowledgeable, willing to answer any questions, and intent on making sure everyone understood the concepts behind the coding. The pace of the class was ideal as each new topic built upon the last. As a result, I have a much more confidence in doing mobile development on my own. I would recommend this class for anyone looking to develop coding skills that are in high demand. I plan on signing up for the more of these classes in the future." <strong>-Robert B.</strong></p>
+	<p>Courses Taken: Android</p>
+	
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	
+	<p><img src="img/testimonials/kyle.jpg" alt="Kyle Testimonial" style="float:left; padding: 0px 10px 0px 0px;">
+"I think the Awesome Inc U courses are Awesome! They are extremely helpful, way more helpful than the several computer science courses I've taken at my University." <strong>-Kyle R.</strong></p>
+	<p>Courses Taken: iOS, Android, Python, Unity, and Basic Web Development</p>
+	
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	
+	<p><img src="img/testimonials/david.jpg" alt="David Testimonial" style="float:left; padding: 0px 10px 0px 0px;">
+"I've always wanted to learn how to code but thought it would be too hard. I feel like a coding guru after taking just a few Ainc U courses. The hands-on approach makes learning how to code easy." <strong>-David B.</strong></p>
+	<p>Courses Taken: Ruby on Rails and Basic Web Development</p>
+	
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+
+	<p><img src="img/testimonials/steam.jpg" alt="STEAM Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">
+"It was my pleasure to work with you all. We had a great experience doing this and had many students/staff express their appreciation and enjoyment in participating. Thanks for providing the information beforehand and the efforts you and your staff made on our behalf.
+<br><br>
+Please pass along our appreciation to everyone else at Awesome Inc. It was great to work with everyone on this event and look forward to growing our partnership into the future." <strong>-Michael Wlosinski, STEAM Academy</strong></p>
+	<p><a href="http://csedweek.org">Hour of Code</a> school taught by Awesome Inc U</p>
+	
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>	
+	
+	<p><img src="img/testimonials/ben.jpg" alt="Ben Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">
+"The basic web development course was an extremely well thought out and well executed class. In a world where coding jobs are plentiful, I now feel confident in my ability to create a basic web site with a hope to further develop my web development skill in the future." <strong>-Ben Childress</strong></p>
+	<p>Courses Taken: Basic Web Development</p>
+	<br><br>
+</div> <!-- /container -->
+</div> <!-- /about -->
+  
+ <!-- /TESTIMONIALS ############################################### --> 
+  
+  
+
+<hr>
+
+<!-- /EMPLOYERS ############################################### -->
+
+    <div id="employers">
+    
+      <div class="container">
+        <div class="row head1">
+            <div class="span12">
+              <h2>Employers</h2>
+            </div>
+        </div> 
+    
+        <div class="row">        
+          <div class="span8 offset1" >
+            <h3>Employment Partners</h3>
+            <p>It's no secret that software developers are some of the most sought-after employees today. Awesome Inc U partners with technology companies and startups to help employers find the best candidates, and to help our students find the best jobs out there. To learn more about our employer partnership program, <a href="mailto:founders@awesomeinc.org?Subject=Awesome%20Inc%20U%20employers">contact us</a> today.</p>
+            <p>Current employment partners include:</p>
+            <ul class="list">
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://dell.com" target="_blank"><img width="150" height="150" src="img/logo-dell.png" alt="Dell" title="Dell"/></a></li>
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://apaxsoftware.com" target="_blank"><img width="150" height="150" src="img/logo-apax.png" alt="Apax Software" title="Apax Software" /></a></li>
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://thinksis.com" target="_blank"><img width="150" height="150" src="img/logo-sis.png" alt="SIS" title="SIS"/></a></li>
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://supersoul.co" target="_blank"><img width="150" height="150" src="img/logo-supersoul.png" alt="SuperSoul" title="SuperSoul"/></a></li>
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://frogdice.com" target="_blank"><img width="150" height="150" src="img/logo-frogdice.png" alt="FrogDice" title="FrogDice"/></a></li>
+              <li style="float:left; padding:0 15px 15px 0;"><a href="http://volarvideo.com" target="_blank"><img width="150" height="150" src="img/logo-volar.png" alt="Volar Video" title="Volar Video"/></a></li>
+            </ul>
           </div>
         </div>
+      </div>
+    </div>
 
-    </body>
+<!-- /EMPLOYERS ############################################### -->
+   
+   
+<!-- FOOTER ############################################### -->
+   
+     <div id="footer">
+    
+      <div class="container">
+          
+          <div class="row" id="footer_bar">
+              <div class="span12" >
+                <p>&copy;2013 Awesome Inc</p>
+                <ul class="list-social">
+                  <li class="facebook"><a href="http://www.facebook.com/awesomeincorporated"></a></li>
+                  <li class="twitter"><a href="http://twitter.com/awesome_inc"></a></li>
+                  <li class="rss"><a href="http://blog.awesomeincu.com"></a></li>
+                </ul>
+              </div>
+          </div> 
+
+        </div><!-- /container -->
+    </div><!-- /footer -->
+
+<!-- /Footer ############################################### -->
+
+<!-- /Google Analytics ############################################### -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40742716-1', 'awesomeincu.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- /Google Analytics ############################################### -->
+
+  </body>
 </html>
