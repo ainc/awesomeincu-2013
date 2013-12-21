@@ -1,55 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <loc>http://www.aweosmeincu.com/jekyll/2013/12/16/ios-crash-course/</loc>
-        <lastmod>2013-12-20T14:15:35-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/jekyll/update/2013/12/16/welcome-to-jekyll/</loc>
-        <lastmod>2013-12-20T14:15:35-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/curriculum/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/faq/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/giftofcode/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/hoc/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/hoc2/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/hourofcode/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/</loc>
-        <lastmod>2013-12-20T18:59:29-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/info/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/missing/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.aweosmeincu.com/register/</loc>
-        <lastmod>2013-12-20T14:15:36-05:00</lastmod>
-=======
         <loc>http://www.awesomeincu.com/jekyll/2013/12/16/ios-crash-course/</loc>
         <lastmod>2013-12-17T02:12:59-05:00</lastmod>
     </url>
@@ -83,7 +34,7 @@
     </url>
     <url>
         <loc>http://www.awesomeincu.com/</loc>
-        <lastmod>2013-12-17T15:30:44-05:00</lastmod>
+        <lastmod>2013-12-20T20:20:29-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/info/</loc>
@@ -94,54 +45,7 @@
         <lastmod>2013-12-17T02:12:59-05:00</lastmod>
     </url>
     <url>
-=======
-        <loc>http://www.awesomeincu.com/jekyll/2013/12/16/ios-crash-course/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/jekyll/update/2013/12/16/welcome-to-jekyll/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/curriculum/</loc>
-        <lastmod>2013-12-19T20:10:25-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/faq/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/giftofcode/</loc>
-        <lastmod>2013-12-18T13:56:50-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/hoc/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/hoc2/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/hourofcode/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/</loc>
-        <lastmod>2013-12-17T15:30:44-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/info/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/missing/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
-    </url>
-    <url>
->>>>>>> 96f06d55f946b72aaa127e61777d76142419e4a0
         <loc>http://www.awesomeincu.com/register/</loc>
         <lastmod>2013-12-17T15:27:35-05:00</lastmod>
->>>>>>> 96f06d55f946b72aaa127e61777d76142419e4a0
     </url>
 </urlset>
