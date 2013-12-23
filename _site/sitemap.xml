@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.awesomeincu.com/jekyll/2013/12/16/ios-crash-course/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
+        <loc>http://www.awesomeincu.com/blog/2013/12/16/ios-crash-course/</loc>
+        <lastmod>2013-12-20T21:44:05-05:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/jekyll/update/2013/12/16/welcome-to-jekyll/</loc>
-        <lastmod>2013-12-17T02:12:59-05:00</lastmod>
+        <loc>http://www.awesomeincu.com/blog/2013/12/16/welcome-to-jekyll/</loc>
+        <lastmod>2013-12-20T21:43:53-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/curriculum/</loc>
@@ -46,6 +46,6 @@
     </url>
     <url>
         <loc>http://www.awesomeincu.com/register/</loc>
-        <lastmod>2013-12-17T15:27:35-05:00</lastmod>
+        <lastmod>2013-12-20T21:41:09-05:00</lastmod>
     </url>
 </urlset>

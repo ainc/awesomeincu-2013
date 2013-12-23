@@ -2,7 +2,7 @@
 layout: post
 title:  "iOS Crash Course"
 date:   2013-12-16 19:15:17
-categories: jekyll
+categories: blog
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
