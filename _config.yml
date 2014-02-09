@@ -2,3 +2,10 @@ name: Awesome Inc U - learn to code
 markdown: redcarpet
 pygments: true
 permalink: pretty
+asset_bundler:
+  compress:
+    js: true
+    css: true
+  markup_templates:
+    js: "<script async type='text/javascript' src='{{url}}'></script>\n"
+    css: "<link rel='stylesheet' type='text/css' href='{{url}}' />\n"
