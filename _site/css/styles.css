@@ -267,7 +267,7 @@ a.enlarge:before {
 
 #abouttext h4  {font:35px/35px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; margin-bottom:45px;}
 
-#abouttext p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:30px;}
+#abouttext p, ol {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:30px;}
 
 
 #approach h5 {font: 18px 'ExoRegular', Arial, sans-serif; text-transform: uppercase; color: #7ca5b7;margin-bottom:20px;margin-top:40px;}
