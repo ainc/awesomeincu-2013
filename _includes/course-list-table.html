@@ -29,7 +29,13 @@
 	  
 			    <tr><th>Date/Time</th><th>Course</th><th>Price</th><th>Availability</th></tr>
 
-				<tr><td><a href="/curriculum#frontweb2-crash"><img src="/img/logo-html.png" alt="Awesome Inc Front-End Web Development" width="40px"></a>&nbsp;&nbsp;March 15, 9am - 4pm</td><td><a href="/curriculum#frontweb2-crash">Front-End Web Development, Level 2</a><br></td><td>$50 (students), $75 (early bird - ends Feb 28), $100 (standard)</td><td><center><a class="btn btn-red btn-large" href="http://www.eventbrite.com/e/front-end-web-development-level-2-crash-course-tickets-9901758426?aff=aincwebsite" target="_blank">Register</a></center></td></tr>
+				{% for course in site.data.course-list %}
+				{% if course.active %}
+
+				<tr><td><a href="/curriculum#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40px"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum#{{ course.curriculum }}">{{ course.title }}</a><br></td><td>${{ course.student-price }} (students), ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Register</a></center></td></tr>
+
+				{% endif %}
+				{% endfor %}
 
           		<tr><td><a href="/curriculum#android-crash"><img src="/img/logo-android.png" alt="Awesome Inc Android 1-Day" width="40px" ></a>&nbsp;&nbsp;April 12, 9am - 4pm</td><td><a href="/curriculum#android-crash">Android App Development 1-Day</a></td><td>$50 (students), $75 (early bird - ends Mar 15), $100 (standard)</td><td>
           		<center><a class="btn btn-red btn-large" href="http://www.eventbrite.com/e/android-development-1-day-crash-course-tickets-10532828975?aff=aincwebsite" target="_blank">Register</a></center></td></tr>
