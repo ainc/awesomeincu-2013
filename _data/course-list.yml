@@ -5,7 +5,7 @@
   student-price: 50
   early-bird-price: 75
   standard-price: 100
-  early-bird-date: March 28
+  early-bird-date: April 5
   url: http://www.eventbrite.com/e/android-development-1-day-crash-course-tickets-10532828975?aff=aincwebsite
   logo: logo-android.png
   status: 'active'
@@ -17,7 +17,7 @@
   student-price: 50
   early-bird-price: 75
   standard-price: 100
-  early-bird-date: March 17
+  early-bird-date: April 5
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
   logo: logo-php.png
   status: 'active'
@@ -29,7 +29,7 @@
   student-price: 50
   early-bird-price: 75
   standard-price: 100
-  early-bird-date: April 4
+  early-bird-date: April 12
   url: http://www.eventbrite.com/e/unity-game-engine-1-day-crash-course-tickets-10533039605?aff=aincwebsite
   logo: logo-unity3d.png
   status: 'active'
@@ -65,7 +65,7 @@
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: March 28
+  early-bird-date: April 18
   url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite
   logo: Week-of-Code-Logo.png
   status: 'active'
