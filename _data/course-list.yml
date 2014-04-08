@@ -3,23 +3,11 @@
   date: April 12
   time: 9am - 4pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: April 5
+  early-bird-date: April 5</del>
   url: http://www.eventbrite.com/e/android-development-1-day-crash-course-tickets-10532828975?aff=aincwebsite
   logo: logo-android.png
-  status: 'active'
-
-- title: PHP Web Development 1-Day
-  curriculum: php-crash
-  date: April 14
-  time: 9am - 4pm
-  student-price: 50
-  early-bird-price: 75
-  standard-price: 100
-  early-bird-date: April 5
-  url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
-  logo: logo-php.png
   status: 'active'
 
 - title: Unity Game Development 1-Day
@@ -34,18 +22,6 @@
   logo: logo-unity3d.png
   status: 'active'
 
-- title: iPhone App Development 1-Day
-  curriculum: ios-crash
-  date: April 28
-  time: 9am - 4pm
-  student-price: 50
-  early-bird-price: 75
-  standard-price: 100
-  early-bird-date: March 31
-  url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
-  logo: logo-ios.png
-  status: 'active'
-
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
   date: May 19 - 20
@@ -56,6 +32,54 @@
   early-bird-date: 
   url: http://www.eventbrite.com/e/iphone-development-2-day-advanced-course-tickets-10533236193?aff=aincwebsite
   logo: logo-ios.png
+  status: 'active'
+
+- title: Learn To Code for Educators
+  curriculum: k12-teacher
+  date: May 24
+  time: 9am - 4pm
+  student-price: 
+  early-bird-price: 100
+  standard-price: 150
+  early-bird-date: May 10
+  url: http://www.eventbrite.com/e/learn-to-code-for-educators-tickets-9858705654?aff=aincwebsite
+  logo: logo_big.png
+  status: 'active'
+
+- title: Basic Web Development 1-Day
+  curriculum: basicweb-crash
+  date: May 31
+  time: 12pm - 6pm
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: May 1
+  url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
+  logo: logo-html.png
+  status: 'active'
+
+- title: iPhone App Development 1-Day
+  curriculum: ios-crash
+  date: June 7
+  time: 9am - 4pm
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: May 3
+  url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
+  logo: logo-ios.png
+  status: 'active'
+
+- title: PHP Web Development 1-Day
+  curriculum: php-crash
+  date: June 13
+  time: 9am - 4pm
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: May 17
+  url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
+  logo: logo-php.png
   status: 'active'
 
 - title: Week of Code for Kids
@@ -80,30 +104,6 @@
   early-bird-date: 
   url: 
   logo: Day-of-Code-Logo.png
-  status: 'inactive'
-
-- title: Learn To Code for Educators
-  curriculum: k12-teacher
-  date: 
-  time: 
-  student-price: 
-  early-bird-price: 100
-  standard-price: 150
-  early-bird-date: 
-  url: 
-  logo: logo_big.png
-  status: 'inactive'
-
-- title: Basic Web Development 1-Day
-  curriculum: basicweb-crash
-  date: 
-  time: 
-  student-price: 50
-  early-bird-price: 75
-  standard-price: 100
-  early-bird-date: 
-  url: 
-  logo: logo-html.png
   status: 'inactive'
 
 - title: Front-End Web Development, Level 2
