@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum
+curriculum: Curriculum
 alias: /curriculum.html
 ---
 
@@ -39,7 +39,13 @@ alias: /curriculum.html
                 <li>Tips for <a href="https://gist.github.com/chris-allen/7506243">next steps</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>April 12th <a class="btn btn-red" href="http://www.eventbrite.com/e/android-development-1-day-crash-course-tickets-10532828975?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'android-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'android-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -61,7 +67,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>April 28th <a class="btn btn-red" href="http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'ios-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'ios-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
               <p>Online, anytime <a class="btn btn-info" href="https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite" target="_blank">Start Now</a></p>
             </div> <!-- /span7 -->
           </div> <!-- /row -->
@@ -83,7 +95,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>May 19-20 <a class="btn btn-red" href="http://www.eventbrite.com/e/iphone-development-2-day-advanced-course-tickets-10533236193?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'ios-advanced' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'ios-advanced' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -112,6 +130,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'basicweb-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'basicweb-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
               <p>Online, anytime <a class="btn btn-info" href="https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite" target="_blank">Start Now</a></p>
             </div> <!-- /span7 -->
           </div> <!-- /row -->
@@ -135,7 +160,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>TBD</p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'frontweb2-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'frontweb2-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -158,7 +189,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>TBD</p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'rubyonrails-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'rubyonrails-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -180,7 +217,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>April 14th <a class="btn btn-red" href="http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'php-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'php-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -224,7 +267,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>TBD</p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'python-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'python-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -242,7 +291,13 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>TBD</p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'javascript-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'javascript-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
@@ -290,11 +345,17 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              <p>April 27th <a class="btn btn-red" href="http://www.eventbrite.com/e/unity-game-engine-1-day-crash-course-tickets-10533039605?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'unity-crash' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'unity-crash' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
             </div> <!-- /span7 -->
           </div> <!-- /row -->
 
-          <div class="row head2" id="game-track">
+          <div class="row head2" id="k12-track">
             <div class="span8" >
               <h2>K-12 Student / Teacher Track</h2>
             </div>
@@ -335,7 +396,13 @@ alias: /curriculum.html
                   <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
                 </ul>
                 <h4>Course Dates</h4>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'k12-day' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'k12-day' and course.status == 'inactive' %}
                 <p>TBD</p>
+                {% endif %}
+              {% endfor %}
               </div> <!-- /span7 -->
             </div> <!-- /row -->
 
@@ -356,7 +423,13 @@ alias: /curriculum.html
                   <li>Final project presentations at the end of the week</li>
                 </ul>
                 <h4>Course Dates</h4>
-                <p>July 8 - 11, 1pm-5pm <a class="btn btn-red" href="http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite" target="_blank">Register</a></p>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'k12-week' and course.status == 'active' %}
+                <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'k12-week' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
               </div> <!-- /span7 -->
             </div> <!-- /row -->
 
@@ -377,7 +450,13 @@ alias: /curriculum.html
                   <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
                 </ul>
                 <h4>Course Dates</h4>
+              {% for course in site.data.course-list %}
+                {% if course.curriculum == 'k12-teacher' and course.status == 'active' %}
+                <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'k12-teacher' and course.status == 'inactive' %}
                 <p>TBD</p>
+                {% endif %}
+              {% endfor %}
               </div> <!-- /span7 -->
             </div> <!-- /row -->
 
