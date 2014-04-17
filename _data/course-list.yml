@@ -1,15 +1,3 @@
-- title: Android App Development 1-Day
-  curriculum: android-crash
-  date: April 12
-  time: 9am - 4pm
-  student-price: 50
-  early-bird-price: <del>75
-  standard-price: 100
-  early-bird-date: April 5</del>
-  url: http://www.eventbrite.com/e/android-development-1-day-crash-course-tickets-10532828975?aff=aincwebsite
-  logo: logo-android.png
-  status: 'active'
-
 - title: Unity Game Development 1-Day
   curriculum: unity-crash
   date: April 27
@@ -39,7 +27,7 @@
   date: May 24
   time: 9am - 4pm
   student-price: 
-  early-bird-price: 100
+  early-bird-price: 95
   standard-price: 150
   early-bird-date: May 10
   url: http://www.eventbrite.com/e/learn-to-code-for-educators-tickets-9858705654?aff=aincwebsite
@@ -93,6 +81,18 @@
   url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite
   logo: Week-of-Code-Logo.png
   status: 'active'
+
+- title: Android App Development 1-Day
+  curriculum: android-crash
+  date: 
+  time: 
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: 
+  url: 
+  logo: logo-android.png
+  status: 'inactive'
 
 - title: Day of Code for Kids
   curriculum: k12-day
