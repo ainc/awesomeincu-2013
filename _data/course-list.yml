@@ -1,15 +1,3 @@
-- title: Unity Game Development 1-Day
-  curriculum: unity-crash
-  date: April 27
-  time: 12pm - 6pm
-  student-price: 50
-  early-bird-price: <del>75
-  standard-price: 100
-  early-bird-date: April 19</del>
-  url: http://www.eventbrite.com/e/unity-game-engine-1-day-crash-course-tickets-10533039605?aff=aincwebsite
-  logo: logo-unity3d.png
-  status: 'active'
-
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
   date: May 19 - 20
@@ -75,9 +63,9 @@
   date: July 8 - 11
   time: 1pm-5pm
   student-price: 
-  early-bird-price: 495
+  early-bird-price: <del>495
   standard-price: 695
-  early-bird-date: April 18
+  early-bird-date: April 18 </del>
   url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite
   logo: Week-of-Code-Logo.png
   status: 'active'
@@ -116,6 +104,18 @@
   early-bird-date: March 8
   url: http://www.eventbrite.com/e/front-end-web-development-level-2-crash-course-tickets-9901758426?aff=aincwebsite
   logo: logo-html.png
+  status: 'inactive'
+
+- title: Unity Game Development 1-Day
+  curriculum: unity-crash
+  date: 
+  time: 
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: April 19
+  url: 
+  logo: logo-unity3d.png
   status: 'inactive'
 
 - title: JavaScript Web Development 1-Day
