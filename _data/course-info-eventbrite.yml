@@ -1,0 +1,38 @@
+ios-advanced: {
+  title: iPhone App Development 2-Day Advanced Course,
+  date: May 19 - 20,
+  time: 10am - 5pm,
+  student-price: ,
+  early-bird-price: ,
+  standard-price: 500,
+  early-bird-date: ,
+  url: 'http://www.eventbrite.com/e/iphone-development-2-day-advanced-course-tickets-10533236193?aff=aincwebsite',
+  logo: logo-ios.png,
+  status: active
+}
+
+k12-teacher: {
+  title: Learn To Code for Educators,
+  date: May 24,
+  time: 9am - 4pm,
+  student-price: ,
+  early-bird-price: 95,
+  standard-price: 150,
+  early-bird-date: May 10,
+  url: 'http://www.eventbrite.com/e/learn-to-code-for-educators-tickets-9858705654?aff=aincwebsite',
+  logo: logo_big.png,
+  status: active
+}
+
+basicweb-crash: {
+  title: Basic Web Development 1-Day,
+  date: May 31,
+  time: 12pm - 6pm,
+  student-price: 50,
+  early-bird-price: 75,
+  standard-price: 100,
+  early-bird-date: May 1,
+  url: 'http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite',
+  logo: logo-html.png,
+  status: active
+}

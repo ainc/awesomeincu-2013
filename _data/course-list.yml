@@ -32,6 +32,7 @@
   early-bird-date: May 1
   url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
   logo: logo-html.png
+  number-students: 53
   status: 'active'
 
 - title: iPhone App Development 1-Day
@@ -44,6 +45,7 @@
   early-bird-date: May 3
   url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
   logo: logo-ios.png
+  number-students: 110
   status: 'active'
 
 - title: PHP Web Development 1-Day
@@ -156,9 +158,6 @@
 
 - title: Jekyll and GitHub Pages Web Development
   curriculum: jekyll-udemy
-  date: 
-  time: 
-  student-price:
   early-bird-price: 20
   standard-price: 40
   early-bird-date: 
@@ -166,28 +165,43 @@
   logo: logo-jekyll-udemy.png
   status: 'online'
 
-- title: iOS App Development - Crash Course
+- title: Develop Your First iPhone App Today!
   curriculum: ios-crash
-  date: 
-  time: 
-  student-price:
   early-bird-price: 45
   standard-price: 95
-  early-bird-date: 
+  discount-price: 25
+  number-students: 220
+  number-reviews: 12
+  rating-stars: 5
+  difficulty: BEGINNER
+  testamonials: ["Having other experienced iOS programmers roaming to answer questions in addition to the main instructor was great.", "Favorite part of the course: Networking and talking with knowledgeable instructors.", "I found the 'sandbox' time quite beneficial."]
+  curriculum-contents: [How to use the Xcode IDE and iOS SDK, Hello World, Objective-C language basics, User Interface design with Storyboards, Connecting multiple views and using Tab bars, Importing external images, Introduction to MapKit and CoreLocation frameworks]
+  requirements: []
+  headline: "So, you have an App idea...but no idea where to get started. Our iOS 1-Day Crash Course was made just for you! In 6 hours, you'll go from zero to working iPhone App. We've been teaching this course since 2010, and it's still our most popular."
   url: https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite
   logo: logo-ios.png
   status: 'online'
 
-- title: Basic Web Development - Crash Course
+- title: Develop and Launch Your First Website in Just One Day!
   curriculum: basicweb-crash
-  date: 
-  time: 
-  student-price:
   early-bird-price: 25
   standard-price: 79
-  early-bird-date: 
+  discount-price: 25
+  number-students: 220
+  number-reviews: 12
+  rating-stars: 5
+  difficulty: BEGINNER
+  testamonials: ["It was a great experience overall!", "It was fun, understandable, and applicable!", "My favorite part was learning the actual HTML language"]
+  curriculum-contents: [How to use the Xcode IDE and iOS SDK, Hello World, Objective-C language basics, User Interface design with Storyboards, Connecting multiple views and using Tab bars, Importing external images, Introduction to MapKit and CoreLocation frameworks]
+  requirements: []
+  headline: "So, you have an App idea...but no idea where to get started. Our iOS 1-Day Crash Course was made just for you! In 6 hours, you'll go from zero to working iPhone App. We've been teaching this course since 2010, and it's still our most popular."
   url: https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite
   logo: logo-html.png
+  screenshots: [
+    ["ios-crash-screenshot1.png", Pic of app],
+    ["ios-crash-screenshot2.png", Pic of app 2],
+    ["ios-crash-screenshot3.png", Pic of app 3]
+  ]
   status: 'online'
 
 - title: Hour of Code for Schools

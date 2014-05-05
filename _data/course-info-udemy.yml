@@ -1,0 +1,23 @@
+website-in-one-day: {
+  standard-price: 100,
+  discount-price: 25,
+  number-students: 220,
+  number-reviews: 12,
+  rating-stars: 5,
+  difficulty: BEGINNER,
+  url: 'https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite',
+  logo: logo-html.png,
+  review-list: [],
+  curriculum-contents: [How to use the Xcode IDE and iOS SDK, Hello World, Objective-C language basics, User Interface design with Storyboards, Connecting multiple views and using Tab bars, Importing external images, Introduction to MapKit and CoreLocation frameworks]
+}
+
+iphone-app-in-one-day: {
+  title: Develop Your First iPhone App Today!,
+  standard-price: 100,
+  discount-price: 25,
+  number-students: 220,
+  number-reviews: 12,
+  rating-stars: 5,
+  url: 'https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite',
+  logo: logo-ios.png
+}
