@@ -29,7 +29,7 @@
   student-price: 50
   early-bird-price: 75
   standard-price: 100
-  early-bird-date: May 1
+  early-bird-date: May 10
   url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
   logo: logo-html.png
   number-students: 53
@@ -42,7 +42,7 @@
   student-price: 50
   early-bird-price: 75
   standard-price: 100
-  early-bird-date: May 3
+  early-bird-date: May 10
   url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
   logo: logo-ios.png
   number-students: 110
