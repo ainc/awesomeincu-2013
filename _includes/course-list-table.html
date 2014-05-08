@@ -41,7 +41,7 @@
 				{% endif %}
 				{% endfor %}
 
-				{% for course in site.data.course-list %}
+				{% for course in site.data.course-list-udemy %}
 				{% if course.status == 'online' %}
 				
 				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40px"></a>&nbsp;&nbsp;Online Course</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}, via Udemy</a><br></td><td><del>${{ course.standard-price }} (standard)</del>, ${{course.early-bird-price}} (special discount)</td><td><center><a class="btn btn-success btn-large" href="{{ course.url }}" target="_blank">Start Now</a></center></td></tr>

@@ -1,0 +1,16 @@
+<div class="row">
+    <a href="{{ course.url }}" class="btn btn-large btn-success">Take This Course</a>
+</div>
+<div class="row">
+    <p>Includes sample code and screencast video</p>
+    {% if course.number-students %}
+    <p>{{ course.number-students }} people have taken this course before</p>
+    {% endif %}
+    {% if course.testimonials %}
+    <p>What they're saying:
+    	{% for testimonial in course.testimonials %}
+        <br>"{{ testimonial }}"
+    	{% endfor %}
+    </p>
+    {% endif %}
+</div>

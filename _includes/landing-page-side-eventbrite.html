@@ -1,0 +1,16 @@
+<div class="row">
+    <a href="{{ course.url }}" class="btn btn-large btn-success">Order Now</a>
+</div>
+<div class="row">
+    <p>23 seats remain for this session</p>
+    <p>Early-bird registration expires {{ course.early-bird-date }}</p>
+    <p>Includes sample code and screencast video (additional $95 value!)</p>
+    {% if course.number-students %}<p>{{ course.number-students }} people have taken this course before</p>{% endif %}
+    {% if course.testimonials %}
+    <p>What they're saying:
+        {% for testimonial in course.testimonials %}
+        <br>"{{ testimonial }}"
+        {% endfor %}
+    </p>
+    {% endif %}
+</div>

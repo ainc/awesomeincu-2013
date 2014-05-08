@@ -1,0 +1,61 @@
+- title: Jekyll and GitHub Pages Web Development
+  curriculum: jekyll-udemy
+  early-bird-price: 20
+  standard-price: 40
+  early-bird-date: 
+  url: https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite
+  logo: logo-jekyll-udemy.png
+  status: 'online'
+
+- title: Develop Your First iPhone App Today!
+  curriculum: ios-crash
+  early-bird-price: 45
+  standard-price: 95
+  discount-price: 45
+  number-students: 220
+  number-reviews: 12
+  rating-stars: 5
+  benefits: ['Make your own iPhone app with us in less than 6 hours', 'Be ready for our <a href="/curriculum/#ios-advanced">iOS Advanced Course</a>']
+  difficulty: BEGINNER
+  testimonials: ["Having other experienced iOS programmers roaming to answer questions in addition to the main instructor was great.", "Favorite part of the course: Networking and talking with knowledgeable instructors.", "I found the 'sandbox' time quite beneficial."]
+  curriculum-contents: [How to use the Xcode IDE and iOS SDK, Hello World, Objective-C language basics, User Interface design with Storyboards, Connecting multiple views and using Tab bars, Importing external images, Introduction to MapKit and CoreLocation frameworks]
+  requirements: ["Mac computer (eg MacBook Pro, MacBook Air, Mac Mini)", "OSX 10.8.4 (Mountain Lion) or newer", 'Xcode 5 or newer (<a href="https://developer.apple.com/xcode/downloads/">free download from Mac App Store</a>)', 'No prior programming experience required', 'Suggested: Typing speed of <a href="http://10fastfingers.com/typing-test/english">40 WPM</a> or greater']
+  headline: "So, you have an App idea...but no idea where to get started. Our iOS 1-Day Crash Course was made just for you! In 6 hours, you'll go from zero to working iPhone App. We've been teaching this course in-person since 2010, and it's still our most popular."
+  url: https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite
+  logo: logo-ios.png
+  course-images: [
+    ["ios-crash-20140813.jpg", Pic of course],
+    ["ios-crash-screenshot4.png", Xcode screenshot]
+  ]
+  screenshots: [
+    ["ios-crash-screenshot1.png", Pic of app],
+    ["ios-crash-screenshot2.png", Pic of app 2],
+    ["ios-crash-screenshot3.png", Pic of app 3]
+  ]
+  status: 'online'
+
+- title: Develop and Launch Your First Website in Just One Day!
+  curriculum: basicweb-crash
+  early-bird-price: 25
+  standard-price: 79
+  discount-price: 25
+  number-students: 221
+  number-reviews: 12
+  rating-stars: 5
+  difficulty: BEGINNER
+  testimonials: ["It was a great experience overall!", "It was fun, understandable, and applicable!", "My favorite part was learning the actual HTML language"]
+  curriculum-contents: ["Overview of front-end web technologies including HTML and CSS", "How to use a text editor, FTP client, and Google Chrome web developer tools", "Setting up a local development environment", "Publishing a website with Weebly, Tumblr, and Wordpress.com", "Collecting user data through the Forms tool in Google Drive", "Embedding media content, including images, YouTube videos, and Tweets", "Registering a domain name and deploying to a web server", "Introduction to web frameworks including Bootstrap and JQuery"]
+  requirements: ["The ability to type text on a computer (e.g. write an email, edit a Word document)", "Access to a computer with OSX/Windows/Linux (must have permission to install programs)", "We’ll be installing Google Chrome, Sublime Text, and Filezilla", "Experience using a variety of websites"]
+  headline: "So, you have an App idea...but no idea where to get started. Our iOS 1-Day Crash Course was made just for you! In 6 hours, you'll go from zero to working iPhone App. We've been teaching this course since 2010, and it's still our most popular."
+  url: https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite
+  logo: logo-html.png
+  course-images: [
+    ["ios-crash-20140813.jpg", Pic of course],
+    ["ios-crash-screenshot4.png", Xcode screenshot]
+  ]
+  screenshots: [
+    ["ios-crash-screenshot1.png", Pic of app],
+    ["ios-crash-screenshot2.png", Pic of app 2],
+    ["ios-crash-screenshot3.png", Pic of app 3]
+  ]
+  status: 'online'
