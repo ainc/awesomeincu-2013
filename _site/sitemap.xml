@@ -13,28 +13,24 @@
         <lastmod>2014-05-08T15:17:58-04:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/courses/courses/ios-crash/</loc>
-        <lastmod>2014-05-03T12:08:32-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/courses/courses/iphone-app-today/</loc>
-        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/courses/courses/website-in-one-day/</loc>
-        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/courses/courses/weekofcode/</loc>
-        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
+        <loc>http://www.awesomeincu.com/notes/notes/basicwebcrash/</loc>
+        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/curriculum/</loc>
         <lastmod>2014-05-01T22:19:41-04:00</lastmod>
     </url>
     <url>
+        <loc>http://www.awesomeincu.com/notes/notes/dayofcode/</loc>
+        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.awesomeincu.com/faq/</loc>
         <lastmod>2014-03-07T20:35:46-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/notes/notes/frontweb2/</loc>
+        <lastmod>2014-03-14T14:18:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/giftofcode/</loc>
@@ -61,28 +57,24 @@
         <lastmod>2014-03-07T20:35:46-05:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/missing/</loc>
-        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/notes/notes/basicwebcrash/</loc>
-        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/notes/notes/dayofcode/</loc>
-        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.awesomeincu.com/notes/notes/frontweb2/</loc>
-        <lastmod>2014-03-14T14:18:17-04:00</lastmod>
+        <loc>http://www.awesomeincu.com/courses/courses/ios-crash/</loc>
+        <lastmod>2014-05-03T12:08:32-04:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/notes/notes/ioscrash/</loc>
         <lastmod>2014-03-12T16:45:22-04:00</lastmod>
     </url>
     <url>
+        <loc>http://www.awesomeincu.com/courses/courses/iphone-app-today/</loc>
+        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.awesomeincu.com/notes/notes/k12-teacher/</loc>
         <lastmod>2014-03-20T19:09:22-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/missing/</loc>
+        <lastmod>2014-03-07T20:35:46-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/notes/notes/phpcrash/</loc>
@@ -91,5 +83,13 @@
     <url>
         <loc>http://www.awesomeincu.com/register/</loc>
         <lastmod>2014-03-07T20:35:46-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/courses/courses/website-in-one-day/</loc>
+        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/courses/courses/weekofcode/</loc>
+        <lastmod>2014-05-08T15:17:58-04:00</lastmod>
     </url>
 </urlset>
