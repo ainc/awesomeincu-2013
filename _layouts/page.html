@@ -1,3 +1,8 @@
+---
+css-list: ["/css/bootstrap.css", "/css/exo-font.css", "/css/journal-font.css", "/css/styles.css", "/css/flexslider.css", "/css/jquery.fancybox-1.3.4.css", "/css/responsive.css"]
+js-list: ["/js/jquery.js", "/js/jquery.easing-1.3.pack.js", "/js/jquery.flexslider.js", "/js/jquery.fancybox-1.3.4.pack.js", "/js/jquery.mousewheel-3.0.4.pack.js", "/js/jquery.form.js", "/js/custom.js", "/js/bootstrap-scrollspy.js"]
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +15,9 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <!-- Styles -->
-{% bundle %} [/css/bootstrap.css, /css/exo-font.css, /css/journal-font.css, /css/styles.css, /css/flexslider.css, /css/jquery.fancybox-1.3.4.css, /css/responsive.css ] {% endbundle %}
+    {% for css in page.css-list %}
+    <link rel='stylesheet' type='text/css' href='{{ css }}' />
+    {% endfor %}
     <!-- Mailchimp CSS -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -23,7 +30,9 @@
     <![endif]-->
 
 <!-- Script files -->
-{% bundle %} [/js/jquery.js, /js/jquery.easing-1.3.pack.js, /js/jquery.flexslider.js, /js/jquery.fancybox-1.3.4.pack.js, /js/jquery.mousewheel-3.0.4.pack.js, /js/jquery.form.js, /js/custom.js, /js/bootstrap-scrollspy.js] {% endbundle %}
+    {% for js in page.js-list %}
+    <script type='text/javascript' src='{{ js }}'></script>
+    {% endfor %}
     <script src="/js/jquery.videoBG.js"></script>
 
   </head>

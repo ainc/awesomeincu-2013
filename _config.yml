@@ -1,6 +1,5 @@
 name: Awesome Inc U - learn to code
-markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: pretty
 asset_bundler:
   compress:
