@@ -39,7 +39,7 @@ alias: /curriculum.html
                 <li>Tips for <a href="https://gist.github.com/chris-allen/7506243">next steps</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'android-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'android-crash' and course.status == 'inactive' %}
@@ -67,7 +67,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'ios-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'ios-crash' and course.status == 'inactive' %}
@@ -98,7 +98,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'ios-advanced' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'ios-advanced' and course.status == 'inactive' %}
@@ -133,7 +133,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'basicweb-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'basicweb-crash' and course.status == 'inactive' %}
@@ -163,7 +163,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'frontweb2-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'frontweb2-crash' and course.status == 'inactive' %}
@@ -192,7 +192,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'rubyonrails-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'rubyonrails-crash' and course.status == 'inactive' %}
@@ -220,7 +220,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'php-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'php-crash' and course.status == 'inactive' %}
@@ -270,7 +270,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'python-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'python-crash' and course.status == 'inactive' %}
@@ -294,7 +294,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'javascript-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'javascript-crash' and course.status == 'inactive' %}
@@ -348,7 +348,7 @@ alias: /curriculum.html
                 <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
               </ul>
               <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'unity-crash' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'unity-crash' and course.status == 'inactive' %}
@@ -399,7 +399,7 @@ alias: /curriculum.html
                   <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
                 </ul>
                 <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'k12-day' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'k12-day' and course.status == 'inactive' %}
@@ -426,7 +426,7 @@ alias: /curriculum.html
                   <li>Final project presentations at the end of the week</li>
                 </ul>
                 <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'k12-week' and course.status == 'active' %}
                 <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'k12-week' and course.status == 'inactive' %}
@@ -453,7 +453,7 @@ alias: /curriculum.html
                   <li>Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a></li>
                 </ul>
                 <h4>Course Dates</h4>
-              {% for course in site.data.course-list %}
+              {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'k12-teacher' and course.status == 'active' %}
                 <p>{{ course.date }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'k12-teacher' and course.status == 'inactive' %}
