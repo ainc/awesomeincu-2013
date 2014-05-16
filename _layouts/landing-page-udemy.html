@@ -1,0 +1,91 @@
+---
+layout: page
+---
+{% comment %} 
+To make changes to course information see _data/course-list.yml
+{% endcomment %}
+
+{% if page.format == 'eventbrite' %}
+    {% assign course-list = site.data.course-list-eventbrite %}
+{% elsif page.format == 'udemy' %}
+    {% assign course-list = site.data.course-list-udemy %}
+{% else %}
+    {% assign course-list = site.data.course-list-other %}
+{% endif %}
+
+{% for course in course-list %}
+    {% if course.curriculum == page.id %}
+<div class="container">
+
+    <div class="row head2">
+        <div class="span12" >
+            <h2>{{ course.title }}</h2>
+        </div>
+    </div>
+
+    <div class="span12">
+        <div class="row">
+            <div class="span10" >
+                <div class="row">
+                    <div class="span10">
+                        <p>{{ course.headline }}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span5">
+                    {% for image in course.course-images %}
+                    <img src="/img/{{ image[0] }}" alt="{{ image[1] }}" height="150">
+                    {% endfor %}
+                    </div>
+                    <!-- benefits -->
+                    <div class="span5">
+                        <ul>
+                        {% for benefit in course.benefits %}
+                            <li>{{ benefit }}</li>
+                        {% endfor %}
+                            <li>Difficulty rating: {{ course.difficulty }} </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span10">
+                        <h3>What You'll Learn</h3>
+                        <p>{{ course.learn }}</p>
+                        <ul>
+                            {% for topic in course.curriculum-contents %}
+                            <li>{{ topic }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p>Here are some screenshots of what you will make during the course:</p>
+                        {% for image in course.screenshots %}
+                        <img src="/img/{{ image[0] }}" alt="{{ image[1] }}" width="200">
+                        {% endfor %}
+                        <h3>Requirements/Prereqs</h3>
+                        <ul>
+                            {% for requirement in course.requirements %}
+                            <li>{{ requirement }}</li>
+                            {% endfor %}
+                        </ul>
+                        <!-- registration -->
+                        {% if course.status == 'online' %}
+                            {% include landing-page-register-udemy.html %}
+                        {% elsif course.status == 'active' or 'inactive' %}
+                            {% include landing-page-register-eventbrite.html %}
+                        {% endif %}
+                    </div> <!-- /span10 -->
+                </div>
+            </div>
+            <!-- sidebar with info and register button -->
+            <div class="span2">
+            {% if course.status == 'online' %}
+                {% include landing-page-side-udemy.html %}
+            {% elsif course.status == 'active' or 'inactive' %}
+                {% include landing-page-side-eventbrite.html %}
+            {% endif %}
+            </div>
+        </div> 
+    </div> <!-- /span12 -->
+
+</div> <!-- /container -->
+    {% endif %}
+{% endfor %}
