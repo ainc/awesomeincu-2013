@@ -18,13 +18,13 @@
   requirements: ["Mac computer (eg MacBook Pro, MacBook Air, Mac Mini)", "OSX 10.8.4 (Mountain Lion) or newer", "Xcode 5 or newer (<a href=\"https://developer.apple.com/xcode/downloads/\">free download from Mac App Store</a>)", "No prior programming experience required", "Suggested: Typing speed of <a href=\"http://10fastfingers.com/typing-test/english\">40 WPM</a> or greater"]
   headline: "So, you have an App idea...but no idea where to get started. Our DEVELOP YOUR FIRST IPHONE APP TODAY! course was made just for you! In 6 hours, you\'ll go from zero to working iPhone App. We\'ve been teaching this course in-person since 2010, and it\'s still our most popular."
   course-images: [
-    ["courses/ios-crash-20140813.jpg", Pic of course],
-    ["courses/ios-crash-screenshot4.png", Xcode screenshot]
+    ["ios-crash-20140813.jpg", Pic of course],
+    ["ios-crash-screenshot4.png", Xcode screenshot]
   ]
   screenshots: [
-    ["courses/ios-crash-screenshot1.png", Pic of app],
-    ["courses/ios-crash-screenshot2.png", Pic of app 2],
-    ["courses/ios-crash-screenshot3.png", Pic of app 3]
+    ["ios-crash-screenshot1.png", Pic of app],
+    ["ios-crash-screenshot2.png", Pic of app 2],
+    ["ios-crash-screenshot3.png", Pic of app 3]
   ]
   status: "online"
 - title: Develop Your First iPhone App Today!
@@ -45,13 +45,13 @@
   url: https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite
   logo: logo-ios.png
   course-images: [
-    ["courses/ios-crash-20140813.jpg", Pic of course],
-    ["courses/ios-crash-screenshot4.png", Xcode screenshot]
+    ["ios-crash-20140813.jpg", Pic of course],
+    ["ios-crash-screenshot4.png", Xcode screenshot]
   ]
   screenshots: [
-    ["courses/ios-crash-screenshot1.png", Pic of app],
-    ["courses/ios-crash-screenshot2.png", Pic of app 2],
-    ["courses/ios-crash-screenshot3.png", Pic of app 3]
+    ["ios-crash-screenshot1.png", Pic of app],
+    ["ios-crash-screenshot2.png", Pic of app 2],
+    ["ios-crash-screenshot3.png", Pic of app 3]
   ]
   status: "online"
 
@@ -72,11 +72,11 @@
   url: https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite
   logo: logo-html.png
   course-images: [
-    ["courses/ios-crash-20140813.jpg", Pic of course],
-    ["courses/basicweb-crash-screenshot1.png", Web development screenshot]
+    ["ios-crash-20140813.jpg", Pic of course],
+    ["basicweb-crash-screenshot1.png", Web development screenshot]
   ]
   screenshots: [
-    ["courses/basicweb-crash-screenshot1.png", Web development screenshot],
-    ["courses/basicweb-crash-screenshot2.png", Web development joke]
+    ["basicweb-crash-screenshot1.png", Web development screenshot],
+    ["basicweb-crash-screenshot2.png", Web development joke]
   ]
   status: "online"

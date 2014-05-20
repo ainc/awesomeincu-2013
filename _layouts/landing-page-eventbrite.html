@@ -2,18 +2,10 @@
 layout: page
 ---
 {% comment %} 
-To make changes to course information see _data/course-list.yml
+To make changes to course information see _data/course-list-eventbrite.yml
 {% endcomment %}
 
-{% if page.format == 'eventbrite' %}
-    {% assign course-list = site.data.course-list-eventbrite %}
-{% elsif page.format == 'udemy' %}
-    {% assign course-list = site.data.course-list-udemy %}
-{% else %}
-    {% assign course-list = site.data.course-list-other %}
-{% endif %}
-
-{% for course in course-list %}
+{% for course in site.data.course-list-eventbrite %}
     {% if course.curriculum == page.id %}
 <div class="container">
 
@@ -67,21 +59,32 @@ To make changes to course information see _data/course-list.yml
                             {% endfor %}
                         </ul>
                         <!-- registration -->
-                        {% if course.status == 'online' %}
-                            {% include landing-page-register-udemy.html %}
-                        {% elsif course.status == 'active' or 'inactive' %}
-                            {% include landing-page-register-eventbrite.html %}
-                        {% endif %}
+                        <div style="width:80%; text-align:left;" class="hidden-phone">
+                            <h3 id="tickets">Registration</h3>
+                            <iframe src="https://www.eventbrite.com/tickets-external?eid={{ course.eid }}&ref=etckt" frameborder="0" height="339" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
+                            </iframe>
+                        </div>
                     </div> <!-- /span10 -->
                 </div>
             </div>
             <!-- sidebar with info and register button -->
             <div class="span2">
-            {% if course.status == 'online' %}
-                {% include landing-page-side-udemy.html %}
-            {% elsif course.status == 'active' or 'inactive' %}
-                {% include landing-page-side-eventbrite.html %}
-            {% endif %}
+            <div class="row">
+                <a href="{{ course.url }}" class="btn btn-large btn-success">Order Now</a>
+            </div>
+            <div class="row">
+                <p>{% if course.seats-remain %}{{ course.seats-remain }}{% else %}19{% endif %} seats remain for this session</p>
+                <p>Early-bird registration expires {{ course.early-bird-date }}</p>
+                <p>Includes sample code and screencast video (additional $95 value!)</p>
+                {% if course.number-students %}<p>{{ course.number-students }} people have taken this course before</p>{% endif %}
+                {% if course.testimonials %}
+                <p>What they're saying:
+                    {% for testimonial in course.testimonials %}
+                    <br>"{{ testimonial }}"
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </div>
             </div>
         </div> 
     </div> <!-- /span12 -->

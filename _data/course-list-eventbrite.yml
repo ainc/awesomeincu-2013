@@ -75,6 +75,7 @@
   eid: 9821589639 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
   number-students: 
+  seats-remain: 8
   difficulty: BEGINNER
   testimonials: []
   curriculum-contents: ['Introduction to Computer Science concepts with Scratch', 'Learning to write code with KidsRuby and Codecademy','Web Development with HTML, CSS, Javascript, and Ruby on Rails', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
