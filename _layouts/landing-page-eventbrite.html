@@ -26,7 +26,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
                 <div class="row">
                     <div class="span5">
                     {% for image in course.course-images %}
-                    <img src="/img/{{ image[0] }}" alt="{{ image[1] }}" height="150">
+                    <img src="/img/courses/{{ image[0] }}" alt="{{ image[1] }}" height="150">
                     {% endfor %}
                     </div>
                     <!-- benefits -->
@@ -50,7 +50,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
                         </ul>
                         <p>Here are some screenshots of what you will make during the course:</p>
                         {% for image in course.screenshots %}
-                        <img src="/img/{{ image[0] }}" alt="{{ image[1] }}" width="200">
+                        <img src="/img/courses/{{ image[0] }}" alt="{{ image[1] }}" width="200">
                         {% endfor %}
                         <h3>Requirements/Prereqs</h3>
                         <ul>
@@ -74,6 +74,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
             </div>
             <div class="row">
                 <p>{% if course.seats-remain %}{{ course.seats-remain }}{% else %}19{% endif %} seats remain for this session</p>
+                <p>Course is {{ course.date }}, {{ course.time }}</p>
                 <p>Early-bird registration expires {{ course.early-bird-date }}</p>
                 <p>Includes sample code and screencast video (additional $95 value!)</p>
                 {% if course.number-students %}<p>{{ course.number-students }} people have taken this course before</p>{% endif %}
