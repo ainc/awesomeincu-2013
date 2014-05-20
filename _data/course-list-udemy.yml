@@ -68,7 +68,7 @@
   whatyoulllearn: "This six-hour course will teach you the basics of HTML and CSS.  It will also cover several popular ways to get a website online including Weebly, Wordpress, and self-hosting. By the end of the day, you will have created your own website."
   curriculum-contents: ["Overview of front-end web technologies including HTML and CSS", "How to use a text editor, FTP client, and Google Chrome web developer tools", "Setting up a local development environment", "Publishing a website with Weebly, Tumblr, and Wordpress.com", "Collecting user data through the Forms tool in Google Drive", "Embedding media content, including images, YouTube videos, and Tweets", "Registering a domain name and deploying to a web server", "Introduction to web frameworks including Bootstrap and JQuery"]
   requirements: ["The ability to type text on a computer (e.g. write an email, edit a Word document)", "Access to a computer with OSX/Windows/Linux (must have permission to install programs)", "We’ll be installing Google Chrome, Sublime Text, and Filezilla", "Experience using a variety of websites"]
-  headline: "It's 2014 and even your dog has a website. But how do they actually work? What do these strange acronyms like HTML, CSS, and JS"
+  headline: "It's 2014 and even your dog has a website. But how do they actually work? What do these strange acronyms like HTML, CSS, and JS actually mean?"
   url: https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite
   logo: logo-html.png
   course-images: [
