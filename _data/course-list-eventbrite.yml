@@ -78,7 +78,7 @@
   logo: logo-php.png
   status: 'active'
 
-- title: Week of Code for Kids
+- title: Week of Code - Lexington (July)
   curriculum: k12-week
   date: July 8 - 11
   time: 1pm-5pm
@@ -91,6 +91,64 @@
   logo: Week-of-Code-Logo.png
   number-students: 
   seats-remain: 8
+  difficulty: BEGINNER
+  testimonials: []
+  curriculum-contents: ['Introduction to Computer Science concepts with Scratch', 'Learning to write code with Codecademy','Web Development with HTML, CSS, Javascript, and Ruby on Rails', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
+  requirements: ['Laptop computer (Win, Mac) capable of running Unity 3D, Google Chrome, and Android Studio', 'Experience typing and manipulating files on a computer', 'Experience using a variety of websites, mobile apps, and video games']
+  headline: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them? This camp for middle and high school students will teach the fundamentals of coding. Students will create websites, mobile apps and learn to design video games all while having fun with our energetic team. By the end of the week, each student will have built at least 1 web page, mobile app, and video game using HTML, CSS, JavaScript, Scratch, Android, and Unity 3D. We keep this camp small to ensure everyone gets very focused attention and learns at their own pace. Prepare to be amazed!"
+  course-images: [
+    ["day-of-code-1.jpg", Instructors helping kids program computers],
+    ["day-of-code-2.jpg", Kids programming]
+  ]
+  screenshots: [
+    ["basicweb-crash-screenshot1.png", Web development screenshot],
+    ["android-crash-device.jpg", Android app and code],
+    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
+  ]
+  status: 'active'
+
+- title: Week of Code - Louisville
+  curriculum: k12-week
+  date: July 29 - Aug 1
+  time: 1pm-5pm
+  student-price: 
+  early-bird-price: 495
+  standard-price: 695
+  early-bird-date: June 7
+  url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-in-louisville-tickets-11719492317?aff=aincwebsite
+  eid: 11719492317 # this entry will be deprecated, can be regex'd from url
+  logo: Week-of-Code-Logo.png
+  number-students: 
+  seats-remain: 15
+  difficulty: BEGINNER
+  testimonials: []
+  curriculum-contents: ['Introduction to Computer Science concepts with Scratch', 'Learning to write code with Codecademy','Web Development with HTML, CSS, Javascript, and Ruby on Rails', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
+  requirements: ['Laptop computer (Win, Mac) capable of running Unity 3D, Google Chrome, and Android Studio', 'Experience typing and manipulating files on a computer', 'Experience using a variety of websites, mobile apps, and video games']
+  headline: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them? This camp for middle and high school students will teach the fundamentals of coding. Students will create websites, mobile apps and learn to design video games all while having fun with our energetic team. By the end of the week, each student will have built at least 1 web page, mobile app, and video game using HTML, CSS, JavaScript, Scratch, Android, and Unity 3D. We keep this camp small to ensure everyone gets very focused attention and learns at their own pace. Prepare to be amazed!"
+  course-images: [
+    ["day-of-code-1.jpg", Instructors helping kids program computers],
+    ["day-of-code-2.jpg", Kids programming]
+  ]
+  screenshots: [
+    ["basicweb-crash-screenshot1.png", Web development screenshot],
+    ["android-crash-device.jpg", Android app and code],
+    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
+  ]
+  status: 'active'
+
+- title: Week of Code - Lexington (August)
+  curriculum: k12-week
+  date: August 4 - 7
+  time: 1pm-5pm
+  student-price: 
+  early-bird-price: 495
+  standard-price: 695
+  early-bird-date: June 14
+  url: https://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-11719554503?aff=aincwebsite
+  eid: 11719554503 # this entry will be deprecated, can be regex'd from url
+  logo: Week-of-Code-Logo.png
+  number-students: 
+  seats-remain: 15
   difficulty: BEGINNER
   testimonials: []
   curriculum-contents: ['Introduction to Computer Science concepts with Scratch', 'Learning to write code with Codecademy','Web Development with HTML, CSS, Javascript, and Ruby on Rails', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
