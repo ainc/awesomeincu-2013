@@ -6,7 +6,7 @@
   url: https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite
   logo: logo-jekyll-udemy.png
   status: "online"
-  discount-price: 45
+  discount-price: 20
   number-students: 36
   number-reviews: 1
   rating-stars: 5
@@ -27,7 +27,12 @@
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
   status: "online"
+  landingTitle: Learn Jekyll and Github Today!
+  landingHeader: WHAT YOU CAN LEARN TODAY AT A 50% DISCOUNT! 
+  landingDiscount: "For a limited time, register now to get 50% off of the Jekyll / Github Pages course.  Once <strike> $40.00</strike> now <b> $20.00!"
+
 - title: Develop Your First iPhone App Today!
+
   curriculum: ios-crash
   early-bird-price: 45
   standard-price: 95
@@ -54,6 +59,9 @@
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
   status: "online"
+  landingTitle: Make an iPhone App in One Day!
+  landingHeader: WHAT YOU CAN LEARN TODAY AT A 52% DISCOUNT! 
+  landingDiscount: "For a limited time, register now to get 52% off of the iPhone app course.  Once <strike> $95.00</strike> now <b> $45.00!"
 
 - title: Develop and Launch Your First Website in Just One Day!
   curriculum: basicweb-crash
@@ -80,3 +88,6 @@
     ["basicweb-crash-screenshot2.png", Web development joke]
   ]
   status: "online"
+  landingTitle: Make a Website in One Day!
+  landingHeader: WHAT YOU CAN LEARN TODAY AT A 68% DISCOUNT! 
+  landingDiscount: "For a limited time, register now to get 68% off of the Web Development course.  Once <strike> $79.00</strike> now <b> $25.00!"
