@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.awesomeincu.com/courses/courses/basicweb-crash/</loc>
-        <lastmod>2014-05-22T14:59:32-04:00</lastmod>
+        <loc>http://www.awesomeincu.com/notes/notes/android-crash/</loc>
+        <lastmod>2014-05-23T12:33:44-04:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/notes/notes/basicwebcrash/</loc>
+        <loc>http://www.awesomeincu.com/notes/notes/basicweb-crash/</loc>
+        <lastmod>2014-05-23T12:27:41-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/courses/courses/basicweb-crash/</loc>
         <lastmod>2014-05-22T14:59:32-04:00</lastmod>
     </url>
     <url>
@@ -57,8 +61,8 @@
         <lastmod>2014-05-22T14:59:32-04:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/notes/notes/ioscrash/</loc>
-        <lastmod>2014-05-22T14:59:32-04:00</lastmod>
+        <loc>http://www.awesomeincu.com/notes/notes/ios-crash/</loc>
+        <lastmod>2014-05-23T12:27:41-04:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/courses/courses/iphone-app-today/</loc>
@@ -81,12 +85,16 @@
         <lastmod>2014-05-22T14:59:32-04:00</lastmod>
     </url>
     <url>
-        <loc>http://www.awesomeincu.com/notes/notes/phpcrash/</loc>
-        <lastmod>2014-05-22T14:59:32-04:00</lastmod>
+        <loc>http://www.awesomeincu.com/notes/notes/php-crash/</loc>
+        <lastmod>2014-05-23T12:27:41-04:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/register/</loc>
         <lastmod>2014-05-22T14:59:32-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.awesomeincu.com/notes/notes/unity-crash/</loc>
+        <lastmod>2014-05-23T12:36:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://www.awesomeincu.com/courses/courses/website-in-one-day/</loc>
