@@ -15,21 +15,21 @@
   date: May 24
   time: 9am - 4pm
   student-price: 
-  early-bird-price: <del>95
+  early-bird-price: 95
   standard-price: 150
-  early-bird-date: May 17</del>
+  early-bird-date: May 17
   url: http://www.eventbrite.com/e/learn-to-code-for-educators-tickets-9858705654?aff=aincwebsite
   logo: logo_big.png
-  status: 'active'
+  status: 'inactive'
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
   date: May 31
   time: 12pm - 6pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: May 24
+  early-bird-date: May 24</del>
   url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
   eid: 11241689195 # this entry will be deprecated, can be regex'd from url
   logo: logo-html.png
@@ -41,9 +41,9 @@
   date: June 7
   time: 12pm - 6pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: May 24
+  early-bird-date: May 24</del>
   url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
   eid: 10533123857 # this entry will be deprecated, can be regex'd from url
   number-students: 110
