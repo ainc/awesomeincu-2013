@@ -22,20 +22,6 @@
   logo: logo_big.png
   status: 'inactive'
 
-- title: Basic Web Development 1-Day
-  curriculum: basicweb-crash
-  date: May 31
-  time: 12pm - 6pm
-  student-price: 50
-  early-bird-price: <del>75
-  standard-price: 100
-  early-bird-date: May 24</del>
-  url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
-  eid: 11241689195 # this entry will be deprecated, can be regex'd from url
-  logo: logo-html.png
-  number-students: 53
-  status: 'active'
-
 - title: iPhone App Development 1-Day
   curriculum: ios-crash
   date: June 7
@@ -71,9 +57,9 @@
   date: June 13
   time: 9am - 4pm
   student-price: 50
-  early-bird-price: <del>75
+  early-bird-price: 75
   standard-price: 100
-  early-bird-date: May 24</del>
+  early-bird-date: June 4
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
   logo: logo-php.png
   status: 'active'
@@ -163,6 +149,20 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
+  status: 'active'
+
+- title: Basic Web Development 1-Day
+  curriculum: basicweb-crash
+  date: July 12
+  time: 12pm - 6pm
+  student-price: 50
+  early-bird-price: 75
+  standard-price: 100
+  early-bird-date: June 20
+  url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
+  eid: 11241689195 # this entry will be deprecated, can be regex'd from url
+  logo: logo-html.png
+  number-students: 53
   status: 'active'
 
 - title: Android App Development 1-Day
