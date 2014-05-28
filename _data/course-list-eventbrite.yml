@@ -71,9 +71,9 @@
   date: June 13
   time: 9am - 4pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: May 24
+  early-bird-date: May 24</del>
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
   logo: logo-php.png
   status: 'active'
