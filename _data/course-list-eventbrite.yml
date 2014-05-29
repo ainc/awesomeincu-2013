@@ -7,6 +7,7 @@
   standard-price: 500
   early-bird-date: 
   url: http://www.eventbrite.com/e/iphone-development-2-day-advanced-course-tickets-10533236193?aff=aincwebsite
+  eid: 10533236193
   logo: logo-ios.png
   status: 'inactive'
 
@@ -19,6 +20,7 @@
   standard-price: 150
   early-bird-date: May 17
   url: http://www.eventbrite.com/e/learn-to-code-for-educators-tickets-9858705654?aff=aincwebsite
+  eid: 9858705654
   logo: logo_big.png
   status: 'inactive'
 
@@ -61,6 +63,7 @@
   standard-price: 100
   early-bird-date: June 4
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
+  eid: 10532987449
   logo: logo-php.png
   status: 'active'
 
@@ -76,7 +79,8 @@
   eid: 9821589639 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
   number-students: 
-  seats-remain: 8
+  seats-remain: 2
+  benefits: ["Learn coding basics", "Make a website, mobile app, and video game in 1 week"]
   difficulty: BEGINNER
   testimonials: []
   curriculum-contents: ['Introduction to Computer Science concepts with Code.org', 'Learning to write code with Codecademy','Web Development with HTML, CSS, and JavaScript', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
@@ -106,6 +110,7 @@
   logo: Week-of-Code-Logo.png
   number-students: 
   seats-remain: 15
+  benefits: ["Learn coding basics", "Make a website, mobile app, and video game in 1 week"]
   difficulty: BEGINNER
   testimonials: []
   curriculum-contents: ['Introduction to Computer Science concepts with Code.org', 'Learning to write code with Codecademy','Web Development with HTML, CSS, and JavaScript', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
@@ -135,6 +140,7 @@
   logo: Week-of-Code-Logo.png
   number-students: 
   seats-remain: 15
+  benefits: ["Learn coding basics", "Make a website, mobile app, and video game in 1 week"]
   difficulty: BEGINNER
   testimonials: []
   curriculum-contents: ['Introduction to Computer Science concepts with Code.org', 'Learning to write code with Codecademy','Web Development with HTML, CSS, and JavaScript', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
@@ -198,6 +204,7 @@
   standard-price: 100
   early-bird-date: March 8
   url: http://www.eventbrite.com/e/front-end-web-development-level-2-crash-course-tickets-9901758426?aff=aincwebsite
+  eid: 9901758426
   logo: logo-html.png
   status: 'inactive'
 
@@ -210,6 +217,7 @@
   standard-price: 100
   early-bird-date: April 19
   url: 
+  eid: 
   logo: logo-unity3d.png
   status: 'inactive'
 
@@ -222,6 +230,7 @@
   standard-price: 100
   early-bird-date: 
   url: 
+  eid: 
   logo: logo-js.png
   status: 'inactive'
 
@@ -234,6 +243,7 @@
   standard-price: 100
   early-bird-date: 
   url: 
+  eid: 
   logo: logo-rails.png
   status: 'inactive'
 
@@ -246,6 +256,7 @@
   standard-price: 100
   early-bird-date: 
   url: 
+  eid: 
   logo: logo-python.png
   status: 'inactive'
 
@@ -258,5 +269,6 @@
   standard-price: Starting at $150 per school
   early-bird-date: 
   url: https://docs.google.com/forms/d/1vIHhrrct5zISCJ44FYlm0xD9D5ZCKh-Cbw_B6Uu7H6Y/viewform
+  eid: hourofcode
   logo: logo-csedweek2013.png
   status: 'on-location'
