@@ -6,7 +6,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
 {% endcomment %}
 
 {% for course in site.data.course-list-eventbrite %}
-    {% if course.curriculum == page.id %}
+    {% if course.eid == page.eid %}
 <div class="container">
 
     <div class="row head2">
