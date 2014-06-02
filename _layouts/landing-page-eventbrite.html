@@ -7,89 +7,68 @@ To make changes to course information see _data/course-list-eventbrite.yml
 
 {% for course in site.data.course-list-eventbrite %}
     {% if course.eid == page.eid %}
-<div class="container">
-
-    <div class="row head2">
-        <div class="span12" >
-            <h2>{{ course.title }}</h2>
+<!--- HEADER  ########################################################-->
+<!-- <div id="large-wrap"> -->
+    <div id="first-row">
+        <div id="side-wrap">
+            <!-- <div id="app-wrap"> -->
+                <div id="display-title">{{ course.landingTitle }}</div>
+                <h2 id="sub-title">{{ course.title }}</h2>
+                <a href="{{ course.url }}" class="btn btn-red btn-landing-page"> Enroll Now </a>
+            <!-- </div> -->
         </div>
     </div>
+<!-- </div> -->
+    <!--- CONTENT  ########################################################-->
+<div id="second-row">
+    <div class="content-wrap">
+        <div id="localwrap">
+            <div id="screenshots-wrap">
+                <div id="screenshot-title">
+                    <h3 id="today">{{ course.landingHeader }} <b class="red-text">${{ course.standard-price }}.00</b></h3>
+       
+                    <p>{{ course.learn }}</p>
 
-    <div class="span12">
-        <div class="row">
-            <div class="span10" >
-                <div class="row">
-                    <div class="span10">
-                        <p>{{ course.headline }}</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span5">
-                    {% for image in course.course-images %}
-                    <img src="/img/courses/{{ image[0] }}" alt="{{ image[1] }}" height="175">
+                    <ul id="req">
+                    {% for topic in course.curriculum-contents %}
+                        <li id="learn">{{ topic }}</li>
                     {% endfor %}
-                    </div>
-                    <!-- benefits -->
-                    <div class="span5">
-                        <ul class="list">
-                        {% for benefit in course.benefits %}
-                            <li>{{ benefit }}</li>
-                        {% endfor %}
-                            <li>Difficulty rating: {{ course.difficulty }} </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span10">
-                        <h3>What You'll Learn</h3>
-                        <p>{{ course.learn }}</p>
-                        <ul class="list">
-                            {% for topic in course.curriculum-contents %}
-                            <li>{{ topic }}</li>
-                            {% endfor %}
-                        </ul>
-                        <p>Here are some screenshots of what you will make during the course:</p>
-                        {% for image in course.screenshots %}
-                        <img src="/img/courses/{{ image[0] }}" alt="{{ image[1] }}" width="200">
-                        {% endfor %}
-                        <h3>Requirements/Prereqs</h3>
-                        <ul class="list">
-                            {% for requirement in course.requirements %}
-                            <li>{{ requirement }}</li>
-                            {% endfor %}
-                        </ul>
-                        <!-- registration -->
-                        <div style="width:80%; text-align:left;" class="hidden-phone">
-                            <h3 id="tickets">Registration</h3>
-                            <iframe src="https://www.eventbrite.com/tickets-external?eid={{ course.eid }}&ref=etckt" frameborder="0" height="339" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
-                            </iframe>
-                        </div>
-                    </div> <!-- /span10 -->
+                    </ul>
                 </div>
             </div>
-            <!-- sidebar with info and register button -->
-            <div class="span2">
-            <div class="row">
-                <a href="{{ course.url }}" class="btn btn-large btn-success">Order Now</a>
+            <div id="features">
+                <a href="{{ course.url }}"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
+                <div class="second-reg">
+                    {{ course.landingDiscount }} </b></br></br>
+                    <a href="{{ course.url }}" id="side-button" class="btn btn-red"> Enroll Now </a>
+                </div>
             </div>
-            <div class="row">
-                <p>{% if course.seats-remain %}{{ course.seats-remain }}{% else %}19{% endif %} seats remain for this session</p>
-                <p>Course is {{ course.date }}, {{ course.time }}</p>
-                <p>Early-bird registration expires {{ course.early-bird-date }}</p>
-                <p>Includes sample code and screencast video (additional $95 value!)</p>
-                {% if course.number-students %}<p>{{ course.number-students }} people have taken this course before</p>{% endif %}
-                {% if course.testimonials %}
-                <p>What they're saying:
-                    {% for testimonial in course.testimonials %}
-                    <br>"{{ testimonial }}"
-                    {% endfor %}
-                </p>
-                {% endif %}
-            </div>
-            </div>
-        </div> 
-    </div> <!-- /span12 -->
+        </div>     
+    </div>
+</div>
 
-</div> <!-- /container -->
+ <div style="width:80%; text-align:center; padding-left:135px;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=11719554503&ref=etckt" frameborder="0" height="293" width="80%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><!-- <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:80%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event Registration Online</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://kidscodecamp.eventbrite.com/?ref=etckt">Kids Code Camp - #WeekOfCode</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div> --></div>
+
+
+<!--- FOOTER  ########################################################-->
+<div id="footer-landing-page">
+    <div class="content-wrap">
+
+        <div id="signup">
+            Stay updated with our new courses.
+
+        <form class="input-footer" style="padding:0px" action="http://awesomeinc.us2.list-manage1.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=159107e690" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+                <input style="margin: auto" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required >
+
+                <button type="submit" value="Stay in touch" name="subscribe" id="mc-embedded-subscribe" class="btn btn-footer">Stay in Touch</button>
+
+        </form>
+        </div>
+            
+    </div>
+</div>
+</body>
+</html>
     {% endif %}
 {% endfor %}

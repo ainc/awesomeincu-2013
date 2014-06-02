@@ -96,6 +96,10 @@
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
   status: 'active'
+  landingTitle: Kids Code Camp
+  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
+
 
 - title: Week of Code - Louisville
   curriculum: k12-week
@@ -126,6 +130,9 @@
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
   status: 'active'
+  landingTitle: Kids Code Camp
+  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 - title: Week of Code - Lexington (August)
   curriculum: k12-week
@@ -156,6 +163,9 @@
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
   status: 'active'
+  landingTitle: Kids Code Camp
+  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
