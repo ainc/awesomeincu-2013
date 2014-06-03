@@ -78,7 +78,7 @@
 - title: Week of Code - Lexington (July)
   curriculum: k12-week
   date: July 8 - 11
-  time: 1pm-5pm
+  time: 1pm - 5pm
   student-price: 
   early-bird-price: <del>495
   standard-price: 695
@@ -107,13 +107,13 @@
   landingTitle: Kids Code Camp
   landingSubTitle: Week of Code - Lexington
   landingHeader: "what your kids can learn this summer!"
-  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
+  landingDiscount: "Make a website, mobile app, and video game in just one week!"
 
 
 - title: Week of Code - Louisville
   curriculum: k12-week
   date: July 29 - Aug 1
-  time: 1pm-5pm
+  time: 1pm - 5pm
   student-price: 
   early-bird-price: 495
   standard-price: 695
@@ -142,12 +142,12 @@
   landingTitle: Kids Code Camp
   landingSubTitle: Week of Code - Louisville
   landingHeader: "what your kids can learn this summer!"
-  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
+  landingDiscount: "Make a website, mobile app, and video game in just one week!"
 
 - title: Week of Code - Lexington (August)
   curriculum: k12-week
   date: August 4 - 7
-  time: 1pm-5pm
+  time: 1pm - 5pm
   student-price: 
   early-bird-price: 495
   standard-price: 695
@@ -176,7 +176,7 @@
   landingTitle: Kids Code Camp
   landingSubTitle: Week of Code - Lexington
   landingHeader: "what your kids can learn this summer!"
-  landingDiscount: "Make a website, mobile app, and video game in just one week"
+  landingDiscount: "Make a website, mobile app, and video game in just one week!"
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
