@@ -53,6 +53,10 @@
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
   status: 'active'
+  landingTitle: Make an iPhone App in 6 Hours!
+  landingSubTitle: iPhone App Development
+  landingHeader: "What you'll learn at this interactive one day course!"
+  landingDiscount: "Learn to code your very own app today!"
 
 - title: PHP Web Development 1-Day
   curriculum: php-crash
@@ -66,6 +70,10 @@
   eid: 10532987449
   logo: logo-php.png
   status: 'active'
+  landingTitle: Learn the Backend magic of PHP in One Day!
+  landingSubTitle: PHP Web Development 1-Day
+  landingHeader: "What you'll learn at this interactive one day course!"
+  landingDiscount: "You don't want to miss out on this crash course that teaches the most popular programming language!"
 
 - title: Week of Code - Lexington (July)
   curriculum: k12-week
@@ -97,7 +105,8 @@
   ]
   status: 'active'
   landingTitle: Kids Code Camp
-  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingSubTitle: Week of Code - Lexington
+  landingHeader: "what your kids can learn this summer!"
   landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 
@@ -131,7 +140,8 @@
   ]
   status: 'active'
   landingTitle: Kids Code Camp
-  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingSubTitle: Week of Code - Louisville
+  landingHeader: "what your kids can learn this summer!"
   landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 - title: Week of Code - Lexington (August)
@@ -164,8 +174,9 @@
   ]
   status: 'active'
   landingTitle: Kids Code Camp
-  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
-  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
+  landingSubTitle: Week of Code - Lexington
+  landingHeader: "what your kids can learn this summer!"
+  landingDiscount: "Make a website, mobile app, and video game in just one week"
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
@@ -180,6 +191,9 @@
   logo: logo-html.png
   number-students: 53
   status: 'active'
+  landingTitle: Kids Code Camp
+  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 - title: Android App Development 1-Day
   curriculum: android-crash
@@ -217,6 +231,9 @@
   eid: 9901758426
   logo: logo-html.png
   status: 'inactive'
+  landingTitle: Kids Code Camp
+  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
+  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
 
 - title: Unity Game Development 1-Day
   curriculum: unity-crash
@@ -230,6 +247,7 @@
   eid: 
   logo: logo-unity3d.png
   status: 'inactive'
+
 
 - title: JavaScript Web Development 1-Day
   curriculum: javascript-crash

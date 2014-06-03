@@ -222,7 +222,7 @@ a.enlarge:before {
   overflow: hidden;
 }
 
-#today { font: 22px 'ExoExtraBold', Arial, sans-serif; text-transform: uppercase; color: #333333;}
+#today { font: 22px 'ExoBold', Arial, sans-serif; text-transform: uppercase; color: #333333;}
 
 /*#screenshot-title {
   padding-left: 35px;
@@ -377,7 +377,7 @@ a.enlarge:before {
 .btn-landing-page {
   position: relative;
   left:45%;
-  font: 25px 'Exo', Arial, sans-serif;  
+  font-size: 25px;
 }
 
 li#learn {
