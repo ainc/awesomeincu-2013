@@ -52,7 +52,7 @@
     ["ios-crash-screenshot2.png", Pic of app 2],
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
-  status: 'active'
+  status: 'inactive'
   landingTitle: Make an iPhone App in 6 Hours!
   landingSubTitle: iPhone App Development
   landingHeader: "What you'll learn at this interactive one day course!"
@@ -63,9 +63,9 @@
   date: June 13
   time: 9am - 4pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: June 4
+  early-bird-date: June 4</del>
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
   eid: 10532987449
   logo: logo-php.png
@@ -117,7 +117,7 @@
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: June 7
+  early-bird-date: June 21
   url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-in-louisville-tickets-11719492317?aff=aincwebsite
   eid: 11719492317 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
