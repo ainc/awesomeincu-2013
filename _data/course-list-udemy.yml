@@ -29,7 +29,7 @@
   status: "online"
   landingTitle: Learn Jekyll and Github Today!
   landingHeader: WHAT YOU CAN LEARN TODAY AT A 50% DISCOUNT! 
-  landingDiscount: "For a limited time, register now to get 50% off of the Jekyll / Github Pages course.  Once <strike> $40.00</strike> now <b> $20.00!"
+  landingDiscount: "For a limited time, register now to get 50% off of the Jekyll / Github Pages course.  Once <s> $40.00</s> now <b> $20.00!"
 
 - title: Develop Your First iPhone App Today!
 
@@ -61,7 +61,7 @@
   status: "online"
   landingTitle: Make an iPhone App in One Day!
   landingHeader: WHAT YOU CAN LEARN TODAY AT A 52% DISCOUNT! 
-  landingDiscount: "For a limited time, register now to get 52% off of the iPhone app course.  Once <strike> $95.00</strike> now <b> $45.00!"
+  landingDiscount: "For a limited time, register now to get 52% off of the iPhone app course.  Once <s> $95.00</s> now <b> $45.00!"
 
 - title: Develop and Launch Your First Website in Just One Day!
   curriculum: basicweb-crash
@@ -90,7 +90,7 @@
   status: "online"
   landingTitle: Make a Website in One Day!
   landingHeader: WHAT YOU CAN LEARN TODAY AT A 68% DISCOUNT! 
-  landingDiscount: "For a limited time, register now to get 68% off of the Web Development course.  Once <strike> $79.00</strike> now <b> $25.00!"
+  landingDiscount: "For a limited time, register now to get 68% off of the Web Development course.  Once <s> $79.00</s> now <b> $25.00!"
 
 - title: Make Your First Video Game Today With Unity 3D
   curriculum: unity-crash
@@ -117,4 +117,4 @@
   status: "online"
   landingTitle: Make a Video Game in One Day!
   landingHeader: WHAT YOU CAN LEARN TODAY AT A 68% DISCOUNT! 
-  landingDiscount: "For a limited time, register now to get 68% off of the Unity Game Development course.  Once <strike> $79.00</strike> now <b> $25.00!"
+  landingDiscount: "For a limited time, register now to get 68% off of the Unity Game Development course.  Once <s> $79.00</s> now <b> $25.00!"
