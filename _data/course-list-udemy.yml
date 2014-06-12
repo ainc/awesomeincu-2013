@@ -91,3 +91,30 @@
   landingTitle: Make a Website in One Day!
   landingHeader: WHAT YOU CAN LEARN TODAY AT A 68% DISCOUNT! 
   landingDiscount: "For a limited time, register now to get 68% off of the Web Development course.  Once <strike> $79.00</strike> now <b> $25.00!"
+
+- title: Make Your First Video Game Today With Unity 3D
+  curriculum: unity-crash
+  early-bird-price: 25
+  standard-price: 79
+  discount-price: 25
+  number-students: 
+  number-reviews: 
+  rating-stars: 
+  difficulty: BEGINNER
+  testimonials: 
+  whatyoulllearn: 
+  curriculum-contents: ["Using the Unity Game Engine development environment","Working with rigid body game elements","Overview of physics and collisions","Programming with the C# language using MonoDevelop","Working with textures and sounds"]
+  requirements: 
+  headline: 
+  url: https://www.udemy.com/make-a-unity-game-today/?couponCode=aincwebsite
+  logo: logo-unity3d.png
+  course-images: [
+    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
+  ]
+  screenshots: [
+    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
+  ]
+  status: "online"
+  landingTitle: Make a Video Game in One Day!
+  landingHeader: WHAT YOU CAN LEARN TODAY AT A 68% DISCOUNT! 
+  landingDiscount: "For a limited time, register now to get 68% off of the Unity Game Development course.  Once <strike> $79.00</strike> now <b> $25.00!"
