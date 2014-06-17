@@ -69,7 +69,7 @@
   url: http://www.eventbrite.com/e/php-web-development-1-day-crash-course-tickets-10532987449?aff=aincwebsite
   eid: 10532987449
   logo: logo-php.png
-  status: 'active'
+  status: 'inactive'
   landingTitle: Learn the Backend magic of PHP in One Day!
   landingSubTitle: PHP Web Development 1-Day
   landingHeader: "What you'll learn at this interactive one day course!"
@@ -151,7 +151,7 @@
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: June 14
+  early-bird-date: June 21
   url: https://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-11719554503?aff=aincwebsite
   eid: 11719554503 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
