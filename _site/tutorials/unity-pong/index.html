@@ -264,11 +264,11 @@
 
 <h3 id="code-breakdown-1">Code Breakdown:</h3>
 
-<p>**First, as always, we import our packages and name our file. **</p>
+<p><strong>First, as always, we import our packages and name our file.</strong></p>
 
 <p><img src="/tutorials/image_14.png" alt="image alt text" /></p>
 
-<p>**In our ‘Start()’ function, we use the ‘hi()’ function to wait two seconds by using some code from the packages we imported into our file - this is to give people time to get ready before the ball starts. **</p>
+<p><strong>In our ‘Start()’ function, we use the ‘hi()’ function to wait two seconds by using some code from the packages we imported into our file - this is to give people time to get ready before the ball starts.</strong></p>
 
 <p><img src="/tutorials/image_15.png" alt="image alt text" /></p>
 
@@ -276,15 +276,15 @@
 
 <p><img src="/tutorials/image_16.png" alt="image alt text" /></p>
 
-<p>** ‘resetBall()’ and ‘hasWon()’ are two function used by other scripts which we will write later. In short, ‘hasWon()’ looks for a win condition and resets the ball. **</p>
+<p><strong>‘resetBall()’ and ‘hasWon()’ are two function used by other scripts which we will write later. In short, ‘hasWon()’ looks for a win condition and resets the ball.</strong></p>
 
 <p><img src="/tutorials/image_17.png" alt="image alt text" /></p>
 
-<p>**‘resetBall()’ is used when our reset button is pushed. We’ll add that button later, but essentially it centers the ball on the board, and then tells it to start again. **</p>
+<p><strong>‘resetBall()’ is used when our reset button is pushed. We’ll add that button later, but essentially it centers the ball on the board, and then tells it to start again.</strong></p>
 
 <p><img src="/tutorials/image_18.png" alt="image alt text" /></p>
 
-<p>**‘OnCollisionEnter2D’ waits until we collide with a paddle, then adjusts the velocity appropriately using both the speed of the ball and of the paddle. **</p>
+<p><strong>‘OnCollisionEnter2D’ waits until we collide with a paddle, then adjusts the velocity appropriately using both the speed of the ball and of the paddle.</strong></p>
 
 <p><img src="/tutorials/image_19.png" alt="image alt text" /></p>
 
@@ -322,7 +322,7 @@ This also sets us up to get creative with the sizing of our game - if you want, 
 
 <h3 id="code-breakdown-3">Code Breakdown:</h3>
 
-<p>**First, as always, we import our packages and declare our class. **</p>
+<p><strong>First, as always, we import our packages and declare our class.</strong></p>
 
 <p><img src="/tutorials/image_24.png" alt="image alt text" /></p>
 
@@ -330,15 +330,15 @@ This also sets us up to get creative with the sizing of our game - if you want, 
 
 <p><img src="/tutorials/image_25.png" alt="image alt text" /></p>
 
-<p>**Then comes the ‘Start()’ function, which we use when the game first starts. **</p>
+<p><strong>Then comes the ‘Start()’ function, which we use when the game first starts.</strong></p>
 
 <p><img src="/tutorials/image_26.png" alt="image alt text" /></p>
 
-<p>**Next is the ‘Score()’ function. It will get called by another script we write in just a minute, that detects when the ball hits the side walls. **</p>
+<p><strong>Next is the ‘Score()’ function. It will get called by another script we write in just a minute, that detects when the ball hits the side walls.</strong></p>
 
 <p><img src="/tutorials/image_27.png" alt="image alt text" /></p>
 
-<p>**The OnGUI() function takes care of displaying the score and the reset button functionality. Then, it checks every time something happens if someone has won yet, and triggers the function ‘hasWon()’ if someone has. **</p>
+<p><strong>The OnGUI() function takes care of displaying the score and the reset button functionality. Then, it checks every time something happens if someone has won yet, and triggers the function ‘hasWon()’ if someone has.</strong></p>
 
 <p><img src="/tutorials/image_28.png" alt="image alt text" /></p>
 
@@ -366,7 +366,7 @@ This also sets us up to get creative with the sizing of our game - if you want, 
 
 <p><img src="/tutorials/image_32.png" alt="image alt text" /></p>
 
-<p>** <em>NOTE:</em> if you skipped writing the ‘Score()’ function before, go back and write it NOW.**</p>
+<p><strong><em>NOTE: if you skipped writing the ‘Score()’ function before, go back and write it NOW.</em></strong></p>
 
 <p>You already added the script to one of the two, and now, since it’s written, go to ‘Add Component’ on the other one and choose just ‘Script’ instead of ‘New Script.’ Choose the Script we just wrote. Now, both of your walls should trigger the score. Make sure your Left and Right walls have “Is Trigger” checkbox selected on the Box Collider in the Inspector pane. Do they? AWESOME!</p>
 

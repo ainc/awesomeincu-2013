@@ -131,11 +131,11 @@ But of course, to actually get the Ball to move, we need a script. It’s time t
 
 ### Code Breakdown:
 
-**First, as always, we import our packages and name our file. **
+**First, as always, we import our packages and name our file.**
 
 ![image alt text](/tutorials/image_14.png)
 
-**In our ‘Start()’ function, we use the ‘hi()’ function to wait two seconds by using some code from the packages we imported into our file - this is to give people time to get ready before the ball starts. **
+**In our ‘Start()’ function, we use the ‘hi()’ function to wait two seconds by using some code from the packages we imported into our file - this is to give people time to get ready before the ball starts.**
 
 ![image alt text](/tutorials/image_15.png)
 
@@ -143,15 +143,15 @@ But of course, to actually get the Ball to move, we need a script. It’s time t
 
 ![image alt text](/tutorials/image_16.png)
 
-** ‘resetBall()’ and ‘hasWon()’ are two function used by other scripts which we will write later. In short, ‘hasWon()’ looks for a win condition and resets the ball. **
+**‘resetBall()’ and ‘hasWon()’ are two function used by other scripts which we will write later. In short, ‘hasWon()’ looks for a win condition and resets the ball.**
 
 ![image alt text](/tutorials/image_17.png)
 
-**‘resetBall()’ is used when our reset button is pushed. We’ll add that button later, but essentially it centers the ball on the board, and then tells it to start again. **
+**‘resetBall()’ is used when our reset button is pushed. We’ll add that button later, but essentially it centers the ball on the board, and then tells it to start again.**
 
 ![image alt text](/tutorials/image_18.png)
 
-**‘OnCollisionEnter2D’ waits until we collide with a paddle, then adjusts the velocity appropriately using both the speed of the ball and of the paddle. **
+**‘OnCollisionEnter2D’ waits until we collide with a paddle, then adjusts the velocity appropriately using both the speed of the ball and of the paddle.**
 
 ![image alt text](/tutorials/image_19.png)
 
@@ -189,7 +189,7 @@ We need to make a script. A big one, relatively speaking. It’s going to be att
 
 ### Code Breakdown:
 
-**First, as always, we import our packages and declare our class. **
+**First, as always, we import our packages and declare our class.**
 
 ![image alt text](/tutorials/image_24.png)
 
@@ -197,15 +197,15 @@ We need to make a script. A big one, relatively speaking. It’s going to be att
 
 ![image alt text](/tutorials/image_25.png)
 
-**Then comes the ‘Start()’ function, which we use when the game first starts. **
+**Then comes the ‘Start()’ function, which we use when the game first starts.**
 
 ![image alt text](/tutorials/image_26.png)
 
-**Next is the ‘Score()’ function. It will get called by another script we write in just a minute, that detects when the ball hits the side walls. **
+**Next is the ‘Score()’ function. It will get called by another script we write in just a minute, that detects when the ball hits the side walls.**
 
 ![image alt text](/tutorials/image_27.png)
 
-**The OnGUI() function takes care of displaying the score and the reset button functionality. Then, it checks every time something happens if someone has won yet, and triggers the function ‘hasWon()’ if someone has. **
+**The OnGUI() function takes care of displaying the score and the reset button functionality. Then, it checks every time something happens if someone has won yet, and triggers the function ‘hasWon()’ if someone has.**
 
 ![image alt text](/tutorials/image_28.png)
 
@@ -233,7 +233,7 @@ Cool. Now let’s make sure that the game knows when we do score. To do that, we
 
 ![image alt text](/tutorials/image_32.png)
 
-** *NOTE:* if you skipped writing the ‘Score()’ function before, go back and write it NOW.**
+***NOTE: if you skipped writing the ‘Score()’ function before, go back and write it NOW.***
 
 You already added the script to one of the two, and now, since it’s written, go to ‘Add Component’ on the other one and choose just ‘Script’ instead of ‘New Script.’ Choose the Script we just wrote. Now, both of your walls should trigger the score. Make sure your Left and Right walls have "Is Trigger" checkbox selected on the Box Collider in the Inspector pane. Do they? AWESOME!
 
