@@ -149,9 +149,9 @@
   date: August 4 - 7
   time: 1pm - 5pm
   student-price: 
-  early-bird-price: 495
+  early-bird-price: <del>495
   standard-price: 695
-  early-bird-date: June 21
+  early-bird-date: June 21</del>
   url: https://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-11719554503?aff=aincwebsite
   eid: 11719554503 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
@@ -183,9 +183,9 @@
   date: July 12
   time: 12pm - 6pm
   student-price: 50
-  early-bird-price: 75
+  early-bird-price: <del>75
   standard-price: 100
-  early-bird-date: June 20
+  early-bird-date: June 20</del>
   url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
   eid: 11241689195 # this entry will be deprecated, can be regex'd from url
   logo: logo-html.png
