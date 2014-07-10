@@ -157,7 +157,9 @@
 
 <h2 id="step-one-the-setup">Step One: The Setup</h2>
 
-<p>So let’s start with the paddles. When we open up Unity, we’re used to seeing the camera hovering in 3D space. But that’s not what we want today. Open up Unity and follow these steps:</p>
+<p>First, download this <a href="/files/unity-pong-assets.zip">Unity Pong assets file</a>. It contains images and other assets that we’ll be using in this tutorial.</p>
+
+<p>Now, let’s start with the paddles. When we open up Unity, we’re used to seeing the camera hovering in 3D space. But that’s not what we want today. Open up Unity and follow these steps:</p>
 
 <ol>
   <li>
@@ -184,15 +186,21 @@
 
 <p>Click on the image. The Inspector on the right side of your screen should look like this:</p>
 
+<p><img src="/tutorials/inspector_1.png" alt="image alt text" /></p>
+
 <p>Take some time to make sure it does. The only thing you  should worry about here is Pixels to Units. Let’s set it at 150, but changing that number is what affects how zoomed in or out from the background image it appears we are. Once you finish updating these settings, hit the Apply button. Then drag the image into the Scene view, and center it in the Inspector by making sure X and Y are 0. If this doesn’t work, make sure you set that 2D perspective lock set in the menu bar above your Scene. Once you add the background image to your Scene, you should also see that that makes a Game Object in the Hierarchy menu to the left. Rename this to ‘BG’ for Background, like this:</p>
 
 <p><img src="/tutorials/image_3.png" alt="image alt text" /></p>
 
 <p>With ‘BG’ selected in your Hierarchy pane, look at the Inspector pane and the ‘Sprite renderer’ dropdown menu. We want to make sure the background doesn’t accidentally get moved later on when we’re interacting in the scene view more. Go to ‘Sorting Layer’, and add a new Sorting Layer called Background. Drag the new layer above the Default Layer. You may need to re-select your BG object in the Hierarchy pane so that it will show up in the Inspector again. Change the Order in Layer to -10 back in the sprite renderer menu. This is all just to make sure the Background stays in the back. Now go to the Layer dropdown menu in the top right of the Inspector, and add a new Layer called ‘Background’ here too. Now under the Layers drop down menu above the Inspector, we can lock the Background so we don’t actually move it. It should look like this image to the left by the end.</p>
 
+<p><img src="/tutorials/inspector_2.png" alt="image alt text" /></p>
+
 <p><strong>REMEMBER: Always hit Apply when you finish in the Inspector for an object.</strong></p>
 
 <p>Now we’re cooking. Lets select the Main Camera object in your Hierarchy pane. Rename it so ‘MainCamera’ is one word. That will be important later in some of our scripting so that our code knows what object to look for. Next, make your camera settings look like mine, here to the left. All these settings are doing is getting the camera in the right position for the later pieces we’ll be adding. The camera box won’t exactly match with the Background, but that’s fine - if the screen gets resized, we won’t go past the background as quickly. The Scale options refer to how big a given object will be. The position refers to where it is on a graph - which is what your scene view is. Changing these numbers will change where the object is. The center is always 0,0,0.</p>
+
+<p><img src="/tutorials/inspector_3.png" alt="image alt text" /></p>
 
 <p><strong>Continue….</strong></p>
 
@@ -201,6 +209,8 @@
 <p>The next obvious step is to make our paddles. Find the image in the downloadable file I included called ‘PongPaddle’, and drag that into the project view at the bottom of Unity. We shouldn’t need to change anything here - just make sure that Texture Type is Sprite and the Pixels to Units is at 100, and we’ll move on.</p>
 
 <p>Now drag the paddle onto the scene in scene view. A ‘Player’ object should appear in your Hierarchy menu. Rename that to Player01. Cool. Click on that. Make it look like this under the inspector:</p>
+
+<p><img src="/tutorials/inspector_4.png" alt="image alt text" /></p>
 
 <p>All we’re doing here is making sure that the paddle is positioned where we want it. You could position it wherever, but I found that for our settings, I like this location the best. The sorting layer and other settings don’t matter this time because we want this object to be drawn on top, which is what Unity defaults to.</p>
 
@@ -380,7 +390,7 @@ This also sets us up to get creative with the sizing of our game - if you want, 
 
 <p><img src="/tutorials/image_33.png" alt="image alt text" /></p>
 
-<p>Now, choose where you want to save the file (I chose the desktop), and name it something (I named it Pong v1.0). Look at your desktop. Is it there? Sweet.</p>
+<p>Now, choose where you want to save the file (I chose the desktop), and name it something (I named it Pong v1.0). Look at your desktop. Is it there? Sweet. If you want to see my completed version, here’s the <a href="https://github.com/ainc/unity-pong">sample code on GitHub</a>.</p>
 
 <p>Congratulations, and enjoy your game. Thanks for going through this tutorial, and if you want to learn more about Unity or coding in general, make sure to check out the rest of <a href="http://www.awesomeincu.com/">Awesome Inc U</a> online. </p>
 
