@@ -103,7 +103,7 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
-  status: 'active'
+  status: 'inactive'
   landingTitle: Kids Code Camp
   landingSubTitle: Week of Code - Lexington
   landingHeader: "what your kids can learn this summer!"
@@ -190,7 +190,7 @@
   eid: 11241689195 # this entry will be deprecated, can be regex'd from url
   logo: logo-html.png
   number-students: 53
-  status: 'active'
+  status: 'inactive'
   landingTitle: Kids Code Camp
   landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
   landingDiscount: "Make a website, mobile app, and video game in just 1 week"
