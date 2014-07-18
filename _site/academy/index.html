@@ -53,6 +53,8 @@
     
     <link rel='stylesheet' type='text/css' href='/css/responsive.css' />
     
+    <link rel='stylesheet' type='text/css' href='/css/bootstrap3.css' />
+    
     <!-- Mailchimp CSS -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -115,45 +117,47 @@
 <!--- HEADER  ########################################################-->
 <!-- <div id="large-wrap"> -->
     <div id="first-row">
-        <div id="side-wrap">
-            <!-- <div id="app-wrap"> -->
-                <div id="display-title">Awesome Inc Academy</div>
-                <h2 id="sub-title">Join the team and learn to code</h2>
-                <a href="https://docs.google.com/forms/d/1J1o93AYagLxgNOgD-B61XuKRREqE_tZ9WL-Wioqb9gc/viewform" class="btn btn-red btn-landing-page"> Apply Now </a>
-            <!-- </div> -->
+        <div class="container">
+            <div id="side-wrap">
+                    <div id="display-title">Awesome Inc Academy</div>
+                    <h2 id="sub-title">Join the team and learn to code</h2>
+                    <h3>
+                        <a href="#apply-now" class="btn btn-red btn-large"> Apply Now </a>
+                    <h3>
+            </div>
         </div>
     </div>
 <!-- </div> -->
     <!--- CONTENT  ########################################################-->
 <div id="second-row">
-    <div class="content-wrap">
-        <div id="localwrap">
-            <div id="screenshots-wrap">
-                <div id="screenshot-title">
-                    <h3 id="today">You can learn to code with us this fall for<b class="red-text"> <s>$1,599</s> $1,299</b>!</h3>
-
-                    <ul id="req">
+    <div class="container">
+        <div class="col-xs-12 col-md-8">
+            <h3>You can learn to code with us this fall for<b class="red-text"> <s>$1,599</s> $1,299</b>! </h3>
+            <h4> (Only $85 per week!) </h4>
+                <ul id="req">
+                    <li>Make your own Apps, Games and Websites</li>
+                    <li>Learn principles of computer science</li>
+                    <li>Meet professional programmers from local tech companies</li>
+                    <li>15-week program, 2 nights per week.  Plus weekend activities.</li>
+                    <li>Includes showcase in Occtober & contest in December.</li>
                     
-                        <li id="learn">Make your own Apps, Games and Websites</li>
-                        <li id="learn">Learn priniples of computer science</li>
-                        <li id="learn">Meet professional programmers from local tech companies</li>
-                    
-                    </ul>
-                </div>
+                </ul>
             </div>
-            <div id="features"> <!-- SIDEBAR ########################################3 -->
-                <a href="https://docs.google.com/forms/d/1J1o93AYagLxgNOgD-B61XuKRREqE_tZ9WL-Wioqb9gc/viewform"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
+            <div id="features" class="col-xs-6 col-md-4"> <!-- SIDEBAR ########################################3 -->
+                <a href="#apply-now">
+                    <img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg">
+                </a>
                 <div class="second-reg">
-                    For a limited time, register now to get a $300 discount on a membership to the academy. <b class="red-text"> Once <s>$1,599</s> now $1,299! </b>
-                    <br>
-                    <a href="https://docs.google.com/forms/d/1J1o93AYagLxgNOgD-B61XuKRREqE_tZ9WL-Wioqb9gc/viewform" id="side-button" class="btn btn-red"> Apply Now </a>
+                    <p>For a limited time, register now to get a $300 discount on a membership to the academy. <b> Once <s>$1,599</s> now $1,299! </b></p>
+                    <h3>
+                        <a type="button" class="btn btn-red btn-large" href="#apply-now" target="_blank">Apply!</a>
+                    </h3>
                 </div>
             </div>
         </div>     
     </div>
-</div>
 
-<div class=" lp-row row">
+<div id="apply-now" class=" lp-row row">
 			<div class="span8 offset2">
 				<p class="visible-phone">The Awesome Inc U Academy is a great way to prepare your kids for the future. It is a program that goes through the fall and will teach your kids skills that aren't taught in high schools.  The best way to learn and excel at any skill is to surround yourself with other like-minded, motivated people. </p>
 				<p class="visible-phone">The standard rate for the Awesome Inc U Academy is $1,599, however we're offering a sale of $1,299 for a limited time.</p>
