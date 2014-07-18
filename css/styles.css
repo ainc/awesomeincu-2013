@@ -206,15 +206,27 @@ a.enlarge:before {
 
 
 #second-row h3 { 
-  font-size: 27px; 
+  font-size: 32px; 
   /*text-transform: uppercase;*/ color: #333333;
-  margin-bottom: 0px;
+  margin: 0;
+  text-align: center;
+  font-family: "Exobold";
+}
+
+#second-row a {
+  font-size: 20px;
+  border-radius: 0;
+}
+#second-row h5 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 #second-row h4 {
-  text-align: right;
-  margin-right: 85px;
+  text-align: center;
   margin-top: 0;
+
+  margin-bottom: 20px; 
 }
 
 #features {
@@ -298,6 +310,10 @@ a.enlarge:before {
   margin-left: 40px;
 }
 
+#second-row h4  p {
+  font-family: "ExoRegular";
+}
+
 #display-title {
   font: 65px 'ExoBold', Arial, sans-serif;
   color: #fff;
@@ -332,7 +348,7 @@ a.enlarge:before {
 
 .red-text { 
   color: #FF1440;
-  font: 22px 'Exo', Arial, sans-serif;
+  font: 27px 'Exo', Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 
@@ -340,13 +356,12 @@ a.enlarge:before {
 
 #features p {
   margin-top: 20px;
-  margin-left: 45px;
   text-align: center;
+  font-family: "ExoRegular";
 }
 
 #features img {
-  margin-top: 30px;
-  margin-left: 20px;
+
   border-radius: 20px;
 }
 
@@ -382,6 +397,8 @@ a.enlarge:before {
 #second-row li {
   margin-top:0.5em;
   font-size:1.5em;
+  font-family: "ExoRegular";
+  font-weight: normal;
 }
 
 /*--------------------------------------------------------------------------------------------------*/
