@@ -13,10 +13,10 @@ To make changes to course information see _data/course-list-udemy.yml
         <div class="container">
             <div id="side-wrap">
                 <div id="display-title">{{ course.landingTitle }}</div>
-                <h2 id="sub-title">{{ course.landingSubTitle }}</h2>
-                <h3>
-                    <a href="{{ course.url }}" class="btn btn-red btn-landing-page"> Enroll Now </a>
-                </h3>
+                    <h2 id="sub-title">{{ course.landingSubTitle }}</h2>
+                    <h3>
+                        <a href="{{ course.url }}" class="btn btn-red"> Enroll Now </a>
+                    </h3>
             </div>
         </div>
     </div>
@@ -31,12 +31,6 @@ To make changes to course information see _data/course-list-udemy.yml
             <div class="second-reg">
                     <p>{{ course.landingDiscount }}</p>
                 </br>
-                    <p>{{ course.date }}</p>
-                </br>
-                    <p>{{ course.time }}</p>
-                    </br>
-                </br>
-                    <a href="{{ course.url }}" id="side-button" class="btn btn-red"> Enroll Now </a>
             </div>
         </div>
 
@@ -45,7 +39,7 @@ To make changes to course information see _data/course-list-udemy.yml
 
             <ul id="req">
                 {% for topic in course.curriculum-contents %}
-                    <li id="learn">{{ topic }}</li>
+                    <li style="line-height:20px; font-size:20px;">{{ topic }}</li>
                 {% endfor %}
             </ul>
         </div>
