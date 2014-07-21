@@ -9,43 +9,53 @@ To make changes to course information see _data/course-list-udemy.yml
 
     <!--- HEADER  ########################################################-->
 <!-- <div id="large-wrap"> -->
-    <div id="first-row">
-        <div id="side-wrap">
-            <!-- <div id="app-wrap"> -->
+     <div id="first-row">
+        <div class="container">
+            <div id="side-wrap">
                 <div id="display-title">{{ course.landingTitle }}</div>
-                <h2 id="sub-title">{{ course.title }}</h2>
-                <a href="{{ course.url }}" class="btn btn-red btn-landing-page"> Enroll Now </a>
-            <!-- </div> -->
+                <h2 id="sub-title">{{ course.landingSubTitle }}</h2>
+                <h3>
+                    <a href="{{ course.url }}" class="btn btn-red btn-landing-page"> Enroll Now </a>
+                </h3>
+            </div>
         </div>
     </div>
 <!-- </div> -->
     <!--- CONTENT  ########################################################-->
 <div id="second-row">
-    <div class="content-wrap">
-        <div id="localwrap">
-            <div id="screenshots-wrap">
-                <div id="screenshot-title">
-                    <h3 id="today">{{ course.landingHeader }} <b class="red-text"><strike>${{ course.standard-price }}.00</strike> ${{ course.discount-price }}.00</b></h3>
-       
-                    <p>{{ course.learn }}</p>
+    <div class="container">
+        <h3 style="margin-bottom:20px;">{{ course.landingHeader }} </h3>
+        <div id="features" class="col-xs-6 col-md-4">
+            <a href="{{ course.url }}"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
 
-                    <ul id="req">
-                    {% for topic in course.curriculum-contents %}
-                        <li id="learn">{{ topic }}</li>
-                    {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div id="features">
-                <a href="{{ course.url }}"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
-                <div class="second-reg">
-                    {{ course.landingDiscount }} </b></br></br>
+            <div class="second-reg">
+                    <p>{{ course.landingDiscount }}</p>
+                </br>
+                    <p>{{ course.date }}</p>
+                </br>
+                    <p>{{ course.time }}</p>
+                    </br>
+                </br>
                     <a href="{{ course.url }}" id="side-button" class="btn btn-red"> Enroll Now </a>
-                </div>
-                
             </div>
-        </div>        
+        </div>
+
+        <div id="features" class="col-xs-12 col-md-6">
+            <p>{{ course.learn }}</p>
+
+            <ul id="req">
+                {% for topic in course.curriculum-contents %}
+                    <li id="learn">{{ topic }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+             <!-- SIDEBAR ########################################3 -->
+                
+               
     </div>
+        <h5>
+        <a href="{{ course.url }}" id="side-button" class="btn btn-red"> Enroll Now </a>
+    </h5>
 </div>
 <!--- FOOTER  ########################################################-->
 <div id="footer-landing-page">
