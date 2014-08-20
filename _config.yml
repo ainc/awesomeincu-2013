@@ -3,6 +3,7 @@ highlighter: pygments
 permalink: pretty
 gems: 
  - jekyll-redirect-from
+ - jekyll-sitemap
 asset_bundler:
   compress:
     js: true
