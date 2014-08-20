@@ -1,6 +1,8 @@
 name: Awesome Inc U
 highlighter: pygments
 permalink: pretty
+gems: 
+ - jekyll-redirect-from
 asset_bundler:
   compress:
     js: true
