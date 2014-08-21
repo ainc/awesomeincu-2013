@@ -6,7 +6,7 @@ category:
 tags: [learntocode, udemy, online, mooc, video, screencast]
 ---
 
-[![awesomeinc profile on Udemy](/images/awesomeinc-udemy-profile.png)](https://www.udemy.com/u/awesomeinc/)
+[![awesomeinc profile on Udemy](/img/blog/awesomeinc-udemy-profile.png)](https://www.udemy.com/u/awesomeinc/)
 
 By [Nick Such](https://plus.google.com/+NickSuch/)
 

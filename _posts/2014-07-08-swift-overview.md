@@ -12,7 +12,7 @@ On June 2, 2014 at [WWDC](https://developer.apple.com/videos/wwdc/2014/), Apple 
 
 The standard language for Apple iOS and OS X development is [Objective-C](http://en.wikipedia.org/wiki/Objective-C). It is an extension of the original C language, a language that is notoriously difficult to learn and tricky to use. Apple proposes the Swift language as a replacement for Objective-C that is easier to learn and use. At least two other strategies drive its design: it should be interoperable with Objective-C, and it should be fast.
 
-![Swift playground, image from Apple &copy;](/images/swift_overview_0.jpg)
+![Swift playground, image from Apple &copy;](/img/blog/swift_overview_0.jpg)
 
 Swift brings language features that are familiar to and welcomed by many programmers today. It supports [tuples](http://en.wikipedia.org/wiki/Tuple), multi-valued expressions that make it easy to write functions that return multiple values and allow shortcuts like assignment statements involving multiple variables. Swift also makes it easy to define functions that accept a variable number of arguments. It supports operator overloading, including custom operators. It supports natural string manipulation like a scripting language. Functions in Swift can be passed to other functions and returned by other functions. Swift is strongly typed, but types can be inferred. Swift includes generics (generic functions and generic types), anonymous parameters ($0, $1, $2, ...), default arguments, and elaborate pattern matching in switch statements.
 

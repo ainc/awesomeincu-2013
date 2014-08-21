@@ -6,7 +6,7 @@ category:
 tags: [learntocode, code.org, csedweek, k-12, hourofcode, programming, computer science]
 ---
 
-<img src="/images/hour-of-code-promo.jpg" alt="Kids learning to code with CSEdWeek logo">
+<img src="/img/blog/hour-of-code-promo.jpg" alt="Kids learning to code with CSEdWeek logo">
 
 By [Nick Such](https://plus.google.com/+NickSuch/)
 

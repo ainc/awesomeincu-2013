@@ -8,7 +8,7 @@ tags: [learntocode, hourofcode, programming, students, k-12, csedweek]
 
 ### What We Learned From The Hour Of Code
 
-<a href="http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/"><img src="/images/hour-of-code-team-students.jpg" alt="The Awesome Inc team working with students at Eastside Technical Center." title="The Awesome Inc team working with students at Eastside Technical Center. More photos available on flickr."></a>
+<a href="http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/"><img src="/img/blog/hour-of-code-team-students.jpg" alt="The Awesome Inc team working with students at Eastside Technical Center." title="The Awesome Inc team working with students at Eastside Technical Center. More photos available on flickr."></a>
 _The Awesome Inc team working with students at Eastside Technical Center. [More photos available on flickr](http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/)._
 
 By [Nick Such](https://plus.google.com/+NickSuch/)
