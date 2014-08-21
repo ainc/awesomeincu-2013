@@ -5,7 +5,6 @@ description: "Video games are an important part of our culture, and the Unity ga
 category: 
 tags: [learntocode, learning, 21st century]
 ---
-{% include JB/setup %}
 
 By Will Oldham
 

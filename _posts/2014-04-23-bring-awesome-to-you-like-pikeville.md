@@ -5,7 +5,6 @@ description: "Organizations can now bring Awesome Inc U to their teams with on-s
 category: 
 tags: [learntocode, on-site, pikeville, university, iphone, upike]
 ---
-{% include JB/setup %}
 
 by [Steve Osowicz](https://plus.google.com/116958087401786058743/)
 

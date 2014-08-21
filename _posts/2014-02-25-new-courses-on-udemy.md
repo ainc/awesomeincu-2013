@@ -5,7 +5,6 @@ description: "Our most popular Awesome Inc U courses (Basic Web, iPhone Apps) ar
 category: 
 tags: [learntocode, udemy, online, mooc, video, screencast]
 ---
-{% include JB/setup %}
 
 [![awesomeinc profile on Udemy](/images/awesomeinc-udemy-profile.png)](https://www.udemy.com/u/awesomeinc/)
 

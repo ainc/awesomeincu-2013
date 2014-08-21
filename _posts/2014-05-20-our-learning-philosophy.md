@@ -5,7 +5,6 @@ description: "We're building a world-class learning environment, by learning fro
 category: 
 tags: [learntocode, learning, teaching, philosophy]
 ---
-{% include JB/setup %}
 
 by [Nick Such](https://plus.google.com/+NickSuch?rel=author)
 

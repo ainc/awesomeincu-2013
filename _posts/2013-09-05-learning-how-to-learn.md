@@ -5,7 +5,6 @@ description: "How the learntocode movement is just the first step in changing ho
 category: 
 tags: [learntocode, education, software developer, mooc]
 ---
-{% include JB/setup %}
 
 By [Nick Such](https://plus.google.com/+NickSuch/)
 

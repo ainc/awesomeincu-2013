@@ -4,10 +4,3 @@ permalink: pretty
 gems: 
  - jekyll-redirect-from
  - jekyll-sitemap
-asset_bundler:
-  compress:
-    js: true
-    css: true
-  markup_templates:
-    js: "<script type='text/javascript' src='{{url}}'></script>\n"
-    css: "<link rel='stylesheet' type='text/css' href='{{url}}' />\n"

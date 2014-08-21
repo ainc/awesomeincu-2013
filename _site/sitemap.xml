@@ -2,262 +2,301 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   
+  <url>
+    <loc>/2014/07/08/swift-overview/</loc>
+    <lastmod>2014-07-08T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2014/07/04/community-video-games-dreams-learn-unity/</loc>
+    <lastmod>2014-07-04T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2014/05/28/why-21st-century-kids-should-learn-to-code/</loc>
+    <lastmod>2014-05-28T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2014/05/20/our-learning-philosophy/</loc>
+    <lastmod>2014-05-20T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2014/04/23/bring-awesome-to-you-like-pikeville/</loc>
+    <lastmod>2014-04-23T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2014/02/25/new-courses-on-udemy/</loc>
+    <lastmod>2014-02-25T00:00:00-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2013/11/17/what-we-learned-hour-of-code/</loc>
+    <lastmod>2013-11-17T00:00:00-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2013/11/07/hour-of-code-december/</loc>
+    <lastmod>2013-11-07T00:00:00-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2013/09/05/learning-how-to-learn/</loc>
+    <lastmod>2013-09-05T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/2013/08/16/why-everyone-should-learn-to-code/</loc>
+    <lastmod>2013-08-16T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
   
   <url>
     <loc>/academy/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/android-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/basicweb-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/basicweb-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/curriculum/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/dayofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/employers/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/faq/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/frontweb2/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/giftofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hoc/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hoc2/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hourofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>/info/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/notes/ios-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/ios-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>/notes/ios-crash/</loc>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/iphone-app-today/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/jekyll-github-pages/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/k12-teacher/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/make-a-unity-game-today/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/membership/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/missing/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/php-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/register/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/unity-crash/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/tutorials/unity-pong/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/website-in-one-day/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/weekofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/notes/weekofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>/courses/weekofcode/</loc>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/weekofcode/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/weekofcode2/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/courses/weekofcodelou/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/gift/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/register2/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/weekofcode2/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/weekofcodelou/</loc>
-    <lastmod>2014-08-19T20:21:40-04:00</lastmod>
+    <lastmod>2014-08-21T16:42:53-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

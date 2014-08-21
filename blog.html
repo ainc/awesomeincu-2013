@@ -1,0 +1,23 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div>
+	<div class="container">
+		<div class="row head1">
+			<div class="span12" >
+				<h2>Blog</h2>
+			</div>
+  	</div>
+    <div class="span8 offset2">
+        {% for post in site.posts %}
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <em>{{ post.date | date_to_string }}</em>
+          {{ post.content }}
+          <hr>
+        {% endfor %}
+    </div>
+  </div> <!-- /container -->
+</div> <!-- /about -->

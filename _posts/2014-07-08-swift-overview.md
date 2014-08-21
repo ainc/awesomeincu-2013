@@ -5,7 +5,6 @@ description: "A look at Apple's new programming language for iOS and OSX, Swift"
 category: 
 tags: [learntocode, swift, apple, ios]
 ---
-{% include JB/setup %}
 
 by Danny Thorne
 

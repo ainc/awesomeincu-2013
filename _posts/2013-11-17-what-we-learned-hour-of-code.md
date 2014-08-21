@@ -5,7 +5,6 @@ description: "Computer Science Education week and the Hour of Code movement was 
 category: 
 tags: [learntocode, hourofcode, programming, students, k-12, csedweek]
 ---
-{% include JB/setup %}
 
 ### What We Learned From The Hour Of Code
 

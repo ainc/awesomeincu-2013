@@ -5,7 +5,6 @@ description: "Coding is an integral skill for this generation."
 category: 
 tags: [learntocode, learning, 21st century]
 ---
-{% include JB/setup %}
 
 by Sarah Hoffmann
 

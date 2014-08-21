@@ -5,7 +5,6 @@ description: "Why you should join millions of Americans to learn to code during 
 category: 
 tags: [learntocode, code.org, csedweek, k-12, hourofcode, programming, computer science]
 ---
-{% include JB/setup %}
 
 <img src="/images/hour-of-code-promo.jpg" alt="Kids learning to code with CSEdWeek logo">
 
