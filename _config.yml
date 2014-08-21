@@ -1,6 +1,6 @@
 name: Awesome Inc U
 highlighter: pygments
-permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 gems: 
  - jekyll-redirect-from
  - jekyll-sitemap
