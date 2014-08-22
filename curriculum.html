@@ -437,6 +437,32 @@ redirect_from: /curriculum.html
               </div> <!-- /span7 -->
             </div> <!-- /row -->
 
+            <div class="row" id="academy"><br><br><br><br>
+              <div class="span1">
+                <a href="/academy/" target="_blank"><img src="/img/logo_big.png" width="70" alt="logo"></a>
+              </div>
+              <div class="span7">
+                <h2>The Academy</h2>
+                <p>Designed for Middle and High School students, the Awesome Inc Academy is our premier program for students who want to learn to code. Like a sports team for aspiring programmers, we're excited for The Academy's first season in Lexington. By the end of The Academy, each student will have completed several small applications, and one large project, ready to be used in the real world.</p>
+                <ul>
+                  <li>Make your own Apps, Games and Websites</li>
+                  <li>Learn principles of computer science</li>
+                  <li>Meet professional programmers from local tech companies</li>
+                  <li>Blended Learning environment</li>
+                  <li>1-on-1 support from our <a href="/#instructors">instructional team</a></li>
+                  <li>Final project presentations in December</li>
+                </ul>
+                <h4>Course Dates</h4>
+              {% for course in site.data.course-list-eventbrite %}
+                {% if course.curriculum == 'academy' and course.status == 'active' %}
+                <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% elsif course.curriculum == 'academy' and course.status == 'inactive' %}
+                <p>TBD</p>
+                {% endif %}
+              {% endfor %}
+              </div> <!-- /span7 -->
+            </div> <!-- /row -->
+
             <div class="row" id="k12-teacher"><br><br><br><br>
               <div class="span1">
                 <a href="#" target="_blank"><img src="/img/logo_big.png" width="70" alt="logo"></a>

@@ -1,3 +1,14 @@
+- title: Awesome Inc Academy
+  curriculum: academy
+  date: Sept - Dec
+  time: evenings
+  early-bird-price: 429/month
+  standard-price: 533/month
+  early-bird-date: Aug 31
+  url: /academy/
+  logo: logo_big.png
+  status: 'active'
+
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
   date: May 19 - 20
@@ -75,76 +86,7 @@
   landingHeader: "What you'll learn at this interactive one day course!"
   landingDiscount: "You don't want to miss out on this crash course that teaches the most popular programming language!"
 
-- title: Week of Code - Lexington (July)
-  curriculum: k12-week
-  date: July 8 - 11
-  time: 1pm - 5pm
-  student-price: 
-  early-bird-price: <del>495
-  standard-price: 695
-  early-bird-date: April 18 </del>
-  url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite
-  eid: 9821589639 # this entry will be deprecated, can be regex'd from url
-  logo: Week-of-Code-Logo.png
-  number-students: 
-  seats-remain: 2
-  benefits: ["Learn coding basics", "Make a website, mobile app, and video game in 1 week"]
-  difficulty: BEGINNER
-  testimonials: []
-  curriculum-contents: ['Introduction to Computer Science concepts with Code.org', 'Learning to write code with Codecademy','Web Development with HTML, CSS, and JavaScript', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
-  requirements: ['Laptop computer (Win, Mac) capable of running Unity 3D, Google Chrome, and Android Studio', 'Experience typing and manipulating files on a computer', 'Experience using a variety of websites, mobile apps, and video games']
-  headline: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them? This camp for middle and high school students will teach the fundamentals of coding. Students will create websites, mobile apps and learn to design video games all while having fun with our energetic team. By the end of the week, each student will have built at least 1 web page, mobile app, and video game using HTML, CSS, JavaScript, Android, and Unity 3D. We keep this camp small to ensure everyone gets very focused attention and learns at their own pace. Prepare to be amazed!"
-  course-images: [
-    ["day-of-code-1.jpg", Instructors helping kids program computers],
-    ["day-of-code-2.jpg", Kids programming]
-  ]
-  screenshots: [
-    ["basicweb-crash-screenshot1.png", Web development screenshot],
-    ["android-crash-device.jpg", Android app and code],
-    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
-  ]
-  status: 'inactive'
-  landingTitle: Kids Code Camp
-  landingSubTitle: Week of Code - Lexington
-  landingHeader: "what your kids can learn this summer!"
-  landingDiscount: "Make a website, mobile app, and video game in just one week!"
-
-
-- title: Week of Code - Louisville
-  curriculum: k12-week
-  date: July 29 - Aug 1
-  time: 1pm - 5pm
-  student-price: 
-  early-bird-price: 495
-  standard-price: 695
-  early-bird-date: June 21
-  url: http://www.eventbrite.com/e/kids-code-camp-weekofcode-in-louisville-tickets-11719492317?aff=aincwebsite
-  eid: 11719492317 # this entry will be deprecated, can be regex'd from url
-  logo: Week-of-Code-Logo.png
-  number-students: 
-  seats-remain: 15
-  benefits: ["Learn coding basics", "Make a website, mobile app, and video game in 1 week"]
-  difficulty: BEGINNER
-  testimonials: []
-  curriculum-contents: ['Introduction to Computer Science concepts with Code.org', 'Learning to write code with Codecademy','Web Development with HTML, CSS, and JavaScript', 'Mobile App Development with Android', 'Video Game Development with Unity 3D', 'Sandbox time with 1-on-1 support from our <a href="/#instructors">instructional team</a>', 'Final project presentations at the end of the week']
-  requirements: ['Laptop computer (Win, Mac) capable of running Unity 3D, Google Chrome, and Android Studio', 'Experience typing and manipulating files on a computer', 'Experience using a variety of websites, mobile apps, and video games']
-  headline: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them? This camp for middle and high school students will teach the fundamentals of coding. Students will create websites, mobile apps and learn to design video games all while having fun with our energetic team. By the end of the week, each student will have built at least 1 web page, mobile app, and video game using HTML, CSS, JavaScript, Android, and Unity 3D. We keep this camp small to ensure everyone gets very focused attention and learns at their own pace. Prepare to be amazed!"
-  course-images: [
-    ["day-of-code-1.jpg", Instructors helping kids program computers],
-    ["day-of-code-2.jpg", Kids programming]
-  ]
-  screenshots: [
-    ["basicweb-crash-screenshot1.png", Web development screenshot],
-    ["android-crash-device.jpg", Android app and code],
-    ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
-  ]
-  status: 'cancelled'
-  landingTitle: Kids Code Camp
-  landingSubTitle: Week of Code - Louisville
-  landingHeader: "what your kids can learn this summer!"
-  landingDiscount: "Make a website, mobile app, and video game in just one week!"
-
-- title: Week of Code - Lexington (August)
+- title: Week of Code
   curriculum: k12-week
   date: August 4 - 7
   time: 1pm - 5pm
@@ -172,7 +114,7 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
-  status: 'active'
+  status: 'inactive'
   landingTitle: Kids Code Camp
   landingSubTitle: Week of Code - Lexington
   landingHeader: "What your kids can learn this summer!"
