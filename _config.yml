@@ -4,3 +4,13 @@ permalink: /blog/:year/:month/:day/:title/
 gems: 
  - jekyll-redirect-from
  - jekyll-sitemap
+collections:
+  courses:
+    permalink: /courses/:path/
+    output: true
+  notes:
+    permalink: /notes/:path/
+    output: true
+  tutorials:
+    permalink: /tutorials/:path/
+    output: true
