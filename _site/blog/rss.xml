@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+        <channel>
+                <title></title>
+                <description></description>              
+                <link></link>
+                <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
+                
+                        <item>
+                                <title>A Swift Overview of Swift</title>
+                                <description>&lt;p&gt;by Danny Thorne&lt;/p&gt;
+
+&lt;p&gt;On June 2, 2014 at &lt;a href=&quot;https://developer.apple.com/videos/wwdc/2014/&quot;&gt;WWDC&lt;/a&gt;, Apple announced a new programming language called &lt;a href=&quot;https://developer.apple.com/swift/&quot;&gt;Swift&lt;/a&gt;. Let’s take a look at why and briefly highlight some of its pros and cons.&lt;/p&gt;
+
+&lt;p&gt;The standard language for Apple iOS and OS X development is &lt;a href=&quot;http://en.wikipedia.org/wiki/Objective-C&quot;&gt;Objective-C&lt;/a&gt;. It is an extension of the original C language, a language that is notoriously difficult to learn and tricky to use. Apple proposes the Swift language as a replacement for Objective-C that is easier to learn and use. At least two other strategies drive its design: it should be interoperable with Objective-C, and it should be fast.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/swift_overview_0.jpg&quot; alt=&quot;Swift playground, image from Apple &amp;copy;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Swift brings language features that are familiar to and welcomed by many programmers today. It supports &lt;a href=&quot;http://en.wikipedia.org/wiki/Tuple&quot;&gt;tuples&lt;/a&gt;, multi-valued expressions that make it easy to write functions that return multiple values and allow shortcuts like assignment statements involving multiple variables. Swift also makes it easy to define functions that accept a variable number of arguments. It supports operator overloading, including custom operators. It supports natural string manipulation like a scripting language. Functions in Swift can be passed to other functions and returned by other functions. Swift is strongly typed, but types can be inferred. Swift includes generics (generic functions and generic types), anonymous parameters ($0, $1, $2, …), default arguments, and elaborate pattern matching in switch statements.&lt;/p&gt;
+
+&lt;p&gt;Swift is designed to make the programmer less error prone. It does array bounds checking, it requires variables always to be initialized, it is &lt;a href=&quot;http://en.wikipedia.org/wiki/Type_safety&quot;&gt;type safe&lt;/a&gt;, it provides flexibility of syntax with semicolons and parens, and it requires the use of braces around the bodies of if-statements and loops (even if the body is a one-liner). It doesn’t include pointers, per se, at least on the surface. Assignment statements cannot be used as conditions in if-statements. In fact, all conditional expressions must be legitimate Boolean expressions. There is no fall-through by default in cases of switch statements. All of these features eliminate common pitfalls in programming.&lt;/p&gt;
+
+&lt;p&gt;Considering the way Swift is designed to feel more like a scripting language than a typical systems language, one might expect to see a trade-off in performance. According to Apple, however, Swift programs run even faster than Objective-C programs. The two benchmark results presented during the announcement at WWDC show Swift running 40% faster in one case and 73% faster in another case relative to Objective-C.&lt;/p&gt;
+
+&lt;p&gt;The most glaring drawback to Swift is the simple fact that it is a new language, and for current iOS and OS X developers there will be an overhead cost to learning the new language and incorporating it into their practice. For businesses, there will be the cost of converting existing Objective-C code to Swift. However, this is mitigated by the way that Apple has developed Swift to work “side-by-side” with Objective-C, so it is not necessary to choose one or the other exclusively. Additionally, Xcode automatically generates Swift versions of Objective-C API headers.&lt;/p&gt;
+
+&lt;p&gt;There are a few things missing in Swift. There is no exception handling. There are currently no concurrency features built in to the Swift language. Swift does not include garbage collection, instead relying on ARC, the same automatic reference counting mechanism used for Objective-C in LLVM. There is currently no access control (e.g., public, private, protected) in user defined types. Some of these omissions will undoubtedly be addressed in future versions.&lt;/p&gt;
+
+&lt;p&gt;It is too early to judge Swift, but, based on the first week of buzz in the community, optimism and excitement prevail for now!&lt;/p&gt;
+</description>
+                                <pubDate>Tue, 08 Jul 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/07/08/swift-overview/</link>
+                                <guid isPermaLink="true">/blog/2014/07/08/swift-overview/</guid>
+                        </item>
+                
+                        <item>
+                                <title>Community, Video Games, and Childhood Dreams - Let&#39;s Learn Unity</title>
+                                <description>&lt;p&gt;By Will Oldham&lt;/p&gt;
+
+&lt;p&gt;In 2013, YouTube hosted an event they called “Geek Week” that showcased and celebrated a subculture of YouTube: the Geeks. Of course over the week there was one day set aside for the celebration of every Geek’s favorite activity - Video Games. On this day, a YouTube channel called Polaris - made famous from game-playing duos like “The Game Grumps” - released a video called “&lt;a href=&quot;http://www.youtube.com/watch?v=SSA84_jW1f4&quot;&gt;MULTIPLAYER - Games bring us together&lt;/a&gt;.” The video is a five minute montage of different YouTube content creators that focus on making videos about video games - from playing them, to talking about them, to criticizing them. It is sometimes difficult to understand why someone would choose to invest their life into something as momentary, as intangible as a video game. The thing that brought these people to do what they do was not a stereotype. It was not that they were lonely kids who had nothing better to do, nor were they avoiding having a real job. It was because they had been part of a community of gamers and wanted to give back. Here were dozens of different groups of people who played together, who worked together, who cared about each other. People who had never met and would never meet felt free to share their lives and their stories. They all were brought together under a simple banner - playing video games. And now, all these ‘YouTubers’ got to create the community they themselves had benefited from. That’s a phenomenal opportunity, and one they constantly talk about how grateful they are to have had. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/learn_unity_0.png&quot; alt=&quot;Multiplayer video on YouTube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those relationships are a real part of real communities that are simply awesome things to watch and be a part of. &lt;/p&gt;
+
+&lt;p&gt;But giving back to that community like those YouTubers is hard. Being a member of it is easy and rewarding, but being on the other side - a content creator - that’s difficult. Few people that try to become streamers and YouTubers and &lt;a href=&quot;http://en.wikipedia.org/wiki/Let&#39;s_Play_(video_gaming)&quot;&gt;lets-players&lt;/a&gt; succeed. Few people are able to land a job at a major studio making &lt;a href=&quot;http://en.wikipedia.org/wiki/AAA_(game_industry)&quot;&gt;AAA games&lt;/a&gt;. For a long time, it took an extraordinary amount of time and effort to start creating and sharing. And a lot of luck on top of all that.That has changed. Now, products like Steam and Kickstarter and IndieGoGo are helping independent, at-home game developers become a reality. No longer is it necessary to land a job at a major label to be able to give back to the game community. But no software or company has ushered in this new reality quite as much as &lt;a href=&quot;http://unity3d.com/&quot;&gt;Unity 3D&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The answer as to why is simple - Unity is made for everyone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/learn_unity_1.jpg&quot; alt=&quot;Unity game engine screen shot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unity 3D is a powerful piece of software designed for easy, streamlined game development. The best part is, it can be used by all levels of developers, from those at home, to, as Unity staff hope, a AAA title. Unity is a friendly UI that renders game objects in a 3D or newly added 2D space. Building levels, layouts, characters, and items are as simple as menu choices, importing textures, mouse scaling, or even just importing pre-rendered assets from the Unity Asset store - some for money, some for free. But the real power comes from Unity incorporated scripting elements. Once those objects are rendered, controls and behavior is generated via scripting through the built in IDE &lt;a href=&quot;http://en.wikipedia.org/wiki/MonoDevelop&quot;&gt;MonoDevelop&lt;/a&gt;. Developers can choose between JavaScript, C#, and Boo as scripting languages. MonoDevelop not only supports all three languages and has a killer, easy to use API, but also generates menu options for class fields. Let’s say I need a ball to chase another ball. Instead of scripting in that one ball needs to reference itself as the start point and the other as the end point, I can make two empty variables ‘start’ and ‘end’, use those variables, and later assign what object those variables should reference from the Unity Inspector panel - by dragging and dropping the objects themselves into the menu. And Unity doesn’t just stay on your desktop - almost 40% of mobile games are now developed through Unity. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/learn_unity_2.jpg&quot; alt=&quot;RunJumpDev group&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;John Meister, the leader of a local Game Dev group ‘&lt;a href=&quot;http://runjumpdev.org/&quot;&gt;RunJumpDev&lt;/a&gt;’ talks about some of the changes that Unity can bring to the game development world - taking massive game projects from over six-figures to below fifteen-thousand dollars. This integration of a powerful environment with lots of resources combines with the ease of use to give developers a platform that can make an &lt;a href=&quot;http://en.wikipedia.org/wiki/First-person_shooter&quot;&gt;FPS&lt;/a&gt; as easily as it can &lt;a href=&quot;http://en.wikipedia.org/wiki/Pong&quot;&gt;Pong&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And in fact, Unity has been the magic behind the curtain for many games you may have heard of. ‘&lt;a href=&quot;https://itunes.apple.com/us/app/zombieville-usa/id304871622?mt=8&quot;&gt;Zombieville USA&lt;/a&gt;’ was #1 in the App Store for quite a while. The magic that made it happen? Unity. ‘Thomas Was Alone’ was a big hit in the Steam Greenlight program, and I think you can guess what made Thomas tick. That’s right - Unity. You can check out this &lt;a href=&quot;http://makegames.pixelprospector.com/post/44008014149/unity&quot;&gt;this list&lt;/a&gt;, which includes indie game ‘&lt;a href=&quot;http://cardboardcomputer.com/&quot;&gt;Kentucky Route Zero&lt;/a&gt;,’ for a better idea of just what games you’ve been playing that were made with Unity. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udemy.com/make-a-unity-game-today/&quot;&gt;&lt;img src=&quot;/img/blog/learn_unity_3.jpg&quot; alt=&quot;Logo for Unity course on Udemy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here at Awesome Inc, and especially Awesome Inc U, we love Unity. It’s the epitome of what we want to see grow in all aspects of technology - the ability for someone at home to sit down and decide to learn to do something, and then do it. If you’ve been designing games for fifteen years, or want to think about starting next week, then Unity has a niche and an opportunity for you. If you’re interested in capitalizing on the opportunity to do something fun and get involved in some great communities - local and otherwise - then check out our own Unity tutorials - they’ll help you hit the ground running, and get you involved that much sooner. If 2D games are your thing, and you miss the days when Atari was as common a name as Coke, then check out our &lt;a href=&quot;http://www.awesomeincu.com/tutorials/unity-pong/&quot;&gt;Make Your Own Pong tutorial&lt;/a&gt;. If you’re all about mobile gaming, and want to jump a bit more into Unity 3D then check out our Udemy-hosted course on &lt;a href=&quot;https://www.udemy.com/make-a-unity-game-today/&quot;&gt;How to build an Angry Boxes game with Unity&lt;/a&gt; - our own adaptation of Angry Birds. Either way, we strongly encourage you to get interested and involved with coding and game design - there’s nothing quite like the communities you’ll find because of it. Good Luck, and Game (Develop) On!&lt;/p&gt;
+</description>
+                                <pubDate>Fri, 04 Jul 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/07/04/community-video-games-dreams-learn-unity/</link>
+                                <guid isPermaLink="true">/blog/2014/07/04/community-video-games-dreams-learn-unity/</guid>
+                        </item>
+                
+                        <item>
+                                <title>Why 21st Century Kids Should Learn the 21st Century Skill</title>
+                                <description>&lt;p&gt;by Sarah Hoffmann&lt;/p&gt;
+
+&lt;p&gt;Code is the language of the 21st century. Computer programming is rapidly becoming an essential skill in every sector of the job world. To put it simply, everyone is doing it. But that begs the question, if coding is so important, why isn’t it being taught in schools?&lt;/p&gt;
+
+&lt;p&gt;While many schools have computer science classes, there is still an overwhelming majority of schools that lack any sort of coding class. Computer science is a growing industry full of opportunities, yet so many kids have little to no exposure to that world. When the idea of adding coding classes to standard curriculum comes up, there are often quite a few common challenges that come up.&lt;/p&gt;
+
+&lt;h2 id=&quot;kids-dont-know-what-coding-is&quot;&gt;Kids don’t know what coding is.&lt;/h2&gt;
+
+&lt;p&gt;That’s fair. As popular and essential as coding is becoming, a lot of kids are still in the dark about what ‘coding’ really is. Code is the “brains” of a computer. A computer’s code is its training manual. It’s how a program knows what to do when a button is pressed, a file is saved, and a window is opened or closed. Everything a computer can do is written in its code. Learning to code is like teaching an animal tricks. Computers can be taught to do math, draw pictures, sort files, search for things, and so much more.&lt;/p&gt;
+
+&lt;h2 id=&quot;coding-is-too-hard-for-kids-to-learn&quot;&gt;Coding is too hard for kids to learn.&lt;/h2&gt;
+
+&lt;p&gt;Coding is difficult; no one is going to deny that. But is it too hard for kids to learn? Not at all. Everything worth doing is hard at one point or another. Learning to code is learning a new language. Like languages, coding languages have rules and exceptions to those rules. There’s a style to it. Each language has different quirks that can make or break an entire program. It takes time and patience; there are basics that come first, but then the creative part comes in and there is an opportunity to make something amazing.&lt;/p&gt;
+
+&lt;h2 id=&quot;coding-is-boring-and-kids-wont-enjoy-it&quot;&gt;Coding is boring and kids won’t enjoy it.&lt;/h2&gt;
+
+&lt;p&gt;Coding can be tedious and time consuming. The idea of spending hours sitting behind a computer may seem daunting to a lot of kids, but that’s because they don’t know what they have the potential to create! Twitter, Instagram, Tumblr, YouTube, Netflix; all of these popular websites were made by computer programmers. Even with very basic coding knowledge, kids can make all kinds of programs that are sure to get them excited and motivated to learn.&lt;/p&gt;
+
+&lt;h2 id=&quot;schools-dont-have-the-resources-to-teach-coding&quot;&gt;Schools don’t have the resources to teach coding.&lt;/h2&gt;
+
+&lt;p&gt;All it takes to have a coding class at any school is a qualified teacher, a computer lab, coding software, and kids who want to be in on the most innovative industry of the 21st century.&lt;/p&gt;
+
+&lt;p&gt;The best way to open up the world of computer programming to kids is through schools or through alternative programs. Showing kids the ins and outs of coding can expose them to the all kinds of possibilities for their futures, as well as teaching them something that can be applied to so many different spectrums of life. There is no doubt that coding is important and will only continue to expand and advance as time passes. If computer science is the future, then it is important that the future generations can learn to love and grow the industry even more.&lt;/p&gt;
+
+&lt;p&gt;A good resource to help introduce kids to coding is through &lt;a href=&quot;http://www.awesomeincu.com/&quot;&gt;Awesome Inc U&lt;/a&gt;. They offer a &lt;a href=&quot;http://www.awesomeincu.com/curriculum/#k12-week&quot;&gt;Coding Camp&lt;/a&gt;, a &lt;a href=&quot;http://www.awesomeincu.com/curriculum/#k12-day&quot;&gt;Day of Code&lt;/a&gt; Program for educators, and &lt;a href=&quot;http://www.awesomeincu.com/register&quot;&gt;one day courses&lt;/a&gt; for individual coding languages.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;http://blog.awesomeinc.org/post/86507708111/why-21st-century-kids-should-learn-the-21st-century&quot;&gt;Awesome Inc blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+                                <pubDate>Wed, 28 May 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/05/28/why-21st-century-kids-should-learn-to-code/</link>
+                                <guid isPermaLink="true">/blog/2014/05/28/why-21st-century-kids-should-learn-to-code/</guid>
+                        </item>
+                
+                        <item>
+                                <title>Our Learning Philosophy at Awesome Inc U</title>
+                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch?rel=author&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&quot;http://www.awesomeincu.com&quot;&gt;Awesome Inc U&lt;/a&gt;, our goal is not only to create excellent programmers, but also to create a better way of learning. We think the ability to create stuff and solve problems using computer software is a skill with a significant term of usefulness, but some other skill &lt;em&gt;du jour&lt;/em&gt; will eventually replace it. This is why the latter achievement, creating a great way to learn anything, is the more important of our two goals. In addition to the &lt;a href=&quot;http://blog.awesomeinc.org/post/65083231094/core-value-training&quot;&gt;Core Values&lt;/a&gt; we live by at Awesome Inc, we have identified some basic tenets that we’re applying to our Awesome Inc U program.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-strategy-how-to-create-excellent-programmers&quot;&gt;Our Strategy: How to Create Excellent Programmers&lt;/h2&gt;
+
+&lt;p&gt;This strategy is what our core team at Awesome Inc U is working to implement. As we’re designing courses, scheduling summer camps, marketing our products, and coaching our instructors, this is what we keep in mind.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-find-great-programmers-to-be-instructors&quot;&gt;Step 1: Find great programmers to be instructors&lt;/h3&gt;
+
+&lt;p&gt;If we’re looking to create excellent programmers, we want to create them in the image of existing excellent programmers. This is our end goal, so this is where we must start. By having these living, breathing examples, our students will get to interact with their end goal. This makes it tangible: when the student can do what the master can do, he or she has made sufficient progress.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-instructors.jpg&quot; alt=&quot;Awesome Inc U instructors&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-choose-instructors-who-remember-what-it-was-like-to-not-be-a-programmer&quot;&gt;Step 2: Choose instructors who remember what it was like to not be a programmer&lt;/h3&gt;
+
+&lt;p&gt;Being an expert has a downside: it makes it tough to remember what it was like to be a beginner. Becoming a great programmer means increasing your leverage. You start to use tools like Vim. You have Dotfiles set up so that your environment works the way you want. You use Vagrant like a boss. You speak with fellow programmers in a particular dialect with a particular set of assumptions before beginning any conversation. You follow &lt;a href=&quot;https://github.com/airbnb/javascript&quot;&gt;style guides for your JavaScript&lt;/a&gt;. You understand enough conventions to choose Convention over Configuration. From a UX design perspective, most of the things you do aren’t visible and discoverable to a first-time user. There are keystroke combinations and subconscious habits that you’ve developed over years of practice. But as a programming instructor, you must understand that for your newest students, everything is foreign. You must remember what that great unknown felt like in order to teach for us. You must have a high capacity for empathy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-flow.png&quot; alt=&quot;The Flow diagram, showing Anxiety and Boredom regions&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-have-a-goal-in-mind&quot;&gt;Step 3: Have a goal in mind&lt;/h3&gt;
+
+&lt;p&gt;Our students come to us to achieve a goal. They don’t come here to learn Objective-C. They come here to make their dream iPhone app or to land a great job. Our job is to understand their intended destination, then to craft a path to lead them from their current state to their goal. This path will almost certainly adjust as we encounter new obstacles, but if we don’t set an initial goal, we’ll have nothing to measure against. When crafting this path, our team must target an &lt;a href=&quot;http://www.quora.com/Self-Improvement/How-can-I-accelerate-my-personal-growth&quot;&gt;optimal level of difficulty&lt;/a&gt;. Too easy, and our students will get bored. Too difficult, and our students will give up. This is the hard part of being a teacher, and this is the part for which subject-matter experts aren’t often equipped. Fortunately, simply having a feedback loop here is a massive step up from reading a programming book in solitude, or watching a tutorial video on YouTube. In addition to feedback from our instructors, we’ve found that peer interaction is one of the best types of support. Peers offer a valuable perspective as they’re currently working through the same material. Learning-by-teaching is also a great way to demonstrate mastery of a subject.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-fun.jpg&quot; alt=&quot;Students playing the Oreo Challenge game&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-make-it-fun&quot;&gt;Step 4: Make it fun&lt;/h3&gt;
+
+&lt;p&gt;Fun does not mean idly entertaining. Difficult is fun. Competition is fun. Make a game out of it. At all of our 1-day courses, we take breaks to play games like the &lt;a href=&quot;https://vine.co/v/hQ7bX9mKQiF&quot;&gt;Minute to Win It Oreo Challenge&lt;/a&gt;, Around-The-World Ping Pong, and Rock, Paper, Scissors…War. These games have nothing to do with programming, but they have everything to do with being a programmer. Like any focused, desk-bound task, you’ll go crazy if you don’t get up and move every once in a while. Plus, we think there’s much more to being an effective programmer than slinging code. You need to communicate well, be able to work as part of a team, and know how to follow Rule #17 - Bring the Fun. These set the tone. But the true fun comes from challenging our students with a difficult task, guiding them along the way, and seeing them achieve something that they considered impossible only a short time before.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-tactics-how-to-create-excellent-programmers&quot;&gt;Our Tactics: How to Create Excellent Programmers&lt;/h2&gt;
+
+&lt;p&gt;These tactics are some of the things that we remind our students and teaching assistants. While small, we’ve found that&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;If you get stuck, first try to FIO (Figure It Out™) on your own.&lt;/strong&gt; Then ask a peer. Then ask an instructor. Then ask Google.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Projects are more valuable than PowerPoints.&lt;/strong&gt; Trust people who build stuff.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Move Fast And Break Things&lt;/strong&gt;. &lt;a href=&quot;http://startupquote.com/post/1624569753&quot;&gt;Borrowed from Facebook&lt;/a&gt;, this is an embrace of the learning opportunities gained through failure, and is why we have a Failure Dashboard at Awesome Inc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Track your progress.&lt;/strong&gt; It’s hard to tell how far you’ve come if you don’t remember where you’ve been.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Take breaks.&lt;/strong&gt; We play lots of ping pong. We have a piano and guitar readily available. There’s a nice park and several coffee shops near Awesome Inc. Take a walk, clear your mind, come back to find that your seemingly-hard problem is not so bad.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Listen, then talk.&lt;/strong&gt; What does your client want you to build? What is your team member actually asking you for? What does the &lt;a href=&quot;http://www.urbandictionary.com/define.php?term=op&quot;&gt;OP&lt;/a&gt; actually want to know?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Don’t &lt;em&gt;assume&lt;/em&gt; that something is &lt;em&gt;obvious&lt;/em&gt;.&lt;/strong&gt; Avoid using those 2 words, and you’ll drastically improve your communication and empathy skills.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-reading&quot;&gt;Additional Reading&lt;/h2&gt;
+
+&lt;p&gt;The above are just a few guidelines that we’re following as we’re growing Awesome Inc U into a premier training program for technical skills. We’re constantly learning through this process as well, so we hope to add further insights to this list. There are some other great resources out there for improving the learning process. We’re a big fan of the work the &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;Khan Academy&lt;/a&gt; is doing. Purely online education still has a long way to go, but Sal Khan and his team are thinking about it in the right way. Jeff Casimir’s &lt;a href=&quot;http://blip.tv/rubynation/jeff-casimir-4337403&quot;&gt;How to Teach Anyone Anything&lt;/a&gt; is a great reference, especially for others who are helping people learn to code. But perhaps the best advice comes from my one of my math professors in college. He asked our class a question, which most of us initially thought to be self-serving, but was quite the opposite: “Who’s the best teacher you’ve ever had?” After shooting down a series of answers, he let us know the only answer that he would accept: “You, yourself, are the best teacher you will ever have.”&lt;/p&gt;
+</description>
+                                <pubDate>Tue, 20 May 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/05/20/our-learning-philosophy/</link>
+                                <guid isPermaLink="true">/blog/2014/05/20/our-learning-philosophy/</guid>
+                        </item>
+                
+                        <item>
+                                <title>University of Pikeville Brings In Awesome Inc For 1-Day iPhone Course</title>
+                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/116958087401786058743/&quot;&gt;Steve Osowicz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There was a lull in the freezing cold weather, the endless ice and snow. It was the first temperature break in the middle of a brutal winter. The team from Awesome Inc U arrived at the &lt;a href=&quot;http://www.upike.edu/&quot;&gt;University of Pikeville&lt;/a&gt; to get set up for a crash course in iPhone App development. There was some initial concern that some of the participants might forego the iOS course in order to enjoy the beautiful day. However, knowing the significant impact that learning to code could have on their lives, the participants filtered in. The class was filled with people from a variety of backgrounds. There were system administrators, collegiate athletes, high school students and several people who didn’t even know what “&lt;a href=&quot;http://en.wikipedia.org/wiki/Hello_world_program&quot;&gt;Hello World!&lt;/a&gt;” meant. Justin, our Awesome Inc U instructor for the day, kept the class moving at a good pace for the material with plenty of Awesome Inc U teacher assistants frequently helping students when they had a question or needed further clarification.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/pikeville-ios-classroom.jpg&quot; alt=&quot;Classroom for iOS course at UPike&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-by-doing&quot;&gt;Learning By Doing&lt;/h2&gt;
+
+&lt;p&gt;At the end of the class, the students were pleasantly surprised that they all built an actual, functional iPhone App. This was not just theoretical learning – this was a real world exercise in building something that worked. This on-site course covered the curriculum from our &lt;a href=&quot;http://www.awesomeincu.com/curriculum/#ios-crash&quot;&gt;1-Day iOS Crash Course&lt;/a&gt;. Participants with no prior programming experience learn how to navigate the Xcode development environment, pick up the fundamentals of the Objective-C programming language, and implement common iPhone app components like multiple View Controllers, ImageViews, and the Apple MapKit. &lt;/p&gt;
+
+&lt;p&gt;This six-hour course was a great foundation for the students to continue their learning. While the technical content provides solid value, the best part was seeing how excited people became over accomplishing a challenging task and building something tangible. Instilling this confidence in first-time programmers is a key part of our educational philosophy at Awesome Inc U.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/pikeville-ios-outside.jpg&quot; alt=&quot;Awesome Inc U participants take a stretch break on UPike campus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As with all our Awesome Inc U courses, we made sure to take a break to stretch out our programming muscles. As programmers ourselves, we’ve come to know that the best way to solve a complex problem is often to walk away, clear your mind, and come back to it. With such a beautiful day, we headed outside to enjoy the beautiful Appalachian surroundings of the University of Pikeville’s campus while our participants shared their favorite jumping jack and yoga algorithms with the group.&lt;/p&gt;
+
+&lt;h2 id=&quot;bring-awesome-inc-u-to-your-organization&quot;&gt;Bring Awesome Inc U To Your Organization&lt;/h2&gt;
+
+&lt;p&gt;While most of our 1-day crash courses are hosted at our headquarters in Lexington, Kentucky, we’ve enjoyed the opportunity to bring on-site courses to various organizations. We’ve been to a few dozen K-12 schools for Hour of Code sessions. In March alone, our team traveled to the University of Pikeville for this iOS App 1-day course (through a partnership with the &lt;a href=&quot;http://kyinnovation.com/&quot;&gt;KY Innovation Network&lt;/a&gt;) and to Dreamhost in Los Angeles, California to present a class on the increasingly-popular static site generator, &lt;a href=&quot;https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite&quot;&gt;Jekyll&lt;/a&gt;. For many organizations, being able to offer an on-site class makes it easier for their key team members to attend. Along with our live instruction, each course includes supplementary materials like sample code files, course manuals, and screencast videos of your training session.&lt;/p&gt;
+
+&lt;p&gt;Visit us at &lt;a href=&quot;http://www.awesomeincu.com&quot;&gt;www.awesomeincu.com&lt;/a&gt; and check out what we have to offer. Does your school or business need a coding course, however you don’t see one that you need? &lt;a href=&quot;http://awesomeincu.com/info&quot;&gt;Contact our team&lt;/a&gt; and we can build a class to your specifications. One of the great aspects about these classes is that they can be catered to fit your school or company’s needs in terms of content, skill level, and more! Our team is experienced, professional, and ready to assist you with all of your coding educational needs.&lt;/p&gt;
+</description>
+                                <pubDate>Wed, 23 Apr 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/04/23/bring-awesome-to-you-like-pikeville/</link>
+                                <guid isPermaLink="true">/blog/2014/04/23/bring-awesome-to-you-like-pikeville/</guid>
+                        </item>
+                
+                        <item>
+                                <title>Our Most Popular Courses Now On Udemy</title>
+                                <description>&lt;p&gt;&lt;a href=&quot;https://www.udemy.com/u/awesomeinc/&quot;&gt;&lt;img src=&quot;/img/blog/awesomeinc-udemy-profile.png&quot; alt=&quot;awesomeinc profile on Udemy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When we started Awesome Inc U, our vision was to simply offer 1-2 day, in-person courses in the basics of software development. These “Crash Courses” are great because they provide a hands-on experience for our students, with lots of interaction with our instructional team, and they happen 2-3 times per month. While this was a great way to get started, we’ve learned a few things from our students since we launched in June 2013. Based on feedback from our students, we decided to share our courses through the online training site, &lt;a href=&quot;https://www.udemy.com/u/awesomeinc/&quot;&gt;Udemy&lt;/a&gt; in addition to our in-person courses. Here are a few benefits that we hope it will offer:&lt;/p&gt;
+
+&lt;h2 id=&quot;convenience&quot;&gt;Convenience&lt;/h2&gt;
+
+&lt;p&gt;Our Crash Courses typically run on Saturday afternoons for about 6 hours. If your Saturday afternoons are open, then this works great. It turns out, this is not the case for everyone. There are quite a few University of Kentucky basketball games on Saturdays, and both our students and instructors here in Lexington are pretty avid fans. We don’t want people to have to choose between cheering on the Wildcats or creating a web app, so this allows our students the opportunity to take our courses when they have the time to focus on learning to code.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;“So, what did the instructor say to do after we declared that function?” We’ve found several of our students asking questions like this. During a 6-hour course, typing hundreds of detailed lines of text, you’re bound to miss something. That’s why we’re recording not just video from an oft corner of the room, but full-resolution screencasts so you can see exactly what the instructor is typing. Pause, rewind, repeat, all to your pleasing. And participants in our in-person courses now get free access to their respective course video.&lt;/p&gt;
+
+&lt;h2 id=&quot;impact&quot;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;Our goal is to teach 500 people how to code in our first year. We’re at 293 Crash Course attendees with about 3.5 months to go. With about 7 more courses, each with 30 students, we’ll meet our goal. But what if we could teach 5000 people how to code? What if they didn’t have to travel to Lexington, KY to do this? What if we could offer free and reduced-price courses to those who need it? By offering our courses through Udemy, we can have a much bigger impact around the world. This means more entrepreneurs who can build their own apps, more students creating their own video games, and more people pursuing a promising new career.&lt;/p&gt;
+
+&lt;p&gt;We currently have 3 courses up on Udemy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite&quot;&gt;Basic Web Development&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite&quot;&gt;iOS App Development&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite&quot;&gt;Jekyll and GitHub Pages Web Development&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first two of these are our most popular Crash Courses, while &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is a tool that we use internally to manage the &lt;a href=&quot;http://github.com/ainc&quot;&gt;Awesome Inc and Awesome Inc U websites&lt;/a&gt; (and if WordPress isn’t doing the trick for your site, you should check out Jekyll, too). We’ll continue to add more courses as time goes on. If there are any topics that you’d like for us to cover in future courses, please &lt;a href=&quot;https://www.facebook.com/awesomeincorporated&quot;&gt;let us know&lt;/a&gt;. In the mean time, you can &lt;a href=&quot;https://www.udemy.com/u/awesomeinc/&quot;&gt;follow us on Udemy&lt;/a&gt; to keep updated as courses roll out.&lt;/p&gt;
+
+</description>
+                                <pubDate>Tue, 25 Feb 2014 00:00:00 -0500</pubDate>
+                                <link>/blog/2014/02/25/new-courses-on-udemy/</link>
+                                <guid isPermaLink="true">/blog/2014/02/25/new-courses-on-udemy/</guid>
+                        </item>
+                
+                        <item>
+                                <title>What We Learned From The Hour Of Code</title>
+                                <description>&lt;h3 id=&quot;what-we-learned-from-the-hour-of-code&quot;&gt;What We Learned From The Hour Of Code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/&quot;&gt;&lt;img src=&quot;/img/blog/hour-of-code-team-students.jpg&quot; alt=&quot;The Awesome Inc team working with students at Eastside Technical Center.&quot; title=&quot;The Awesome Inc team working with students at Eastside Technical Center. More photos available on flickr.&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;The Awesome Inc team working with students at Eastside Technical Center. &lt;a href=&quot;http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/&quot;&gt;More photos available on flickr&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, over 15 million people around the world celebrated Computer Science Education Week by dedicating an hour to learn to code. Our team at &lt;a href=&quot;http://www.awesomeinc.org/&quot;&gt;Awesome Inc&lt;/a&gt; helped facilitate 10 &lt;a href=&quot;http://www.awesomeincu.com/hourofcode&quot;&gt;Hour of Code&lt;/a&gt; sessions at 8 schools around Fayette County, working with over 950 students from grades 4 - 12. During this process, we made a few observations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning to code is fun. Sure, anything that gets a kid out of his or her normal routine is exciting, but we were surprised at how much fun students were having. As an experienced software developer will tell you, the joy of overcoming a programming challenge is worth any frustrations you encounter along the way.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The notion that programming is an “affluent white male thing” is only due to social inertia. From our observations, girls often picked up the logic faster than boys, and ethnicity was not a factor in how well a student grasped the Hour of Code activities. Some great organizations like &lt;a href=&quot;http://www.blackgirlscode.com/&quot;&gt;BlackGirlsCode&lt;/a&gt; are helping to tip the scales.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nobody is too young. Elementary students picked up the challenges as fast or faster than high schoolers. Perhaps this reflects the &lt;a href=&quot;http://en.wikipedia.org/wiki/Language_acquisition#Sensitive_period&quot;&gt;inverse relationship between age and language acquisition abilities&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;While we didn’t get to work directly with them this week, we were really excited to see FCPS’s own &lt;a href=&quot;http://www.fcps.net/news/features/2013-14/hourofcode&quot;&gt;Southern Elementary win a $10,000 grant from Code.org&lt;/a&gt;. It sounds like the school plans to buy laptops so that more students will have the resources to learn to code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Everybody loves Angry Birds. The &lt;a href=&quot;http://hourofcode.com/co&quot;&gt;Code.org tutorial&lt;/a&gt; that many students worked on required players to navigate an Angry Birds character through a maze by constructing an algorithm. By borrowing from the popularity of Angry Birds, learning to code was way more inviting for kids (and adults) who are fans of these games.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The world is going to be fine. Kids are smart, curious, and our K-12 teachers are great.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The 8 awesome schools we worked with last week:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.tchs.fcps.net/&quot;&gt;Tates Creek High School&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.steam.fcps.net/&quot;&gt;STEAM Academy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.techcenters.fcps.net/eastside/&quot;&gt;Eastside Technical Center&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.dixie.fcps.net/&quot;&gt;Dixie Magnet Elementary&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.thelexingtonlatinschool.com/&quot;&gt;Lexington Latin School&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.thelexingtonschool.org/&quot;&gt;The Lexington School&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sppslex.org/&quot;&gt;Sts. Peter and Paul&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.tlc.fcps.net/&quot;&gt;The Learning Center at Linlee&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Following the success of the Hour of Code last week, we’re not sure we can wait for &lt;a href=&quot;http://www.engadget.com/2013/12/09/google-doodle-grace-hopper/&quot;&gt;Grace Hopper&lt;/a&gt; to have another birthday. If you’d like to bring the Awesome Inc U team to your K-12 school (or office/church/university, etc), &lt;a href=&quot;http://www.awesomeincu.com/info/&quot;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
+</description>
+                                <pubDate>Sun, 17 Nov 2013 00:00:00 -0500</pubDate>
+                                <link>/blog/2013/11/17/what-we-learned-hour-of-code/</link>
+                                <guid isPermaLink="true">/blog/2013/11/17/what-we-learned-hour-of-code/</guid>
+                        </item>
+                
+                        <item>
+                                <title>How To Change Your Life In Just One Hour This December</title>
+                                <description>&lt;p&gt;&lt;img src=&quot;/img/blog/hour-of-code-promo.jpg&quot; alt=&quot;Kids learning to code with CSEdWeek logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Like many things, the hardest part of learning to code is simply getting started. Fortunately, the world has gone ahead and made this part MUCH easier for you, than it was for, say, &lt;a href=&quot;http://en.wikipedia.org/wiki/Grace_Hopper&quot;&gt;Grace Hopper&lt;/a&gt;. There are a plethora of &lt;a href=&quot;http://www.codecademy.com/&quot;&gt;free resources&lt;/a&gt; available on the web, many employing onboarding methods that will have you churning out lines of code before you even realize your new-found love of the semicolon key. And if these resources weren’t enough for you to start dabbling in software, our friends at Code.org have dedicated a week in December to give you a swift kick in the pants to jumpstart your practice of programming: the &lt;a href=&quot;http://code.org/hourofcode&quot;&gt;Hour of Code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like most challenging creative tasks, writing software comes with a sort of activation energy hurdle that aspiring practitioners must overcome. It took me a significant amount of energy and focus just to write this blog post, but by far the most challenging part was actually sitting down and beginning to type. If you have had the experience of learning to cook, learning to play a new sport or instrument, or attempting to become conversational in a new spoken language, then you’ve experienced the same core challenge of learning to code. &lt;/p&gt;
+
+&lt;p&gt;I’d argue that the actual process of learning to code is actually much easier than any of these things. Software has this amazing property of being rooted in human logic. There was no such logic to aid me when I first learned that the plural of Goose is Geese, or that it was humanly-possibly to contort my hand into playing a barre chord on the guitar. Additionally, software is such a recent invention that many of the inventors are still around, here to share tactical advice as well as insight into the philosophy of the languages and frameworks they’ve created. Could you imagine being able to ask the &lt;a href=&quot;http://en.wikipedia.org/wiki/Guitar#History&quot;&gt;inventor of the guitar&lt;/a&gt; why she chose 6 strings over 4 or 8? For at least a short while, the equivalent is quite possible with programming, and the path to doing so is as short as buying a ticket to PyCon or &lt;a href=&quot;http://rubyconf.org/&quot;&gt;RubyConf&lt;/a&gt;, or just &lt;a href=&quot;https://twitter.com/gvanrossum&quot;&gt;tweeting at Guido van Rossum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want you to commit to just get started. Pick just one hour during national &lt;a href=&quot;http://csedweek.org/&quot;&gt;CS Education Week&lt;/a&gt; (December 9-15) and do something. If you know a K-12 school who would like to bring the Hour of Code to their classroom this December, let us know how &lt;a href=&quot;http://awesomeincu.com/hourofcode.html&quot;&gt;Awesome Inc U can help&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And if all else fails, hit me up on &lt;a href=&quot;https://twitter.com/aerosuch&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://www.facebook.com/nicksuch&quot;&gt;Facebook&lt;/a&gt; and I’ll sit down with you 1-on-1 for an hour.&lt;/p&gt;
+</description>
+                                <pubDate>Thu, 07 Nov 2013 00:00:00 -0500</pubDate>
+                                <link>/blog/2013/11/07/hour-of-code-december/</link>
+                                <guid isPermaLink="true">/blog/2013/11/07/hour-of-code-december/</guid>
+                        </item>
+                
+                        <item>
+                                <title>Learning How To Learn</title>
+                                <description>&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A few months ago, my team at Awesome Inc launched &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;a code school&lt;/a&gt;. After a few years of running a startup accelerator program, we realized that there was a glaring weakness in our entrepreneurial ecosystem that was holding back our local startups: a lack of technical co-founders. Like many startup communities, we have plenty of “idea” guys and gals, plus quite a few biz-dev hustlers, marketing geniuses, and even domain experts. But as we saw pitch after pitch from passionate people with interesting startup ideas, a mobile app for this, a website for that, we noticed that few startups had someone on their team who could actually build the piece of software they proposed! We wondered why, with exploding job demand and startup opportunities, we weren’t seeing more technical co-founders.&lt;/p&gt;
+
+&lt;h2 id=&quot;maybe-its-just-us&quot;&gt;Maybe It’s Just Us&lt;/h2&gt;
+
+&lt;p&gt;We wondered if perhaps this was a problem with our local startup community in Lexington, Kentucky. But it turns out that places like &lt;a href=&quot;http://software.intel.com/en-us/blogs/2013/06/05/high-demand-the-occupational-outlook-for-developers&quot;&gt;San Francisco&lt;/a&gt; and &lt;a href=&quot;http://www.prweb.com/releases/2013/5/prweb10722164.htm&quot;&gt;Seattle&lt;/a&gt; are experiencing the same challenges we are. Even looking at the registration forms for Startup Weekend events, you can tell how important technical skills are:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/471Z11241r1e0J2u3h3n/Screen%20Shot%202013-09-05%20at%201.00.31%20PM.png&quot; alt=&quot;Startup Weekend registration form screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also wondered if we were in some sort of filter bubble, with our interest in tech and startups causing us to hear about the demand for software developers more frequently than the average person. But US News debunked that myth for us: &lt;a href=&quot;http://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs?int=7acb53&quot;&gt;4 of the top 10 jobs for 2013&lt;/a&gt; relate to computer programming, and there are more open jobs right now for &lt;a href=&quot;http://money.usnews.com/money/careers/slideshows/7-occupations-with-the-highest-hiring-demand/4&quot;&gt;web developers&lt;/a&gt; than for &lt;a href=&quot;http://money.usnews.com/money/careers/slideshows/7-occupations-with-the-highest-hiring-demand/8&quot;&gt;retail salespersons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;nowhere-to-learn&quot;&gt;Nowhere To Learn&lt;/h2&gt;
+
+&lt;p&gt;So, let’s say that you wanted to learn how to make your first iPhone app. Where would you start? The traditional option is to go to high school, do really well in your math classes, and top it off with AP Computer Science. After that, you could pursue a 4-year degree from a university with a computer science degree program. However, for some people, that 8-year runway and $100k+ in student loan debt is too big of a hurdle. It turns out that’s not the only option. In fact, there are dozens of ways to learn to develop iPhone applications that are cheap or entirely free, available on-demand from anywhere in the world, and taught by world-class experts. A brief list includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/course/coding-together-developing/id593208016&quot;&gt;iTunes U - Stanford’s CS193p&lt;/a&gt; (taught by former &lt;a href=&quot;http://www.nextcomputers.org/NeXTfiles/Articles/NeXTWORLD/NeXTWORLD_Extra/93.06.07.J.J.NWE/93.06.07.J.J.NWExtra22.html&quot;&gt;director of engineering at NeXT&lt;/a&gt;, where &lt;a href=&quot;http://en.wikipedia.org/wiki/Objective-C&quot;&gt;Objective-C&lt;/a&gt; was popularized)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.skillshare.com/classes/technology/Program-iPhone-Apps-Become-an-iPhone-Developer/461761892?via=search&quot;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://teamtreehouse.com/library/ios-development&quot;&gt;Treehouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/courses/search/?q=iphone&quot;&gt;Udemy&lt;/a&gt; (Lots of options here)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mobile.tutsplus.com/category/tutorials/iphone/&quot;&gt;Tuts+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com/tutorials&quot;&gt;Ray Wenderlich&lt;/a&gt; (Great tutorials, especially for games)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://awesomeincu.com/&quot;&gt;Awesome Inc U&lt;/a&gt; (Hey, that’s us!)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.codeschool.com/courses/try-ios&quot;&gt;CodeSchool&lt;/a&gt; (allows you to compile Objective-C remotely, so you don’t even need a Mac)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321942051/ref=dp_ob_title_bk&quot;&gt;Get a $30 book&lt;/a&gt; (maybe free at your public library)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But even with all these educational resources available, we haven’t seen a dramatic rise in the number of people who have learned how to code.&lt;/p&gt;
+
+&lt;h2 id=&quot;unnoticed-progress&quot;&gt;Unnoticed Progress&lt;/h2&gt;
+
+&lt;p&gt;We hoped that this shortage of technical co-founders would improve on its own over the past few years, watching a plethora of online training resources become available, and seeing modest growth in the computer science and design programs at our nearby universities. Perhaps things already changed, but we didn’t notice. Then asked around, and heard that our friends at established technology companies were also having trouble finding employment candidates with the right skills to fill their openings, and (different from an unfunded startup) they were offering things like a salary, benefits, and reasonable work hours. This meant that anyone with technical aptitude who was considering starting their own company would first have to overcome yet another hurdle: lucrative job offers. While this wasn’t good news for solving our technical co-founder problem, it at least confirmed our suspicion that there was truly a shortage of properly-trained software developers.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-is-hard-but-its-easier-than-ever&quot;&gt;Learning Is Hard, But It’s Easier Than Ever&lt;/h2&gt;
+
+&lt;p&gt;As my team at &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;Awesome Inc&lt;/a&gt; spent the past few months exploring the technical co-founder drought, we learned that our society’s journey to help people learn to code is still in its infancy. In spite of all our modern advances in &lt;a href=&quot;https://www.coursera.org/&quot;&gt;MOOCs&lt;/a&gt;, &lt;a href=&quot;http://alum.mit.edu/volunteering/VolunteerTools/K12Toolkit?destination=node/18117&quot;&gt;K-12 STEM curriculum programs&lt;/a&gt;, and some &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;ridiculously awesome Q&amp;amp;A sites&lt;/a&gt;, &lt;strong&gt;learning is still hard work&lt;/strong&gt;. We have made great strides increasing access to educational content, but that content is only part of the challenge of education. It still takes time, money, discipline, and some great teachers to create a capable software developer. And while the learn-to-code movement has gotten some &lt;a href=&quot;http://www.slate.com/articles/technology/future_tense/2013/08/everybody_does_not_need_to_learn_to_code.html&quot;&gt;mixed reviews&lt;/a&gt;, I think its major benefit is in paving the way for helping people learn &lt;em&gt;anything&lt;/em&gt; more easily. With the abundance of educational content, huge employment demand, and boundless startup opportunities, we have some potent resources for training people in today’s crop of technical skills. Tomorrow will bring some new technology to learn, some new skill &lt;em&gt;du jour&lt;/em&gt;. If I am ever going to consider my work on the learn-to-code movement to be a success, it will be that our impact goes well beyond helping some people learn how to make their first iPhone app. I hope we help a whole new generation learn how to learn.&lt;/p&gt;
+</description>
+                                <pubDate>Thu, 05 Sep 2013 00:00:00 -0400</pubDate>
+                                <link>/blog/2013/09/05/learning-how-to-learn/</link>
+                                <guid isPermaLink="true">/blog/2013/09/05/learning-how-to-learn/</guid>
+                        </item>
+                
+                        <item>
+                                <title>5 Reasons Why Everyone Should Learn To Code</title>
+                                <description>&lt;iframe width=&quot;400&quot; height=&quot;265&quot; src=&quot;http://www.youtube.com/embed/g_ytoNfe83Y?rel=0&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since we started &lt;a href=&quot;http://awesomeinc.org/&quot;&gt;Awesome Inc&lt;/a&gt; four years ago, three words have adorned the front glass of our office: technology, creativity, startups. These three words have a very intentional interplay: Technology is the ability to turn your ideas into reality, Creativity is the ability to notice hidden opportunities and form ideas, and Startups are the most efficient vehicle for combining Technology and Creativity to get something useful in the hands of the people who want it. We’ve spent quite a bit of time focused on the third frame with our &lt;a href=&quot;http://accelerator.awesomeinc.org/&quot;&gt;startup accelerator program&lt;/a&gt;, hosting &lt;a href=&quot;http://startupweekend.org/&quot;&gt;Startup Weekends&lt;/a&gt; and &lt;a href=&quot;http://www.5across.org/&quot;&gt;5 Across&lt;/a&gt; pitch contests, and the creation of the &lt;a href=&quot;http://cherubfund.org/&quot;&gt;Cherub Fund&lt;/a&gt;. Yet we recently began to notice that we overlooked the first prerequisite. As we met more startup founders, we found that while they had great ideas and unique perspectives, and they were willing to make the necessary sacrifices to start a company, they were often lacking in the technical ability to build what they had envisioned. As we talked with entrepreneurs from around the country, as well as the leaders of mature-stage technology companies, we found that this dearth of technical ability is not an isolated problem. In the city of Louisville alone, there are &lt;a href=&quot;http://www.codelouisville.org/&quot;&gt;over 400 programmer job openings&lt;/a&gt;, and the lack of appropriately-trained technical talent is even more intense in major tech hubs like Silicon Valley.&lt;/p&gt;
+
+&lt;p&gt;When we launched &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;Awesome Inc U&lt;/a&gt; earlier this summer, we were not the first to realize that our world needs to put the tools of software development in the hands of a lot more people. There are already a handful of great learn-to-code resources available that run the gamut from game creation for kids (&lt;a href=&quot;http://scratch.mit.edu/&quot;&gt;MIT Scratch&lt;/a&gt;) to free online courses in web development (&lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;) to intense semester-long bootcamps (&lt;a href=&quot;http://devbootcamp.com/&quot;&gt;Dev Bootcamp&lt;/a&gt;). While all of these pieces are necessary, we’ve chosen to start with one of the biggest barriers to coding: getting started. Recent studies on habit formation show that it’s much harder to get started with a new habit than it is progress deeper toward expertise. Doing your first 5 pushups is probably more difficult than the next 500. This so-called “activation energy” (familiar topic for any chemists in the room) is what we intend to help our students overcome. As writing code evolves from a niche activity for the few to a broadly-practiced art, the tools and techniques will gradually be modified for a mass audience. Until then, writing code will remain an intimidating thing to newcomers. Intimidating, but far from impossible. In fact, as we have learned from the diverse group of nearly 100 newly-minted coders who have taken our courses this summer, anyone CAN learn to code. Just like riding a bicycle, playing an instrument, or cooking a meal, software development is a skill that just takes a little guidance and a lot of practice. So, why SHOULD everyone learn to code? Here are a few ideas to get you started:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Get A Job&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, the &lt;a href=&quot;http://money.usnews.com/careers/best-jobs/software-developer&quot;&gt;best job you can get right now&lt;/a&gt; has to be as a software developer. Maybe you won’t have all the over-the-top perks of working somewhere like Google, but you’ll still get paid almost double what your liberal arts peers are making, you’ll often have the flexibility to telecommute, you get to spend your days working with creative people to solve challenging problems, and your non-coding boss just might think you are a magician. With demand for programmers expected to grow, your options are only getting better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Be Your Own Boss&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe creating video games, social networking apps, or launch software for space missions doesn’t sound meaningful enough for you. If you’re really passionate about pets, then why don’t you go start &lt;a href=&quot;http://tagapet.org/&quot;&gt;a service that helps return lost pets to their owners&lt;/a&gt;? Both dogs and their owners will rejoice, all while you work from the comfort of your basement in the company of Fido. When people work on the things they’re most passionate about, the world becomes a better place. If you can’t find a great job that’s already out there, now is a better time than ever to create your own job.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Create Beautiful New Things&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can you imagine if Picasso never learned how to use a paintbrush? What if Mozart never learned how to play the piano? Software is a powerful tool for creating visual art, music, movies, and interactive experiences. When was the last time you expressed yourself through Python? Ever used Ruby to create a masterpiece? (Protip: check out &lt;a href=&quot;http://processing.org/&quot;&gt;Processing&lt;/a&gt;, &lt;a href=&quot;http://www.image-line.com/documents/flstudio.html&quot;&gt;FL Studio&lt;/a&gt;, and &lt;a href=&quot;http://www.openframeworks.cc/&quot;&gt;OpenFrameworks&lt;/a&gt;, a few of the most popular software kits for artists).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Learn To Think In A New Way&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The most important thing I learned from playing sports as a kid was not how to hit a baseball or catch a football, but how to work with a team. For many people, learning to code is the same. Plenty of people with computer science and engineering training don’t actually do the work prescribed by their degree, but they constantly use the problem-solving abilities that they honed throughout their studies. The Greeks were huge fans of using logic to win arguments, and if you can argue successfully with something as unwavering as a compiler, human beings will be a pushover. The ability to create within a system of constraints like software is a powerful skill that goes far beyond app development, but &lt;a href=&quot;http://www.youtube.com/watch?v=mCDkxUbalCw&quot;&gt;you don’t have to take my word for it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Change The World&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s hard to argue with the impact that software has had on our world over the past decade. From &lt;a href=&quot;http://en.wikipedia.org/wiki/Arab_Spring&quot;&gt;political revolutions&lt;/a&gt; to &lt;a href=&quot;http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html&quot;&gt;industrial revolutions&lt;/a&gt;, the enabling power of this new layer of software has changed the way we live. But this impact has not yet been felt everywhere. As our population shifts toward primarily city dwelling, our transportation systems and other utilities will rely on software to make more intelligent adjustments. The educational systems that we developed a century ago for a different era of industrial work must grow to adapt to the children of today and the jobs of tomorrow. What if your algorithms could help with the &lt;a href=&quot;http://www.knightfoundation.org/press-room/press-release/knight-news-challenge-health-data-contest-opens/&quot;&gt;analysis of public health data&lt;/a&gt; that leads to a cure for cancer? Could your wellness app help someone to make better lifestyle choices and avoid the risk of obesity and diabetes?&lt;/p&gt;
+
+&lt;p&gt;From startups to the star tech companies of the Fortune 500, from government and nonprofits to sports and entertainment, software development is a powerful skill. It can land you a job, help you start your own company, enable you to create new forms of art, change the way you think about the world, and change the way the world thinks about itself. &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;If you want to learn to code, we’re ready to help you get started.&lt;/a&gt;&lt;/p&gt;
+</description>
+                                <pubDate>Fri, 16 Aug 2013 00:00:00 -0400</pubDate>
+                                <link>/blog/2013/08/16/why-everyone-should-learn-to-code/</link>
+                                <guid isPermaLink="true">/blog/2013/08/16/why-everyone-should-learn-to-code/</guid>
+                        </item>
+                
+        </channel>
+</rss>

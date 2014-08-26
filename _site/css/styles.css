@@ -1,5 +1,5 @@
 .container{margin:0 auto;}
-body {overflow-x:hidden;}
+body {overflow-x:hidden; background-color: #fefefe;}
 
 /*--------------------------------------------------------------------------------------------------*/
 
@@ -685,6 +685,8 @@ p, li, #starlight p {font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif; 
 .classtable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
 
 /* FOOTER  */
+#mc_embed_signup{background:d4e3e5; clear:left; font:14px Helvetica,Arial,sans-serif;}
+
 div#mc_embed_signup {
 	width: 50%;
 	margin: auto;
@@ -697,4 +699,11 @@ div#mc_embed_signup {
 }
 .sharethis span {
   box-sizing: content-box;
+}
+.blog h2:first-of-type, .blog h2 a {
+  font: 40px 'ExoThin', Arial, sans-serif; text-transform: uppercase; color: #ff1440;margin-bottom:30px;
+}
+hr.blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

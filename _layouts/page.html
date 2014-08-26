@@ -20,6 +20,10 @@
     <meta name="author" content="Awesome Inc">
     <meta name="google-site-verification" content="HISrxp_NYG4qcm_rI_9vuenf2u1lVLIq-FCLo3ymlCo" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    {% if page.url == '/blog/' %}
+    <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="/blog/rss.xml">
+    {% endif%}
 
 <!-- Styles -->
     <link rel='stylesheet' type='text/css' href='/css/bootstrap.css' />
