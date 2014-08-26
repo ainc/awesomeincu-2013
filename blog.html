@@ -14,7 +14,7 @@ permalink: /blog/
     <div class="span8 offset2">
         {% for post in site.posts %}
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <em>{{ post.date | date_to_string }}</em>
+          <em>{{ post.date | date: "%b %d, %Y" }}</em>
           {{ post.content }}
           <hr>
         {% endfor %}

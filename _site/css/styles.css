@@ -671,6 +671,8 @@ a.enlarge:before {
 
 #footer_bar p {font-weight:200; color:#575757;font-size: 12px; line-height:22px; margin:20px 0px;}
 
+
+
 /* Custom Awesome Inc U */
 
 /* FONT */
@@ -686,4 +688,13 @@ p, li, #starlight p {font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif; 
 div#mc_embed_signup {
 	width: 50%;
 	margin: auto;
+}
+
+/* BLOG STYLES */
+.sharethis {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sharethis span {
+  box-sizing: content-box;
 }
