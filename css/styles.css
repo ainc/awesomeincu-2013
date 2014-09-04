@@ -258,9 +258,8 @@ a.enlarge:before {
 }
 
 @media (max-width: 400px) {
-    body {
-        max-width: 100%;
-    }
+
+    
     #first-row {
         background-image:url('/img/videobg2.jpg');
         background-size: cover;
@@ -304,7 +303,7 @@ a.enlarge:before {
     }
 
     #signup p {
-        
+
         font-size: 12px;
     }
     
@@ -558,7 +557,7 @@ a.enlarge:before {
 
 
 #about {background-color: #fff; padding-bottom:100px;position:relative; z-index:2000; display:block }
-.head1 {background:none; text-align: center; padding:100px 0px 20px 0px; margin-bottom:70px; border-bottom: dashed 1px #e2e2e2; margin-left:20px}
+.head1 {background:none; text-align: center; padding:100px 0px 20px 0px; margin-bottom:70px; border-bottom: dashed 1px #e2e2e2; /*margin-left:20px*/}
 .head1 h2 {font: 100px 'ExoBlack', Arial, sans-serif; text-transform: uppercase; color: #e2e2e2;}
 
 #starlight {padding-bottom:30px; }
