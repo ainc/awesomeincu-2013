@@ -88,14 +88,14 @@
 
 - title: Week of Code
   curriculum: k12-week
-  date: August 4 - 7
+  date: Oct 2 - 5
   time: 1pm - 5pm
   student-price: 
   early-bird-price: <del>495
   standard-price: 695
   early-bird-date: June 21</del>
-  url: https://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-11719554503?aff=aincwebsite
-  eid: 11719554503 # this entry will be deprecated, can be regex'd from url
+  url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-tickets-12989777775
+  eid: 12989777775 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
   number-students: 
   seats-remain: 15
@@ -114,10 +114,10 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
-  status: 'inactive'
+  status: 'active'
   landingTitle: Kids Code Camp
-  landingSubTitle: Week of Code - Lexington
-  landingHeader: "What your kids can learn this summer!"
+  landingSubTitle: Week of Code
+  landingHeader: "What your kids can learn this fall!"
   landingDiscount: "Make a website, mobile app, and video game in just one week!"
 
 - title: Basic Web Development 1-Day
