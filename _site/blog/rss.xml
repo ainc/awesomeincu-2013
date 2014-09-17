@@ -7,6 +7,25 @@
                 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Teaching Teachers How To Teach Coding</title>
+                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On Tuesday, I had the privilege of speaking to a group of K-12 teachers and administrators at the &lt;a href=&quot;http://www.kasc.net/2010/?page_id=26&quot;&gt;KASC Conference&lt;/a&gt; in Louisville. KASC has a membership of 800 school councils from around Kentucky which it helps to better serve their respective students through workshops, professional development, and information on topics like curriculum, instructional best practices, and school leadership. &lt;/p&gt;
+
+&lt;p&gt;When I arrived at the conference, I sat in on a talk with Mark Harrell from &lt;a href=&quot;http://www.pltwky.org&quot;&gt;Project Lead The Way&lt;/a&gt; and a group of PLTW students from Hardin County. These students are in PLTW’s engineering curriculum, and were discussing the core pieces of that program, as well as showing off their competition robot. Their engineering instructor described the power of the program: “Our society loves high school football games. Nobody comes to cheer these kids on during a math test, but when we go to robot competitions, parents and students are screaming for their team and it feels like a Friday night.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/kasc-pltw-robot.jpg&quot; alt=&quot;Hardin County PLTW students with robot at KASC Conference 2014&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My presentation at the KASC Conference was on a topic we’ve shared before - How To Host An Hour of Code in Your School. In addition to referencing our &lt;a href=&quot;https://www.udemy.com/hourofcode/&quot;&gt;Udemy course on the Hour of Code&lt;/a&gt;, we also put together &lt;a href=&quot;http://bit.ly/codekasc&quot;&gt;a list of online and local resources&lt;/a&gt; so that teachers can direct their most-interested students to more advanced learning opportunities.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;http://code.org/stats&quot;&gt;Code.org&lt;/a&gt;, 9 out of 10 schools don’t offer a single computer programming class. Our team at Awesome Inc, along with our friends at &lt;a href=&quot;http://www.advancekentucky.com/kycoders?showall=1&amp;amp;limitstart=&quot;&gt;AdvanceKentucky&lt;/a&gt;, PLTW, Newton’s Attic, and others, are working to change this in Kentucky. If we can help with a professional development session for teachers in your school/district, Hour of Code activities for your students, or programming summer camps for your kids, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#102;&amp;#111;&amp;#117;&amp;#110;&amp;#100;&amp;#101;&amp;#114;&amp;#115;&amp;#064;&amp;#097;&amp;#119;&amp;#101;&amp;#115;&amp;#111;&amp;#109;&amp;#101;&amp;#105;&amp;#110;&amp;#099;&amp;#046;&amp;#111;&amp;#114;&amp;#103;&amp;#063;&amp;#083;&amp;#117;&amp;#098;&amp;#106;&amp;#101;&amp;#099;&amp;#116;&amp;#061;&amp;#065;&amp;#119;&amp;#101;&amp;#115;&amp;#111;&amp;#109;&amp;#101;&amp;#037;&amp;#050;&amp;#048;&amp;#073;&amp;#110;&amp;#099;&amp;#037;&amp;#050;&amp;#048;&amp;#085;&amp;#037;&amp;#050;&amp;#048;&amp;#075;&amp;#045;&amp;#049;&amp;#050;&amp;#037;&amp;#050;&amp;#048;&amp;#116;&amp;#114;&amp;#097;&amp;#105;&amp;#110;&amp;#105;&amp;#110;&amp;#103;&quot;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
+</description>
+                                <pubDate>Wed, 17 Sep 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/09/17/kasc-conference-talk-k12/</link>
+                                <guid isPermaLink="true">/blog/2014/09/17/kasc-conference-talk-k12/</guid>
+                        </item>
+                
+                        <item>
                                 <title>Teaching Kids to Code - in 1 Week</title>
                                 <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/103491752687353303272/&quot;&gt;Ben Jacoby&lt;/a&gt;&lt;/p&gt;
 
@@ -350,51 +369,6 @@
                                 <pubDate>Thu, 07 Nov 2013 00:00:00 -0500</pubDate>
                                 <link>/blog/2013/11/07/hour-of-code-december/</link>
                                 <guid isPermaLink="true">/blog/2013/11/07/hour-of-code-december/</guid>
-                        </item>
-                
-                        <item>
-                                <title>Learning How To Learn</title>
-                                <description>&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A few months ago, my team at Awesome Inc launched &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;a code school&lt;/a&gt;. After a few years of running a startup accelerator program, we realized that there was a glaring weakness in our entrepreneurial ecosystem that was holding back our local startups: a lack of technical co-founders. Like many startup communities, we have plenty of “idea” guys and gals, plus quite a few biz-dev hustlers, marketing geniuses, and even domain experts. But as we saw pitch after pitch from passionate people with interesting startup ideas, a mobile app for this, a website for that, we noticed that few startups had someone on their team who could actually build the piece of software they proposed! We wondered why, with exploding job demand and startup opportunities, we weren’t seeing more technical co-founders.&lt;/p&gt;
-
-&lt;h2 id=&quot;maybe-its-just-us&quot;&gt;Maybe It’s Just Us&lt;/h2&gt;
-
-&lt;p&gt;We wondered if perhaps this was a problem with our local startup community in Lexington, Kentucky. But it turns out that places like &lt;a href=&quot;http://software.intel.com/en-us/blogs/2013/06/05/high-demand-the-occupational-outlook-for-developers&quot;&gt;San Francisco&lt;/a&gt; and &lt;a href=&quot;http://www.prweb.com/releases/2013/5/prweb10722164.htm&quot;&gt;Seattle&lt;/a&gt; are experiencing the same challenges we are. Even looking at the registration forms for Startup Weekend events, you can tell how important technical skills are:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/471Z11241r1e0J2u3h3n/Screen%20Shot%202013-09-05%20at%201.00.31%20PM.png&quot; alt=&quot;Startup Weekend registration form screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We also wondered if we were in some sort of filter bubble, with our interest in tech and startups causing us to hear about the demand for software developers more frequently than the average person. But US News debunked that myth for us: &lt;a href=&quot;http://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs?int=7acb53&quot;&gt;4 of the top 10 jobs for 2013&lt;/a&gt; relate to computer programming, and there are more open jobs right now for &lt;a href=&quot;http://money.usnews.com/money/careers/slideshows/7-occupations-with-the-highest-hiring-demand/4&quot;&gt;web developers&lt;/a&gt; than for &lt;a href=&quot;http://money.usnews.com/money/careers/slideshows/7-occupations-with-the-highest-hiring-demand/8&quot;&gt;retail salespersons&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;nowhere-to-learn&quot;&gt;Nowhere To Learn&lt;/h2&gt;
-
-&lt;p&gt;So, let’s say that you wanted to learn how to make your first iPhone app. Where would you start? The traditional option is to go to high school, do really well in your math classes, and top it off with AP Computer Science. After that, you could pursue a 4-year degree from a university with a computer science degree program. However, for some people, that 8-year runway and $100k+ in student loan debt is too big of a hurdle. It turns out that’s not the only option. In fact, there are dozens of ways to learn to develop iPhone applications that are cheap or entirely free, available on-demand from anywhere in the world, and taught by world-class experts. A brief list includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/course/coding-together-developing/id593208016&quot;&gt;iTunes U - Stanford’s CS193p&lt;/a&gt; (taught by former &lt;a href=&quot;http://www.nextcomputers.org/NeXTfiles/Articles/NeXTWORLD/NeXTWORLD_Extra/93.06.07.J.J.NWE/93.06.07.J.J.NWExtra22.html&quot;&gt;director of engineering at NeXT&lt;/a&gt;, where &lt;a href=&quot;http://en.wikipedia.org/wiki/Objective-C&quot;&gt;Objective-C&lt;/a&gt; was popularized)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.skillshare.com/classes/technology/Program-iPhone-Apps-Become-an-iPhone-Developer/461761892?via=search&quot;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://teamtreehouse.com/library/ios-development&quot;&gt;Treehouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/courses/search/?q=iphone&quot;&gt;Udemy&lt;/a&gt; (Lots of options here)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mobile.tutsplus.com/category/tutorials/iphone/&quot;&gt;Tuts+&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com/tutorials&quot;&gt;Ray Wenderlich&lt;/a&gt; (Great tutorials, especially for games)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://awesomeincu.com/&quot;&gt;Awesome Inc U&lt;/a&gt; (Hey, that’s us!)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.codeschool.com/courses/try-ios&quot;&gt;CodeSchool&lt;/a&gt; (allows you to compile Objective-C remotely, so you don’t even need a Mac)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321942051/ref=dp_ob_title_bk&quot;&gt;Get a $30 book&lt;/a&gt; (maybe free at your public library)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But even with all these educational resources available, we haven’t seen a dramatic rise in the number of people who have learned how to code.&lt;/p&gt;
-
-&lt;h2 id=&quot;unnoticed-progress&quot;&gt;Unnoticed Progress&lt;/h2&gt;
-
-&lt;p&gt;We hoped that this shortage of technical co-founders would improve on its own over the past few years, watching a plethora of online training resources become available, and seeing modest growth in the computer science and design programs at our nearby universities. Perhaps things already changed, but we didn’t notice. Then asked around, and heard that our friends at established technology companies were also having trouble finding employment candidates with the right skills to fill their openings, and (different from an unfunded startup) they were offering things like a salary, benefits, and reasonable work hours. This meant that anyone with technical aptitude who was considering starting their own company would first have to overcome yet another hurdle: lucrative job offers. While this wasn’t good news for solving our technical co-founder problem, it at least confirmed our suspicion that there was truly a shortage of properly-trained software developers.&lt;/p&gt;
-
-&lt;h2 id=&quot;learning-is-hard-but-its-easier-than-ever&quot;&gt;Learning Is Hard, But It’s Easier Than Ever&lt;/h2&gt;
-
-&lt;p&gt;As my team at &lt;a href=&quot;http://awesomeincu.com/&quot;&gt;Awesome Inc&lt;/a&gt; spent the past few months exploring the technical co-founder drought, we learned that our society’s journey to help people learn to code is still in its infancy. In spite of all our modern advances in &lt;a href=&quot;https://www.coursera.org/&quot;&gt;MOOCs&lt;/a&gt;, &lt;a href=&quot;http://alum.mit.edu/volunteering/VolunteerTools/K12Toolkit?destination=node/18117&quot;&gt;K-12 STEM curriculum programs&lt;/a&gt;, and some &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;ridiculously awesome Q&amp;amp;A sites&lt;/a&gt;, &lt;strong&gt;learning is still hard work&lt;/strong&gt;. We have made great strides increasing access to educational content, but that content is only part of the challenge of education. It still takes time, money, discipline, and some great teachers to create a capable software developer. And while the learn-to-code movement has gotten some &lt;a href=&quot;http://www.slate.com/articles/technology/future_tense/2013/08/everybody_does_not_need_to_learn_to_code.html&quot;&gt;mixed reviews&lt;/a&gt;, I think its major benefit is in paving the way for helping people learn &lt;em&gt;anything&lt;/em&gt; more easily. With the abundance of educational content, huge employment demand, and boundless startup opportunities, we have some potent resources for training people in today’s crop of technical skills. Tomorrow will bring some new technology to learn, some new skill &lt;em&gt;du jour&lt;/em&gt;. If I am ever going to consider my work on the learn-to-code movement to be a success, it will be that our impact goes well beyond helping some people learn how to make their first iPhone app. I hope we help a whole new generation learn how to learn.&lt;/p&gt;
-</description>
-                                <pubDate>Thu, 05 Sep 2013 00:00:00 -0400</pubDate>
-                                <link>/blog/2013/09/05/learning-how-to-learn/</link>
-                                <guid isPermaLink="true">/blog/2013/09/05/learning-how-to-learn/</guid>
                         </item>
                 
         </channel>
