@@ -77,126 +77,119 @@
   
   <url>
     <loc>/academy/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>/basicweb/</loc>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/codecamp/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/curriculum/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>/dayofcode/</loc>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/employers/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/faq/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/giftofcode/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hoc/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hoc2/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/hourofcode/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>/info/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/membership/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/missing/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/register/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/weekofcode/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/gift/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>/register2/</loc>
-    <lastmod>2014-09-19T16:53:53-04:00</lastmod>
+    <lastmod>2014-09-30T22:27:09-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

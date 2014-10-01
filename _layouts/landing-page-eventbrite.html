@@ -15,7 +15,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
                 <h1>{{ course.landingTitle }}</h1>
                     <h2 id="sub-title">{{ course.landingSubTitle }}</h2>
                     <h3>
-                        <a href="{{ course.url }}" class="btn btn-red btn-large"> Enroll Now </a>
+                        <a href="#apply-now" class="btn btn-red btn-large"> Enroll Now </a>
                     </h3>
             </div>
         </div>
@@ -26,7 +26,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
     <div class="container">
         <h3 style="margin-bottom:20px;">{{ course.landingHeader }} </h3>
         <div id="features" class="col-xs-6 col-md-4">
-            <a href="{{ course.url }}"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
+            <a href="#apply-now"><img src="/img/codelearnyou.jpg" alt="Awesome Inc U - Learn to code" class="sideimg"></a>
 
             <div class="second-reg">
                     <p>{{ course.landingDiscount }}
@@ -51,6 +51,7 @@ To make changes to course information see _data/course-list-eventbrite.yml
     </div>
 
 </div>
+<span class="anchor" id="apply-now"></span>
 <div style="width:80%; text-align:center; padding-left:135px;" class="hidden-phone">
 
     <h3 id="tickets">Registration</h3>

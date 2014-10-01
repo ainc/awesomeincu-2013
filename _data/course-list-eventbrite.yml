@@ -88,7 +88,7 @@
 
 - title: Kids Code Camp
   curriculum: k12-week
-  date: Oct 2 - 5
+  date: TBD
   time: 1pm - 5pm
   student-price: 
   early-bird-price: 495
@@ -114,27 +114,29 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
-  status: 'active'
+  status: 'inactive'
   landingTitle: Kids Code Camp
   landingHeader: "What your kids can learn this fall!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
-  date: July 12
+  date: Nov 15
   time: 12pm - 6pm
   student-price: 50
-  early-bird-price: <del>75
+  early-bird-price: 75
   standard-price: 100
-  early-bird-date: June 20</del>
-  url: http://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-11241689195?aff=aincwebsite
-  eid: 11241689195 # this entry will be deprecated, can be regex'd from url
+  early-bird-date: Oct 27
+  url: https://www.eventbrite.com/e/basic-web-development-1-day-crash-course-tickets-13385176423
+  eid: 13385176423 # this entry will be deprecated, can be regex'd from url
   logo: logo-html.png
   number-students: 53
-  status: 'inactive'
-  landingTitle: Kids Code Camp
-  landingHeader: "Instead of your kids spending their summer playing apps, what if they spent their summer learning to write them?"
-  landingDiscount: "Make a website, mobile app, and video game in just 1 week"
+  status: 'active'
+  landingTitle: Web Development
+  landingSubTitle: Create your own website in just one day!
+  landingHeader: "Learn how to create a website using different programming tools"
+  landingDiscount: "Make a website with your very own content in one day - "
+  curriculum-contents: ['Overview of front-end web technologies including HTML and CSS', 'Setting up a local development environment', 'Publishing a website with Weebly, Tumblr, and Wordpress.com', 'Collecting user data through forms', 'Embedding media content, including tweets', 'Registering a domain name and deploying to a web server']
 
 - title: Android App Development 1-Day
   curriculum: android-crash
@@ -150,15 +152,21 @@
 
 - title: Day of Code for Kids
   curriculum: k12-day
-  date: 
-  time: 
-  student-price: 50
-  early-bird-price: 75
-  standard-price: 100
-  early-bird-date: 
-  url: 
+  date: Nov 8 
+  time: 12pm - 7pm
+  student-price: 
+  early-bird-price: 100
+  standard-price: 125
+  early-bird-date: Oct 20
+  url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-13385062081
+  eid: 13385062081
   logo: Day-of-Code-Logo.png
-  status: 'inactive'
+  status: 'active'
+  landingTitle: Day of Code for Kids
+  landingSubTitle: Come Learn to Code with us this Fall
+  landingHeader: In just ONE day your kid will have made at least two programs!
+  landingDiscount: Learn the basics of programming in just ONE day - 
+  curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'ntegrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
 
 - title: Front-End Web Development, Level 2
   curriculum: frontweb2-crash

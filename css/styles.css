@@ -246,6 +246,8 @@ a.enlarge:before {
         font-size:1.5em;
         font-family: "ExoRegular";
         font-weight: normal;
+        line-height: 1em;
+
     }
     #features p {
         margin-top: 20px;
