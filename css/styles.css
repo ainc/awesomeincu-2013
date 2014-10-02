@@ -292,6 +292,9 @@ a.enlarge:before {
         font-size: 0.6em;
         line-height: 1.25em;
     }
+    #second-row a {
+      font-size: 12px;
+    }
     #features p {
         margin-top: 2px;
         font-size: 0.6em;
