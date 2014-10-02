@@ -119,6 +119,24 @@
   landingHeader: "What your kids can learn this fall!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
 
+- title: Day of Code for Kids
+  curriculum: k12-day
+  date: Nov 8 
+  time: 12pm - 6pm
+  student-price: 
+  early-bird-price: 100
+  standard-price: 125
+  early-bird-date: Oct 20
+  url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-13385062081
+  eid: 13385062081
+  logo: Day-of-Code-Logo.png
+  status: 'active'
+  landingTitle: Day of Code for Kids
+  landingSubTitle: Come Learn to Code with us this Fall
+  landingHeader: In just ONE day your kid will have made at least two programs!
+  landingDiscount: Learn the basics of programming in just ONE day - 
+  curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'ntegrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
+
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
   date: Nov 15
@@ -150,23 +168,6 @@
   logo: logo-android.png
   status: 'inactive'
 
-- title: Day of Code for Kids
-  curriculum: k12-day
-  date: Nov 8 
-  time: 12pm - 6pm
-  student-price: 
-  early-bird-price: 100
-  standard-price: 125
-  early-bird-date: Oct 20
-  url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-13385062081
-  eid: 13385062081
-  logo: Day-of-Code-Logo.png
-  status: 'active'
-  landingTitle: Day of Code for Kids
-  landingSubTitle: Come Learn to Code with us this Fall
-  landingHeader: In just ONE day your kid will have made at least two programs!
-  landingDiscount: Learn the basics of programming in just ONE day - 
-  curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'ntegrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
 
 - title: Front-End Web Development, Level 2
   curriculum: frontweb2-crash
