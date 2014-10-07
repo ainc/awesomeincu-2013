@@ -7,6 +7,27 @@
                 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Kentucky Coders Launches At IdeaFestival In Louisville</title>
+                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2011, the mayors of Louisville and Lexington got together to form the &lt;a href=&quot;http://www.louisvilleky.gov/BEAM&quot;&gt;Bluegrass Economic Advancement Movement&lt;/a&gt;. Noticing this, my friend and outspoken supporter of all things Kentucky, &lt;a href=&quot;http://www.linkedin.com/pub/grant-mills/2a/904/721&quot;&gt;Grant Mills&lt;/a&gt;, pulled together a group of young entrepreneurs, technologists, and community influencers to form a related BEAM Young Professionals group. Our vision was to use the BEAM initiative as inspiration for defining and sharing what we perceived as needs for the next 20 years of Kentucky’s economy. Our charter came from Louisville Mayor Greg Fischer, who recommended that we “Challenge the status quo”. So while the BEAM committee-proper discussed Advanced Manufacturing, we shifted our focus to other targets, including software development. We proposed the idea that software development &lt;em&gt;is&lt;/em&gt; an advanced form of manufacturing, and advocated for opportunities for educating new programmers in K-12 and beyond. When we started &lt;a href=&quot;http://awesomeincu.com&quot;&gt;Awesome Inc U&lt;/a&gt; last year, that was one of our first steps toward acting on this vision. Last week, another piece of our software mission became reality: &lt;a href=&quot;http://kentuckycoders.com&quot;&gt;Kentucky Coders&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kentuckycoders.com&quot;&gt;&lt;img src=&quot;/img/blog/ky-coders-logo.gif&quot; alt=&quot;Kentucky Coders logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kentucky Coders is an initiative to get over 1 million Kentuckians to try programming between now the end of the year. The campaign, spearheaded by the &lt;a href=&quot;http://www.advancekentucky.com/&quot;&gt;AdvanceKentucky&lt;/a&gt; team at KSTC, &lt;a href=&quot;http://www.bizjournals.com/louisville/news/2014/10/01/kentucky-coders-campaign-aims-to-promote-coding.html&quot;&gt;kicked off last week&lt;/a&gt; at the annual &lt;a href=&quot;http://ideafestival.com&quot;&gt;IdeaFestival&lt;/a&gt; in Louisville. The campaign utilizes the great programming activities provided by &lt;a href=&quot;http://code.org&quot;&gt;Code.org&lt;/a&gt;, with our efforts building toward Computer Science Education Week in December. Cameron Wilson, COO of Code.org, was on-hand for the announcement last week, along with members of the Kentucky Board of Education, and founders of Kentucky-based technology companies, who emphasized the opportunities for jobs for people with software development skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/ky-coders-lobby.jpg&quot; alt=&quot;People learn to code with Kentucky Coders website in lobby at IdeaFestival&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At this point, the Kentucky Coders initiative is primarily an awareness campaign. Anecdotal evidence suggests (I’ve asked this question to hundreds of Governor’s Scholars, teachers, and engineering students from around the state) that most Kentuckians have never met an engineer or software developer. Dr. Lee Todd, &lt;a href=&quot;http://entrepreneurhof.com/lee-todd&quot;&gt;technology entrepreneur&lt;/a&gt; and former president of the University of Kentucky, was part of the announcement last week. Having sold two high-tech companies, he now has quite the perspective on the value of software development. Yet, he often shares the story of how his childhood perspective was much different. Growing up in Western Kentucky, the most high-tech career option he could fathom was to be a science teacher. While we certainly need more science teachers, Dr. Todd’s impact was far greater because he learned from that science teacher and became an engineer. Yet, he wasn’t even aware of that career option until he began his college education and Morehead State University. Later, he transferred to the University of Kentucky as an engineering student, and got to interact with professors doing cutting-edge engineering research. Once again, his eyes were opened to a novel career option. However, Dr. Todd didn’t find his true calling until he started his PhD studies at MIT, where he got to see the great engineering professor &lt;a href=&quot;http://en.wikipedia.org/wiki/Amar_Bose&quot;&gt;Dr. Amar Bose&lt;/a&gt;, who was also the founder of the company that bears his name.&lt;/p&gt;
+
+&lt;p&gt;While it’s not feasible for us to send all of Kentucky’s children to MIT for graduate degrees, it’s also not necessary. There are plenty of engineers, software developers, and founders of technology companies here in Kentucky. We just need to do a better job of sharing our stories and welcoming others into these professions. The Kentucky Coders initiative, which includes hosting Hour of Code sessions at all of Kentucky’s schools, provides a sufficient introduction to the joys of computer science, the educational pathways to pursuing it, and the career opportunities available. If you’re looking for ways to bring coding to your school, town, or organization, check out the &lt;a href=&quot;http://kentuckycoders.com&quot;&gt;Kentucky Coders&lt;/a&gt; site, or &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#111;&amp;#064;&amp;#097;&amp;#119;&amp;#101;&amp;#115;&amp;#111;&amp;#109;&amp;#101;&amp;#105;&amp;#110;&amp;#099;&amp;#117;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;reach out to our team at Awesome Inc U&lt;/a&gt;.&lt;/p&gt;
+</description>
+                                <pubDate>Tue, 07 Oct 2014 00:00:00 -0400</pubDate>
+                                <link>/blog/2014/10/07/launch-of-kentucky-coders/</link>
+                                <guid isPermaLink="true">/blog/2014/10/07/launch-of-kentucky-coders/</guid>
+                        </item>
+                
+                        <item>
                                 <title>Teaching Teachers How To Teach Coding</title>
                                 <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
 
@@ -348,27 +369,6 @@
                                 <pubDate>Sun, 17 Nov 2013 00:00:00 -0500</pubDate>
                                 <link>/blog/2013/11/17/what-we-learned-hour-of-code/</link>
                                 <guid isPermaLink="true">/blog/2013/11/17/what-we-learned-hour-of-code/</guid>
-                        </item>
-                
-                        <item>
-                                <title>How To Change Your Life In Just One Hour This December</title>
-                                <description>&lt;p&gt;&lt;img src=&quot;/img/blog/hour-of-code-promo.jpg&quot; alt=&quot;Kids learning to code with CSEdWeek logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Like many things, the hardest part of learning to code is simply getting started. Fortunately, the world has gone ahead and made this part MUCH easier for you, than it was for, say, &lt;a href=&quot;http://en.wikipedia.org/wiki/Grace_Hopper&quot;&gt;Grace Hopper&lt;/a&gt;. There are a plethora of &lt;a href=&quot;http://www.codecademy.com/&quot;&gt;free resources&lt;/a&gt; available on the web, many employing onboarding methods that will have you churning out lines of code before you even realize your new-found love of the semicolon key. And if these resources weren’t enough for you to start dabbling in software, our friends at Code.org have dedicated a week in December to give you a swift kick in the pants to jumpstart your practice of programming: the &lt;a href=&quot;http://code.org/hourofcode&quot;&gt;Hour of Code&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Like most challenging creative tasks, writing software comes with a sort of activation energy hurdle that aspiring practitioners must overcome. It took me a significant amount of energy and focus just to write this blog post, but by far the most challenging part was actually sitting down and beginning to type. If you have had the experience of learning to cook, learning to play a new sport or instrument, or attempting to become conversational in a new spoken language, then you’ve experienced the same core challenge of learning to code. &lt;/p&gt;
-
-&lt;p&gt;I’d argue that the actual process of learning to code is actually much easier than any of these things. Software has this amazing property of being rooted in human logic. There was no such logic to aid me when I first learned that the plural of Goose is Geese, or that it was humanly-possibly to contort my hand into playing a barre chord on the guitar. Additionally, software is such a recent invention that many of the inventors are still around, here to share tactical advice as well as insight into the philosophy of the languages and frameworks they’ve created. Could you imagine being able to ask the &lt;a href=&quot;http://en.wikipedia.org/wiki/Guitar#History&quot;&gt;inventor of the guitar&lt;/a&gt; why she chose 6 strings over 4 or 8? For at least a short while, the equivalent is quite possible with programming, and the path to doing so is as short as buying a ticket to PyCon or &lt;a href=&quot;http://rubyconf.org/&quot;&gt;RubyConf&lt;/a&gt;, or just &lt;a href=&quot;https://twitter.com/gvanrossum&quot;&gt;tweeting at Guido van Rossum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I want you to commit to just get started. Pick just one hour during national &lt;a href=&quot;http://csedweek.org/&quot;&gt;CS Education Week&lt;/a&gt; (December 9-15) and do something. If you know a K-12 school who would like to bring the Hour of Code to their classroom this December, let us know how &lt;a href=&quot;http://awesomeincu.com/hourofcode.html&quot;&gt;Awesome Inc U can help&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And if all else fails, hit me up on &lt;a href=&quot;https://twitter.com/aerosuch&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://www.facebook.com/nicksuch&quot;&gt;Facebook&lt;/a&gt; and I’ll sit down with you 1-on-1 for an hour.&lt;/p&gt;
-</description>
-                                <pubDate>Thu, 07 Nov 2013 00:00:00 -0500</pubDate>
-                                <link>/blog/2013/11/07/hour-of-code-december/</link>
-                                <guid isPermaLink="true">/blog/2013/11/07/hour-of-code-december/</guid>
                         </item>
                 
         </channel>
