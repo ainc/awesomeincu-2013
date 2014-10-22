@@ -31,3 +31,7 @@ prose:
           element: "text"
           label: "description"
           value: ""
+
+# Manage inclusion of environment config files
+exclude: [Gemfile, Gemfile.lock, github.php, README.md]
+include: [.htaccess]
