@@ -783,3 +783,8 @@ hr.blog {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.blog img {
+  display: block;
+  margin: 50px auto 10px auto;
+}
