@@ -77,66 +77,107 @@
   </url>
   <url>
     <loc>/academy/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/basicweb/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/blog/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/codecamp/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/curriculum/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/dayofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/employers/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/faq/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/giftofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/hoc/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/hoc2/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -144,174 +185,289 @@
   <url>
     <loc>/hoc3/</loc>
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/hourofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/info/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/membership/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/missing/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/register/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/weekofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/gift/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/register2/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/basicweb-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/ios-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/iphone-app-today/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/jekyll-github-pages/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/make-a-unity-game-today/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/website-in-one-day/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/weekofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/weekofcode2/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/weekofcodelou/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/android-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/basicweb-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/dayofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/frontweb2/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/ios-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/k12-teacher/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/php-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/unity-crash/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/notes/weekofcode/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/tutorials/unity-pong/</loc>
+<<<<<<< HEAD
     <lastmod>2014-11-13T10:08:21-05:00</lastmod>
+=======
+    <lastmod>2014-11-11T14:05:38-05:00</lastmod>
+>>>>>>> cca7a950cdc91fda85e19f47193aaab9c31e213b
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
