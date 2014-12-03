@@ -9,6 +9,17 @@
   logo: logo_big.png
   status: 'active'
 
+- title: Minecraft Party
+  curriculum: 
+  date: Dec 13
+  time: 5pm - 9pm
+  early-bird-price:
+  standard-price: 0 - free!
+  early-bird-date:
+  url: http://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-14319256281?aff=aincwebsite
+  logo: logo_big.png
+  status: 'active'
+
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
   date: May 19 - 20
@@ -35,16 +46,16 @@
   logo: logo_big.png
   status: 'inactive'
 
-- title: iPhone App Development 1-Day
+- title: iPhone App Development 2-Day
   curriculum: ios-crash
-  date: June 7
-  time: 12pm - 6pm
+  date: Jan 27 and 29
+  time: 6pm - 9pm
   student-price: 50
-  early-bird-price: <del>75
+  early-bird-price: 75
   standard-price: 100
-  early-bird-date: May 24</del>
-  url: http://www.eventbrite.com/e/iphone-development-1-day-crash-course-tickets-10533123857?aff=aincwebsite
-  eid: 10533123857 # this entry will be deprecated, can be regex'd from url
+  early-bird-date: Jan 13
+  url: https://www.eventbrite.com/e/iphone-development-crash-course-tickets-14735037895
+  eid: 14735037895 # this entry will be deprecated, can be regex'd from url
   number-students: 110
   benefits: ["Make your own iPhone app with us in less than 6 hours", "Be ready for our <a href=\"/curriculum/#ios-advanced\">iOS Advanced Course</a>"]
   difficulty: BEGINNER
@@ -66,8 +77,8 @@
   status: 'inactive'
   landingTitle: Make an iPhone App in 6 Hours!
   landingSubTitle: iPhone App Development
-  landingHeader: "What you'll learn at this interactive one day course!"
-  landingDiscount: "Learn to code your very own app today!"
+  landingHeader: "What you'll learn at this interactive two day course!"
+  landingDiscount: "Learn to code your very own app this week!"
 
 - title: PHP Web Development 1-Day
   curriculum: php-crash
@@ -88,14 +99,14 @@
 
 - title: Kids Code Camp
   curriculum: k12-week
-  date: TBD
+  date: Mar 30 - Apr 2
   time: 1pm - 5pm
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: Sept 21
-  url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-tickets-12989777775
-  eid: 12989777775 # this entry will be deprecated, can be regex'd from url
+  early-bird-date: Mar 15
+  url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-tickets-14735599575
+  eid: 14735599575 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
   number-students: 
   seats-remain: 15
@@ -114,26 +125,26 @@
     ["android-crash-device.jpg", Android app and code],
     ["unity-crash-angry-boxes.jpg", Angry Boxes game made with Unity]
   ]
-  status: 'inactive'
+  status: 'active'
   landingTitle: Kids Code Camp
-  landingHeader: "What your kids can learn this fall!"
+  landingHeader: "What your kids can learn this Spring!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
 
 - title: Day of Code for Kids
   curriculum: k12-day
-  date: Nov 8 
-  time: 12pm - 6pm
+  date: Feb 21
+  time: 12pm - 5pm
   student-price: 
   early-bird-price: 100
   standard-price: 125
-  early-bird-date: Oct 20
-  url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-13385062081
-  eid: 13385062081
+  early-bird-date: Feb 7
+  url: https://eventbrite.com/event/14735529365/
+  eid: 14735529365
   logo: Day-of-Code-Logo.png
   status: 'active'
   landingTitle: Day of Code for Kids
-  landingSubTitle: Come Learn to Code with us this Fall
-  landingHeader: In just ONE day your kid will have made at least two programs!
+  landingSubTitle: Come Learn to Code with us this Spring
+  landingHeader: In just ONE day your student will have made at least two programs!
   landingDiscount: Learn the basics of programming in just ONE day - 
   curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'Integrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
 
@@ -149,7 +160,7 @@
   eid: 13385176423 # this entry will be deprecated, can be regex'd from url
   logo: logo-html.png
   number-students: 53
-  status: 'active'
+  status: 'inactive'
   landingTitle: Web Development
   landingSubTitle: Create your own website in just one day!
   landingHeader: "Learn how to create a website using different programming tools"
