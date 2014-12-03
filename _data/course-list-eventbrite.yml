@@ -1,14 +1,3 @@
-- title: Awesome Inc Academy
-  curriculum: academy
-  date: Jan - April
-  time: evenings
-  early-bird-price: 429/month
-  standard-price: 533/month
-  early-bird-date: Dec 31
-  url: /academy/
-  logo: logo_big.png
-  status: 'active'
-
 - title: Minecraft Party
   curriculum: 
   date: Dec 13
@@ -17,6 +6,17 @@
   standard-price: 0 - free!
   early-bird-date:
   url: http://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-14319256281?aff=aincwebsite
+  logo: logo_big.png
+  status: 'active'
+
+- title: Awesome Inc Academy
+  curriculum: academy
+  date: Jan - April
+  time: evenings
+  early-bird-price: 429/month
+  standard-price: 533/month
+  early-bird-date: Dec 31
+  url: /academy/
   logo: logo_big.png
   status: 'active'
 
@@ -46,7 +46,7 @@
   logo: logo_big.png
   status: 'inactive'
 
-- title: iPhone App Development 2-Day
+- title: iPhone App Development Crash Course
   curriculum: ios-crash
   date: Jan 27 and 29
   time: 6pm - 9pm
@@ -74,7 +74,7 @@
     ["ios-crash-screenshot2.png", Pic of app 2],
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
-  status: 'inactive'
+  status: 'active'
   landingTitle: Make an iPhone App in 6 Hours!
   landingSubTitle: iPhone App Development
   landingHeader: "What you'll learn at this interactive two day course!"
@@ -96,6 +96,24 @@
   landingSubTitle: PHP Web Development 1-Day
   landingHeader: "What you'll learn at this interactive one day course!"
   landingDiscount: "You don't want to miss out on this crash course that teaches the most popular programming language!"
+
+- title: Day of Code for Kids
+  curriculum: k12-day
+  date: Feb 21
+  time: 12pm - 5pm
+  student-price: 
+  early-bird-price: 100
+  standard-price: 125
+  early-bird-date: Feb 7
+  url: https://eventbrite.com/event/14735529365/
+  eid: 14735529365
+  logo: Day-of-Code-Logo.png
+  status: 'active'
+  landingTitle: Day of Code for Kids
+  landingSubTitle: Come Learn to Code with us this Spring
+  landingHeader: In just ONE day your student will have made at least two programs!
+  landingDiscount: Learn the basics of programming in just ONE day - 
+  curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'Integrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
 
 - title: Kids Code Camp
   curriculum: k12-week
@@ -129,24 +147,6 @@
   landingTitle: Kids Code Camp
   landingHeader: "What your kids can learn this Spring!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
-
-- title: Day of Code for Kids
-  curriculum: k12-day
-  date: Feb 21
-  time: 12pm - 5pm
-  student-price: 
-  early-bird-price: 100
-  standard-price: 125
-  early-bird-date: Feb 7
-  url: https://eventbrite.com/event/14735529365/
-  eid: 14735529365
-  logo: Day-of-Code-Logo.png
-  status: 'active'
-  landingTitle: Day of Code for Kids
-  landingSubTitle: Come Learn to Code with us this Spring
-  landingHeader: In just ONE day your student will have made at least two programs!
-  landingDiscount: Learn the basics of programming in just ONE day - 
-  curriculum-contents: ['Introduction to Computer Science concepts', 'Building games with Scratch', 'The basics of writing code with Javascript', 'Integrating Javascript in to an HTML page', 'Setting up accounts on Scratch and Codecademy', 'Sandbox time with 1-on-1 support from our <a target="_blank" href="http://www.awesomeincu.com/#instructors">instructional team</a>']
 
 - title: Basic Web Development 1-Day
   curriculum: basicweb-crash
