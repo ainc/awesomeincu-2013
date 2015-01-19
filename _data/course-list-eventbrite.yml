@@ -7,7 +7,7 @@
   early-bird-date:
   url: http://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-14319256281?aff=aincwebsite
   logo: logo_big.png
-  status: 'active'
+  status: 'inactive'
 
 - title: Awesome Inc Academy
   curriculum: academy
@@ -74,7 +74,7 @@
     ["ios-crash-screenshot2.png", Pic of app 2],
     ["ios-crash-screenshot3.png", Pic of app 3]
   ]
-  status: 'active'
+  status: 'inactive'
   landingTitle: Make an iPhone App in 6 Hours!
   landingSubTitle: iPhone App Development
   landingHeader: "What you'll learn at this interactive two day course!"
