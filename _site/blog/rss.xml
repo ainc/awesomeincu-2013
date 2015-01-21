@@ -7,6 +7,34 @@
                 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Georgetown College Minecraft ALU </title>
+                                <description>&lt;p&gt;by Danny Thorne&lt;/p&gt;
+
+&lt;p&gt;Computers are organized into several different components with distinct roles that work together. The component responsible for performing operations on numbers is called the Arithmetic Logic Unit or ALU. It is made out of transistors. A transistor does one simple thing: it inverts a signal, i.e., makes a low signal high and a high signal low. Minecraft has something analogous to a transistor, namely the redstone torch. Just as lots of transistors can be combined to build an ALU in an actual computer, lots of redstone torches can be combined to build a virtual ALU inside of Minecraft.&lt;/p&gt;
+
+&lt;p&gt;That’s what we did in CSC312 Organization and Architecture at &lt;a href=&quot;http://www.georgetowncollege.edu/&quot;&gt;Georgetown College&lt;/a&gt; this past fall 2014 semester. Instead of just discussing the circuits in terms of logic diagrams like this&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/alu-logic-diagram.png&quot; alt=&quot;Logic diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;we all got together in a Minecraft world and &lt;em&gt;built&lt;/em&gt; them. The above circuit can be implemented in Minecraft like this (among other ways):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/alu-minecraft-detail.png&quot; alt=&quot;Minecraft computer detail&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our ALU consists of a circuit that adds and subtracts 8-bit binary numbers, a circuit that multiplies by 2 (shift left), and a circuit that divides by 2 (shift right). It is attached to four 8-bit registers. Decoders and multiplexers are used to select which words from the register get routed into the ALU, which operation the ALU performs, and which word in the register gets loaded with the result. One of the students, Jeff Hartman, wrote more about the details of the ALU at &lt;a href=&quot;http://hehfay.github.io/CSC312/&quot;&gt;http://hehfay.github.io/CSC312/&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;We still had to understand the circuits in terms of traditional diagrams, but then implementing them in Minecraft reinforced and extended that understanding. The gratification of building a working product made the process more engaging as well, not to mention that walking and flying through a huge working circuit of one’s own construction can be exhilarating!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/alu-minecraft-computer.png&quot; alt=&quot;Computer ALU built in Minecraft&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our Minecraft world is available at &lt;a href=&quot;http://gchpcc.georgetowncollege.edu/~dthorne0/GeorgetownCollegeMinecraftALU2014.zip&quot;&gt;http://gchpcc.georgetowncollege.edu/~dthorne0/GeorgetownCollegeMinecraftALU2014.zip&lt;/a&gt;  for anyone who is interested in exploring our construction. (Unzip it in your Minecraft saves folder. It’s a big structure. Increase render distance for best viewing.)&lt;/p&gt;
+
+</description>
+                                <pubDate>Tue, 20 Jan 2015 00:00:00 -0500</pubDate>
+                                <link>/blog/2015/01/20/georgetown_college_minecraft_computer/</link>
+                                <guid isPermaLink="true">/blog/2015/01/20/georgetown_college_minecraft_computer/</guid>
+                        </item>
+                
+                        <item>
                                 <title>Communicating in Code</title>
                                 <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
 
@@ -309,35 +337,6 @@
                                 <pubDate>Tue, 20 May 2014 00:00:00 -0400</pubDate>
                                 <link>/blog/2014/05/20/our-learning-philosophy/</link>
                                 <guid isPermaLink="true">/blog/2014/05/20/our-learning-philosophy/</guid>
-                        </item>
-                
-                        <item>
-                                <title>University of Pikeville Brings In Awesome Inc For 1-Day iPhone Course</title>
-                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/116958087401786058743/&quot;&gt;Steve Osowicz&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There was a lull in the freezing cold weather, the endless ice and snow. It was the first temperature break in the middle of a brutal winter. The team from Awesome Inc U arrived at the &lt;a href=&quot;http://www.upike.edu/&quot;&gt;University of Pikeville&lt;/a&gt; to get set up for a crash course in iPhone App development. There was some initial concern that some of the participants might forego the iOS course in order to enjoy the beautiful day. However, knowing the significant impact that learning to code could have on their lives, the participants filtered in. The class was filled with people from a variety of backgrounds. There were system administrators, collegiate athletes, high school students and several people who didn’t even know what “&lt;a href=&quot;http://en.wikipedia.org/wiki/Hello_world_program&quot;&gt;Hello World!&lt;/a&gt;” meant. Justin, our Awesome Inc U instructor for the day, kept the class moving at a good pace for the material with plenty of Awesome Inc U teacher assistants frequently helping students when they had a question or needed further clarification.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/pikeville-ios-classroom.jpg&quot; alt=&quot;Classroom for iOS course at UPike&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;learning-by-doing&quot;&gt;Learning By Doing&lt;/h2&gt;
-
-&lt;p&gt;At the end of the class, the students were pleasantly surprised that they all built an actual, functional iPhone App. This was not just theoretical learning – this was a real world exercise in building something that worked. This on-site course covered the curriculum from our &lt;a href=&quot;http://www.awesomeincu.com/curriculum/#ios-crash&quot;&gt;1-Day iOS Crash Course&lt;/a&gt;. Participants with no prior programming experience learn how to navigate the Xcode development environment, pick up the fundamentals of the Objective-C programming language, and implement common iPhone app components like multiple View Controllers, ImageViews, and the Apple MapKit. &lt;/p&gt;
-
-&lt;p&gt;This six-hour course was a great foundation for the students to continue their learning. While the technical content provides solid value, the best part was seeing how excited people became over accomplishing a challenging task and building something tangible. Instilling this confidence in first-time programmers is a key part of our educational philosophy at Awesome Inc U.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/pikeville-ios-outside.jpg&quot; alt=&quot;Awesome Inc U participants take a stretch break on UPike campus&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As with all our Awesome Inc U courses, we made sure to take a break to stretch out our programming muscles. As programmers ourselves, we’ve come to know that the best way to solve a complex problem is often to walk away, clear your mind, and come back to it. With such a beautiful day, we headed outside to enjoy the beautiful Appalachian surroundings of the University of Pikeville’s campus while our participants shared their favorite jumping jack and yoga algorithms with the group.&lt;/p&gt;
-
-&lt;h2 id=&quot;bring-awesome-inc-u-to-your-organization&quot;&gt;Bring Awesome Inc U To Your Organization&lt;/h2&gt;
-
-&lt;p&gt;While most of our 1-day crash courses are hosted at our headquarters in Lexington, Kentucky, we’ve enjoyed the opportunity to bring on-site courses to various organizations. We’ve been to a few dozen K-12 schools for Hour of Code sessions. In March alone, our team traveled to the University of Pikeville for this iOS App 1-day course (through a partnership with the &lt;a href=&quot;http://kyinnovation.com/&quot;&gt;KY Innovation Network&lt;/a&gt;) and to Dreamhost in Los Angeles, California to present a class on the increasingly-popular static site generator, &lt;a href=&quot;https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite&quot;&gt;Jekyll&lt;/a&gt;. For many organizations, being able to offer an on-site class makes it easier for their key team members to attend. Along with our live instruction, each course includes supplementary materials like sample code files, course manuals, and screencast videos of your training session.&lt;/p&gt;
-
-&lt;p&gt;Visit us at &lt;a href=&quot;http://www.awesomeincu.com&quot;&gt;www.awesomeincu.com&lt;/a&gt; and check out what we have to offer. Does your school or business need a coding course, however you don’t see one that you need? &lt;a href=&quot;http://awesomeincu.com/info&quot;&gt;Contact our team&lt;/a&gt; and we can build a class to your specifications. One of the great aspects about these classes is that they can be catered to fit your school or company’s needs in terms of content, skill level, and more! Our team is experienced, professional, and ready to assist you with all of your coding educational needs.&lt;/p&gt;
-</description>
-                                <pubDate>Wed, 23 Apr 2014 00:00:00 -0400</pubDate>
-                                <link>/blog/2014/04/23/bring-awesome-to-you-like-pikeville/</link>
-                                <guid isPermaLink="true">/blog/2014/04/23/bring-awesome-to-you-like-pikeville/</guid>
                         </item>
                 
         </channel>
