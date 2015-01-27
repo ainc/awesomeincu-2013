@@ -1,13 +1,13 @@
 - title: Minecraft Party
-  curriculum: 
-  date: Dec 13
-  time: 5pm - 9pm
+  curriculum: minecraft
+  date: Feb 7th 
+  time: 1pm - 4pm
   early-bird-price:
   standard-price: 0 - free!
   early-bird-date:
-  url: http://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-14319256281?aff=aincwebsite
-  logo: logo_big.png
-  status: 'inactive'
+  url: https://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-15432550173
+  logo: minecraft.png
+  status: 'active'  
 
 - title: Awesome Inc Academy
   curriculum: academy
