@@ -3,7 +3,7 @@
   date: Feb 7th 
   time: 1pm - 4pm
   early-bird-price:
-  standard-price: 0 - free!
+  standard-price: 5 (SOLD OUT!)
   early-bird-date:
   url: https://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-15432550173
   logo: minecraft.png
@@ -104,7 +104,7 @@
   student-price: 
   early-bird-price: 100
   standard-price: 125
-  early-bird-date: Feb 7
+  early-bird-date: Feb 9
   url: https://eventbrite.com/event/14735529365/
   eid: 14735529365
   logo: Day-of-Code-Logo.png
