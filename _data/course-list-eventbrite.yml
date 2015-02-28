@@ -20,6 +20,17 @@
   logo: logo_big.png
   status: 'active'
 
+- title: After School Coding Club
+  curriculum: club
+  date: May 2015
+  time: after school
+  early-bird-price: 
+  standard-price: 25 / week
+  early-bird-date:
+  url: https://docs.google.com/forms/d/19xYvE86og_LebaeQRXqvpIu34utjlstGgbYFQ9UREUw/viewform
+  logo: logo_big.png
+  status: 'membership'
+
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
   date: May 19 - 20
