@@ -23,9 +23,17 @@
 			    {% comment %} 
 			    To make changes to course date/time/price or active state, see _data/course-list.yml
 			    {% endcomment %}
+
+				{% for course in site.data.course-list-eventbrite %}
+				{% if course.curriculum == 'minecraft' && course.status == 'active' %}
+				
+				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}</a><br></td><td> {% if course.student-price %} ${{ course.student-price }} (students), {% endif %} {% if course.early-bird-price %} ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), {% endif %} ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Register</a></center></td></tr>
+				
+				{% endif %}
+				{% endfor %}
 				
 				{% for course in site.data.course-list-eventbrite %}
-				{% if course.status == 'active' %}
+				{% if course.curriculum == 'academy' && course.status == 'active' %}
 				
 				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}</a><br></td><td> {% if course.student-price %} ${{ course.student-price }} (students), {% endif %} {% if course.early-bird-price %} ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), {% endif %} ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Register</a></center></td></tr>
 				
@@ -33,12 +41,28 @@
 				{% endfor %}
 
 				{% for course in site.data.course-list-eventbrite %}
-				{% if course.status == 'membership' %}
+				{% if course.curriculum == 'club' && course.status == 'active' %}
+				
+				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}</a><br></td><td> {% if course.student-price %} ${{ course.student-price }} (students), {% endif %} {% if course.early-bird-price %} ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), {% endif %} ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Register</a></center></td></tr>
+				
+				{% endif %}
+				{% endfor %}
+
+				{% for course in site.data.course-list-eventbrite %}
+				{% if course.curriculum == 'k12-week' && course.status == 'active' %}
+				
+				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}</a><br></td><td> {% if course.student-price %} ${{ course.student-price }} (students), {% endif %} {% if course.early-bird-price %} ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), {% endif %} ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Register</a></center></td></tr>
+				
+				{% endif %}
+				{% endfor %}	
+
+				{% for course in site.data.course-list-eventbrite %}
+				{% if course.curriculum == 'k12-day' && course.status == 'active' %}
 				
 				<tr><td><a href="/curriculum/#{{ course.curriculum }}"><img src="/img/{{ course.logo }} " alt="{{ course.title }}" width="40"></a>&nbsp;&nbsp;{{ course.date }}, {{ course.time }}</td><td><a href="/curriculum/#{{ course.curriculum }}">{{ course.title }}</a><br></td><td> {% if course.student-price %} ${{ course.student-price }} (students), {% endif %} {% if course.early-bird-price %} ${{ course.early-bird-price }} (early bird - ends {{ course.early-bird-date }}), {% endif %} ${{ course.standard-price }} (standard)</td><td><center><a class="btn btn-red btn-large" href="{{ course.url }}" target="_blank">Learn More!</a></center></td></tr>
 				
 				{% endif %}
-				{% endfor %}				
+				{% endfor %}			
 
 				{% for course in site.data.course-list-udemy %}
 				{% if course.status == 'online' %}
