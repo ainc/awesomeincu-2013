@@ -3,6 +3,12 @@ body {overflow-x:hidden; background-color: #fefefe;}
 
 /*--------------------------------------------------------------------------------------------------*/
 
+/*FORM FOR STAY CONNECTED*/
+
+#courses input {
+  padding: 1px 0px; !important
+}
+
 
 /* NAVBAR  */
 
