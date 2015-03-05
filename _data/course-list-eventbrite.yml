@@ -23,7 +23,7 @@
 - title: After School Coding Club
   curriculum: club
   date: May 2015
-  time: Time tbd
+  time: time TBD
   early-bird-price: 
   standard-price: 25 / week
   early-bird-date:
@@ -115,7 +115,7 @@
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: Mar 15
+  early-bird-date: Mar 4
   url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-tickets-14735599575
   eid: 14735599575 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
@@ -141,14 +141,14 @@
   landingHeader: "What your kids can learn this Spring!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
 
-- title: Kids Code Camp - July
+- title: Kids Summer Code Camp - July
   curriculum: k12-week
   date: July 7 - July 10
   time: 1pm - 5pm
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: May 31
+  early-bird-date: June 29
   url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-july-tickets-15971507208
   eid: 15971507208 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
@@ -214,8 +214,8 @@
   student-price: 
   early-bird-price: 100
   standard-price: 125
-  early-bird-date: Feb 9
-  url: https://eventbrite.com/event/14735529365/
+  early-bird-date:
+  url: http://www.awesomeincu.com/curriculum/#k12-day
   eid: 14735529365
   logo: Day-of-Code-Logo.png
   status: 'active'
