@@ -1,99 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<!--
-    _                                           ___            
-   / \__      _____  ___  ___  _ __ ___   ___  |_ _|_ __   ___ 
-  / _ \ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \  | || '_ \ / __|
- / ___ \ V  V /  __/\__ \ (_) | | | | | |  __/  | || | | | (__ 
-/_/   \_\_/\_/ \___||___/\___/|_| |_| |_|\___| |___|_| |_|\___|
-  Growing High-Tech Startups in Lexington, Kentucky. #horses
--->
-
   <head>
-
     <meta charset="utf-8">
-    <title>Android App Development Crash Course | Awesome Inc U</title>
+    <title>Starlight</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Awesome Inc U is a school that teaches you how to code by letting you code.">
-    <meta name="author" content="Awesome Inc">
-    <meta name="google-site-verification" content="HISrxp_NYG4qcm_rI_9vuenf2u1lVLIq-FCLo3ymlCo" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Styles -->
-    <link rel='stylesheet' type='text/css' href='/css/bootstrap.css' />
-    <link rel='stylesheet' type='text/css' href='/css/exo-font.css' />
-    <link rel='stylesheet' type='text/css' href='/css/journal-font.css' />
-    <link rel='stylesheet' type='text/css' href='/css/flexslider.css' />
-    <link rel='stylesheet' type='text/css' href='/css/jquery.fancybox-1.3.4.css' />
-    <link rel='stylesheet' type='text/css' href='/css/responsive.css' />
-    <link rel='stylesheet' type='text/css' href='/css/bootstrap3.css' />
-    <link rel='stylesheet' type='text/css' href='/css/styles.css' />
-    <!-- Mailchimp CSS -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet"  defer="defer">    
+    <link href="css/exo-font.css" rel="stylesheet"  defer="defer">
+    <link href="css/journal-font.css" rel="stylesheet"  defer="defer">
+    <link href="css/styles.css" rel="stylesheet"  defer="defer">
+    <link href="css/flexslider.css" rel="stylesheet"  defer="defer">	
+	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet"  defer="defer">	
+	<link href="css/responsive.css" rel="stylesheet"  defer="defer">
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<!-- Google Analytics Content Experiment code 
-  <script>
-    function utmx_section(){}function utmx(){}(function(){var
-    k='72165319-1',d=document,l=d.location,c=d.cookie;
-    if(l.search.indexOf('utm_expid='+k)>0)return;
-    function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-    indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-    length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-    '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-    '😕/www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-    '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-    valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-    '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-  </script>
-  <script>
-    utmx('url','A/B');
-  </script>
- End of Google Analytics Content Experiment code -->
+    <!-- Script files -->
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.flexslider.js"></script> 
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="js/jquery.form.js"></script>		
+    <script src="js/custom.js"></script>
+	<script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
 
-<!-- Script files -->
-    <script type='text/javascript' src='/js/jquery.js'></script>
-    <script type='text/javascript' src='/js/jquery.easing-1.3.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.flexslider.js'></script>
-    <script type='text/javascript' src='/js/jquery.fancybox-1.3.4.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.mousewheel-3.0.4.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.form.js'></script>
-    <script type='text/javascript' src='/js/custom.js'></script>
-    <script type='text/javascript' src='/js/bootstrap-scrollspy.js'></script>
-    <script type="text/javascript" src="/js/jquery.videoBG.js"></script>
     
   </head>
 
-  <body data-spy="scroll" data-target=".navbar">
+
+
+  <body data-spy="scroll" data-target=".navbar" onResize="window.location.href = window.location.href">
   
-<!-- NAVBAR ############################################### -->
+    <!-- NAVBAR ############################################### -->
     <div class="navbar navbar-fixed-top" id="navbar">
       <div class="navbar-inner">
         <div class="container">
          
-         <a href="/" class="brand hidden-phone" id="brand" ><img src="/img/Logo_Horizontal_white.png" alt="Awesome Inc U - Learn to code" height="28"></a>
+         <a href="#home" class="brand hidden-phone" id="brand" ><img src="img/logo.png" alt=""></a>
+         
           
             <ul class="nav">
-              <li><a href="/#courses">Courses</a></li>
-              <li><a href="/#about">About</a></li>
-              <li><a href="/#instructors">Instructors</a></li>
-              <li><a href="/#employers">Employers</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/academy" style="color: #FF1440;">The Academy</a></li>
-              <li><a href="/register" style="color: #FF1440;">Register</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#work1">Works</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           
         </div>
       </div>
     </div>
-<!-- /NAVBAR ############################################### -->
+    <!-- /NAVBAR ############################################### -->
 
-        <div>
+
+          <div>
     
     	<div class="container">
     		
@@ -116,45 +86,86 @@
     
     </div> <!-- /about -->
 
-<!-- FOOTER ############################################### -->
    
-    <div id="footer">
+	<!-- CONTACT FORM ############################################### -->
     
-      <div class="container">
-          
-      <div class="row" id="footer_bar">
-              <div class="span12" >
-                <p>&copy;2015 Awesome Inc</p>
-                <ul class="list-social hidden-phone">
-                  <li class="facebook"><a href="http://www.facebook.com/awesomeincorporated"></a></li>
-                  <li class="twitter"><a href="http://twitter.com/awesome_inc"></a></li>
-                  <li class="rss"><a href="/blog/"></a></li>
-                </ul>
-              </div>
-          </div> 
+    <div id="form">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span8" >
+     				<h3>Let's keep in touch</h3>
+     				
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>      				
+     				
+		
+     				<form action="js/sendmail.php" method="post" id="contact-form">
+						                   
+						<fieldset>
+						<div class="row"> 
+                        <div class="holder span8"><div class="message"><div class="top"></div><div class="contents"><div id="alert"></div></div><div class="bottom"></div></div></div>
+                        <div class="field span8"><label for="name">Your name (*):</label><input type="text" value="" class="input-text" id="name" name="name" /></div>
+                        <div class="field span8"><label for="email">Your email (*):</label><input type="text" value="" class="input-text" id="email" name="email" /></div>
+                        <div class="field span8"><label for="message">Message (*):</label><textarea  class="input-textarea" id="message" name="message"></textarea></div>
+                        <div class="flied span8"><input type="submit" class="input-submit btn btn-red" value="Submit" /></div></div>
+                    </fieldset>
+                    </form>
+					</div>
+					
+					<div class="span3 offset1" >
+						<h3>Contact info</h3>
 
-        </div><!-- /container -->
+	     				<p>30 South Park Avenue
+						San Francisco, CA 94108
+						USA<br><br>
+
+						Phone: (123) 456-7890<br>
+						Fax: +08 (123) 456-7890<br>
+						Email: contact@companyname.com<br>
+						Web: companyname.com</p>	
+						
+						
+						
+						<h3 class="hidden-phone">Social stuff</h3>
+						<ul class="list-social hidden-phone">
+			            	<li class="facebook"><a href="#"></a></li>
+			                <li class="twitter"><a href="#"></a></li>
+			                <li class="forrst"><a href="#"></a></li>
+			                <li class="dribbble"><a href="#"></a></li>
+							<li class="rss"><a href="#"></a></li>
+			            </ul>
+						
+					</div>
+					
+					
+   			</div> 		
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /form  -->  
+
+    <!-- /CONTACT FORM  ############################################### -->
+
+
+	<!-- FOOTER ############################################### -->
+   
+     <div id="footer">
+    
+    	<div class="container">
+        	
+			<div class="row" id="footer_bar">
+            	<div class="span12" >
+            		<p>© 2012 Starlight HTML/CSS Template by Shegy</p>
+            	</div>
+        	</div> 
+
+      	</div><!-- /container -->
     </div><!-- /footer -->
 
-<!-- /Footer ############################################### -->
-    
-<!-- /Google Analytics ############################################### -->
+    <!-- /Footer ############################################### -->
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-40742716-1', 'awesomeincu.com');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
-    </script>
-
-
-
-<!-- /Google Analytics ############################################### -->
 
   </body>
 </html>

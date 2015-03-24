@@ -1,852 +1,549 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<!--
-    _                                           ___            
-   / \__      _____  ___  ___  _ __ ___   ___  |_ _|_ __   ___ 
-  / _ \ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \  | || '_ \ / __|
- / ___ \ V  V /  __/\__ \ (_) | | | | | |  __/  | || | | | (__ 
-/_/   \_\_/\_/ \___||___/\___/|_| |_| |_|\___| |___|_| |_|\___|
-  Growing High-Tech Startups in Lexington, Kentucky. #horses
--->
-
   <head>
-
     <meta charset="utf-8">
-    <title>Awesome Inc U - learn to code</title>
+    <title>Starlight</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Awesome Inc U is a school that teaches you how to code by letting you code.">
-    <meta name="author" content="Awesome Inc">
-    <meta name="google-site-verification" content="HISrxp_NYG4qcm_rI_9vuenf2u1lVLIq-FCLo3ymlCo" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Styles -->
-    <link rel='stylesheet' type='text/css' href='/css/bootstrap.css' />
-    <link rel='stylesheet' type='text/css' href='/css/exo-font.css' />
-    <link rel='stylesheet' type='text/css' href='/css/journal-font.css' />
-    <link rel='stylesheet' type='text/css' href='/css/flexslider.css' />
-    <link rel='stylesheet' type='text/css' href='/css/jquery.fancybox-1.3.4.css' />
-    <link rel='stylesheet' type='text/css' href='/css/responsive.css' />
-    <link rel='stylesheet' type='text/css' href='/css/bootstrap3.css' />
-    <link rel='stylesheet' type='text/css' href='/css/styles.css' />
-    <!-- Mailchimp CSS -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet"  defer="defer">    
+    <link href="css/exo-font.css" rel="stylesheet"  defer="defer">
+    <link href="css/journal-font.css" rel="stylesheet"  defer="defer">
+    <link href="css/styles.css" rel="stylesheet"  defer="defer">
+    <link href="css/flexslider.css" rel="stylesheet"  defer="defer">	
+	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet"  defer="defer">	
+	<link href="css/responsive.css" rel="stylesheet"  defer="defer">
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<!-- Google Analytics Content Experiment code 
-  <script>
-    function utmx_section(){}function utmx(){}(function(){var
-    k='72165319-1',d=document,l=d.location,c=d.cookie;
-    if(l.search.indexOf('utm_expid='+k)>0)return;
-    function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-    indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-    length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-    '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-    '😕/www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-    '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-    valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-    '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-  </script>
-  <script>
-    utmx('url','A/B');
-  </script>
- End of Google Analytics Content Experiment code -->
+    <!-- Script files -->
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.flexslider.js"></script> 
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="js/jquery.form.js"></script>		
+    <script src="js/custom.js"></script>
+	<script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
 
-<!-- Script files -->
-    <script type='text/javascript' src='/js/jquery.js'></script>
-    <script type='text/javascript' src='/js/jquery.easing-1.3.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.flexslider.js'></script>
-    <script type='text/javascript' src='/js/jquery.fancybox-1.3.4.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.mousewheel-3.0.4.pack.js'></script>
-    <script type='text/javascript' src='/js/jquery.form.js'></script>
-    <script type='text/javascript' src='/js/custom.js'></script>
-    <script type='text/javascript' src='/js/bootstrap-scrollspy.js'></script>
-    <script type="text/javascript" src="/js/jquery.videoBG.js"></script>
     
   </head>
 
-  <body data-spy="scroll" data-target=".navbar">
+
+
+  <body data-spy="scroll" data-target=".navbar" onResize="window.location.href = window.location.href">
   
-<!-- NAVBAR ############################################### -->
+    <!-- NAVBAR ############################################### -->
     <div class="navbar navbar-fixed-top" id="navbar">
       <div class="navbar-inner">
         <div class="container">
          
-         <a href="/" class="brand hidden-phone" id="brand" ><img src="/img/Logo_Horizontal_white.png" alt="Awesome Inc U - Learn to code" height="28"></a>
+         <a href="#home" class="brand hidden-phone" id="brand" ><img src="img/logo.png" alt=""></a>
+         
           
             <ul class="nav">
-              <li><a href="/#courses">Courses</a></li>
-              <li><a href="/#about">About</a></li>
-              <li><a href="/#instructors">Instructors</a></li>
-              <li><a href="/#employers">Employers</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/academy" style="color: #FF1440;">The Academy</a></li>
-              <li><a href="/register" style="color: #FF1440;">Register</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#work1">Works</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           
         </div>
       </div>
     </div>
-<!-- /NAVBAR ############################################### -->
+    <!-- /NAVBAR ############################################### -->
 
+
+      <!---- ALL THIS WILL BECOME 
     <!-- HOME ############################################### -->
+
+    <div class="home" id="home" style="height: 611px; position: relative;">
+        <div class="videoBG_wrapper" style="position: absolute; top: 0px; left: 0px; height: 611px; width: 1286px; z-index: 1;">
+		<div class="container">
+    	
+			<div class="row ">
+      			<div class="span12 intro" id="intro" style="margin-top: 122.2px;">
+      				<img src="./Starlight_files/logo_mobile.png" class="visible-phone" id="logo" alt="" width="223" height="74" style="margin-left: 503px;">
+					<img src="./Starlight_files/logo_big.png" class="hidden-phone" alt="">
+      				<h1 class="hidden-phone">We design the web</h1>
+      				<p class="hidden-phone">And some other things you didn`t know about :)</p>
+      			</div>
+    		</div> 
     
-    <div class="home" id="home">
-      <div class="container">
-        <div class="row ">
-          <div class="span12 intro" id="intro">
-            <img src="/img/logo_square-mobile.png" class="visible-phone" id="logo" alt="Awesome Inc U - learn to code" height="74">
-            <img src="/img/logo_big.png" class="hidden-phone" alt="Awesome Inc logo" >
-            <h1 class="hidden-phone">Awesome Inc U</h1>
-            <p class="hidden-phone">Come Learn To Code With Us!</p>
-            <br>
-            <a class="btn btn-red" href="/register">Register Now</a>
-          </div>
-        </div> 
-        <div class="row hidden-phone">
-          <div class="span12 more" id="more">
-            <p><a href="/#about">more</a></p>
-          </div>
-        </div> 
-      </div> <!-- /container -->
-      
-      <div id="intro-slider-container">
-        <div class="visible-phone" ><p><img src="/img/home_bg.jpg" alt=""/></p></div>
-      </div>
- 
-    </div> <!-- /home -->
-    
-<!-- /HOME ############################################### -->
-	
-<!-- COURSES, formerly PERKS ############################################### -->
-    <div id="courses">
-      <div class="container">
-        <div class="row head1">
-            <div class="span12">
-              <h2>Courses</h2>
-            </div>
-        </div>
-    
-		<br>
-		<br>
-	
-    <!-- TABLE ############################################### -->	
-	
-			<table class="classtable" border="1">
-				<tr>
-		   		 <td colspan="4">
-		   		<!-- Begin MailChimp Signup Form -->
+    		<div class="row hidden-phone">
+      			<div class="span12 more" id="more">
+            	<p><a href="http://shegy.nazwa.pl/themeforest/starlight/video/#about">more</a></p>
+      			</div>
+    		</div> 
+       
+		</div> <!-- /container -->
 		
-		   			<br>
-		   			<center><h3>Stay Connected + Learn About Upcoming Courses</h3></center>
-		   			<br>
-		   		<div id="mc_embed_signup">
-		   		<form style="padding:0px" action="http://awesomeinc.us2.list-manage1.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=159107e690" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		   			<input style="margin: auto; padding: 1px 0px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-		   			<div class="clear"><input style="margin: auto;margin-top: 1em" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-		   		</form>
-		   		</div>
-		   		</td>
-		   		</tr>
-		   		<!--End mc_embed_signup-->
-	  
-			    <tr><th>Date/Time</th><th>Course</th><th>Price</th><th>Availability</th></tr>
-			    
-			    
+		
+    
 
-				
-				
-				
-					<tr><td><a href="/curriculum/#minecraft"><img src="/img/minecraft.png " alt="Minecraft Party" width="40"></a>&nbsp;&nbsp;Mar 27th, 6pm - 9pm</td><td><a href="/curriculum/#minecraft">Minecraft Party</a><br></td><td> 
-					  
-					
-					 
-					$10 (standard)</td><td><center><a class="btn btn-red btn-large" href="https://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-15888307355" target="_blank">Register</a></center></td></tr>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#academy"><img src="/img/logo_big.png " alt="Awesome Inc Academy" width="40"></a>&nbsp;&nbsp;Jan - April, evenings</td><td><a href="/curriculum/#academy">Awesome Inc Academy</a><br></td><td> 
-					  
-					
-						$429/month (early bird 
-					
-					
-						- ends Dec 31), 
-					 
-					$533/month (standard)</td><td><center><a class="btn btn-red btn-large" href="/academy/" target="_blank">Register</a></center></td></tr>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-
-				
-				
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#club"><img src="/img/logo_big.png " alt="After School Coding Club" width="40"></a>&nbsp;&nbsp;May 2015, time TBD</td><td><a href="/curriculum/#club">After School Coding Club</a><br></td><td> 
-					  
-					
-					 
-					$25 / week (standard)</td><td><center><a class="btn btn-red btn-large" href="https://docs.google.com/forms/d/19xYvE86og_LebaeQRXqvpIu34utjlstGgbYFQ9UREUw/viewform" target="_blank">Learn More</a></center></td></tr>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#k12-week"><img src="/img/Week-of-Code-Logo.png " alt="Kids Code Camp - Spring Break" width="40"></a>&nbsp;&nbsp;Mar 30 - Apr 2, 1pm - 5pm</td><td><a href="/curriculum/#k12-week">Kids Code Camp - Spring Break</a><br></td><td> 
-					  
-					
-						$495 (early bird 
-					
-					
-						- ends Mar 4), 
-					 
-					$695 (standard)</td><td><center><a class="btn btn-red btn-large" href="https://www.eventbrite.com/e/awesome-inc-kids-code-camp-tickets-14735599575" target="_blank">Register</a></center></td></tr>
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#k12-week"><img src="/img/Week-of-Code-Logo.png " alt="Kids Summer Code Camp - July" width="40"></a>&nbsp;&nbsp;July 7 - July 10, 1pm - 5pm</td><td><a href="/curriculum/#k12-week">Kids Summer Code Camp - July</a><br></td><td> 
-					  
-					
-						$495 (early bird 
-					
-					
-						- ends June 29), 
-					 
-					$695 (standard)</td><td><center><a class="btn btn-red btn-large" href="https://www.eventbrite.com/e/awesome-inc-kids-code-camp-july-tickets-15971507208" target="_blank">Register</a></center></td></tr>
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#k12-week"><img src="/img/Week-of-Code-Logo.png " alt="Kids Summer Code Camp - August" width="40"></a>&nbsp;&nbsp;Aug 3 - Aug 6, 1pm - 5pm</td><td><a href="/curriculum/#k12-week">Kids Summer Code Camp - August</a><br></td><td> 
-					  
-					
-						$495 (early bird 
-					
-					
-						- ends Mar 15), 
-					 
-					$695 (standard)</td><td><center><a class="btn btn-red btn-large" href="https://www.eventbrite.com/e/awesome-inc-kids-code-camp-august-tickets-15971522253" target="_blank">Register</a></center></td></tr>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-					
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-					<tr><td><a href="/curriculum/#k12-day"><img src="/img/Day-of-Code-Logo.png " alt="Day of Code for Kids" width="40"></a>&nbsp;&nbsp;TBD, 12pm - 5pm</td><td><a href="/curriculum/#k12-day">Day of Code for Kids</a><br></td><td> 
-					  
-					
-						$100 (early bird)
-					
-					 
-					$125 (standard)</td><td><center><a class="btn btn-red btn-large" href="http://www.awesomeincu.com/curriculum/#k12-day" target="_blank">Learn More</a></center></td></tr>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-							
-
-				
-				
-				
-				<tr><td><a href="/curriculum/#jekyll-udemy"><img src="/img/logo-jekyll-udemy.png " alt="Jekyll and GitHub Pages Web Development" width="40"></a>&nbsp;&nbsp;Online Course</td><td><a href="/curriculum/#jekyll-udemy">Jekyll and GitHub Pages Web Development, via Udemy</a><br></td><td><del>$40 (standard)</del>, $20 (special discount)</td><td><center><a class="btn btn-success btn-large" href="https://www.udemy.com/jekyll-and-github-pages/?couponCode=aincwebsite" target="_blank">Start Now</a></center></td></tr>
-				
-				
-				
-				
-				
-				<tr><td><a href="/curriculum/#ios-crash"><img src="/img/logo-ios.png " alt="Develop Your First iPhone App Today!" width="40"></a>&nbsp;&nbsp;Online Course</td><td><a href="/curriculum/#ios-crash">Develop Your First iPhone App Today!, via Udemy</a><br></td><td><del>$95 (standard)</del>, $45 (special discount)</td><td><center><a class="btn btn-success btn-large" href="https://www.udemy.com/iphone-app-crash-course/?couponCode=aincwebsite" target="_blank">Start Now</a></center></td></tr>
-				
-				
-				
-				
-				
-				<tr><td><a href="/curriculum/#basicweb-crash"><img src="/img/logo-html.png " alt="Develop and Launch Your First Website in Just One Day!" width="40"></a>&nbsp;&nbsp;Online Course</td><td><a href="/curriculum/#basicweb-crash">Develop and Launch Your First Website in Just One Day!, via Udemy</a><br></td><td><del>$79 (standard)</del>, $25 (special discount)</td><td><center><a class="btn btn-success btn-large" href="https://www.udemy.com/basic-web-crash-course/?couponCode=aincwebsite" target="_blank">Start Now</a></center></td></tr>
-				
-				
-				
-				
-				
-				<tr><td><a href="/curriculum/#unity-crash"><img src="/img/logo-unity3d.png " alt="Make Your First Video Game Today With Unity 3D" width="40"></a>&nbsp;&nbsp;Online Course</td><td><a href="/curriculum/#unity-crash">Make Your First Video Game Today With Unity 3D, via Udemy</a><br></td><td><del>$79 (standard)</del>, $25 (special discount)</td><td><center><a class="btn btn-success btn-large" href="https://www.udemy.com/make-a-unity-game-today/?couponCode=aincwebsite" target="_blank">Start Now</a></center></td></tr>
-				
-				
-				
-
-				
-				
-				
-				<tr><td><a href="/curriculum/#k12-hour"><img src="/img/logo-csedweek2013.png " alt="Hour of Code for Schools" width="40"></a>&nbsp;&nbsp;On-Location</td><td><a href="/curriculum/#k12-hour">Hour of Code for Schools</a><br></td><td>Starting at $850 per school</td><td><center><a class="btn btn-info btn-large" href="https://docs.google.com/forms/d/1vIHhrrct5zISCJ44FYlm0xD9D5ZCKh-Cbw_B6Uu7H6Y/viewform" target="_blank">Get Info</a></center></td></tr>
-				
-				
-				
-				
-				
-
-				
-				
-				
-				
-				
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#ios-advanced"><img src="/img/logo-ios.png " alt="iPhone App Development 2-Day Advanced Course" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#ios-advanced">iPhone App Development 2-Day Advanced Course</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#k12-teacher"><img src="/img/logo_big.png " alt="Learn To Code for Educators" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#k12-teacher">Learn To Code for Educators</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#ios-crash"><img src="/img/logo-ios.png " alt="iPhone App Development Crash Course" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#ios-crash">iPhone App Development Crash Course</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#php-crash"><img src="/img/logo-php.png " alt="PHP Web Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#php-crash">PHP Web Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#basicweb-crash"><img src="/img/logo-html.png " alt="Basic Web Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#basicweb-crash">Basic Web Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#android-crash"><img src="/img/logo-android.png " alt="Android App Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#android-crash">Android App Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#frontweb2-crash"><img src="/img/logo-html.png " alt="Front-End Web Development, Level 2" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#frontweb2-crash">Front-End Web Development, Level 2</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#unity-crash"><img src="/img/logo-unity3d.png " alt="Unity Game Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#unity-crash">Unity Game Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#javascript-crash"><img src="/img/logo-js.png " alt="JavaScript Web Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#javascript-crash">JavaScript Web Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#rubyonrails-crash"><img src="/img/logo-rails.png " alt="Ruby on Rails Web Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#rubyonrails-crash">Ruby on Rails Web Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-
-				<tr><td><a href="/curriculum/#python-crash"><img src="/img/logo-python.png " alt="Python Web Development 1-Day" width="40"></a>&nbsp;&nbsp;TBD</td><td><a href="/curriculum/#python-crash">Python Web Development 1-Day</a><br></td><td> TBD </td><td><center>Coming Soon</center></td></tr>
-
-				
-				
-				
-				
-
-			</table>
-
-    <!-- /TABLE ############################################### -->
+ 
+    </div><div class="videoBG" style="position: absolute; z-index: 0; top: 0px; left: 0px; height: 876px; width: 1369px; opacity: 1; overflow: hidden;"><video poster="video/videobg.jpg" autoplay="autoplay" src="video/videobg.webm" style="position: absolute; z-index: 0; top: 0px; left: -200px; min-width: 120%; min-height: 100%;"></video></div></div> <!-- /home -->
+    
+    <!-- /HOME ############################################### -->
 
 
-      </div>
-    </div>
 
-		<br>
-
-<!-- /COURSES, formerly PERKS ############################################### -->
-
-<hr>
-
-<!-- ABOUT ############################################### --> 
+ 
+    <!-- ABOUT ############################################### --> 
     <div id="about">
-      <div class="container" id="abouttext">
-        <div class="row head1">
-              <div class="span12" >
-                <h2>About</h2>
-              </div>
-        </div>
-        <div class="row" id="starlight">  
-          <div class="span2" >
-            <div>
-              <h4>“I think everybody in this country should learn how to program a computer
-              because it teaches you how to think.” 
-              <br/><br/>
-              — STEVE JOBS
-              </h4>
-            </div><!-- /abouttext -->
-          </div>
-
-          <div class="span8 offset1" >
-            <div>
-              <h3>Everyone Can Learn To Code</h3>
-              <img src="/img/php-crash-20140126.jpg" alt="Awesome Inc U instructor talks with students at PHP Crash Course" width="300">
-              <img src="/img/day-of-code-20140222.jpg" alt="Awesome Inc U instructors help students at Day of Code" width="300">
-              <p>Awesome Inc U exists to help people learn how to create software. If you want to program your own website, mobile app, or video game, we can help you get started. We do this in four ways:</p>
-
-              <ol>
-                <li>A series of <a href="/register" title="Register for in-person courses">hands-on, in-person classes</a></li>
-                <li><a href="http://www.udemy.com/u/awesomeinc" title="awesomeinc on Udemy">Online video courses</a></li>
-                <li><a href="/membership/" title="Awesome Inc U Memberships">Office Hours Membership</a> (like a gym membership for #learntocode)</li>
-                <li><a href="mailto:founders@awesomeinc.org?Subject=Awesome%20Inc%20U%20On-site%20Training">On-site training for schools, companies, and organizations</a></li>
-              </ol>
-
-              <p>Our classes are attended by students, independent entrepreneurs, and corporate teams. It’s never too early or too late to learn to code. You don’t need to be a genius to learn to code, you just need to be determined. From musicians, to athletes, to billionaire founders of tech companies, <a href="http://www.youtube.com/watch?v=qYZF6oIZtfc" target="_blank" title="1 minute video from Code.org">lots of successful people want YOU to learn to code</a>.</p>
-              <p> Want to learn more? Check out the <a href="/faq">Frequently Asked Questions -&gt;</a></p>
-              <p><a class="btn btn-red" href="/register">Register Now</a></p>                 
-            </div>
-          </div><!-- span8 -->
-        </div><!-- /starlight-row  -->
-      </div> <!-- /container -->
-    </div> <!-- /about -->   
-<!-- ABOUT ############################################### --> 
-
-<!-- /INSTRUCTORS ############################################### -->
     
-      <div class="container" id="instructors">
-          
-        <div class="row head1" >
-              <div class="span12" >
-                <h2>Instructors</h2>
-              </div>
-        </div> 
-        <div class="row" id="team">   
-          <div class="row">
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/pub/justin-raney/3/b3a/696" target="_blank"><img src="/img/justin_raney.jpg" alt="Justin Raney"><h4>Justin Raney</h4></a><h5>Co-founder, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a>
-            <br/>iOS instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/meisterjohn" target="_blank"><img src="/img/john_meister.jpg" alt="John Meister"><h4>John Meister</h4></a><h5>Co-founder, <a href="http://supersoul.co" target="_blank">Super Soul Studios</a>
-            <br/>Unity instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/thatjpk" target="_blank"><img src="/img/john_kiffmeyer.jpg" alt="John Kiffmeyer"><h4>John Kiffmeyer</h4></a><h5>Co-founder, <a href="http://buildinglayer.com" target="_blank">BuildingLayer</a>
-            <br/>Python &amp; Django instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/ronatrnsoft" target="_blank"><img src="/img/ron_northrip.jpg" alt="Ron Northrip"><h4>Ron Northrip</h4></a><h5>President, <a href="http://cogitools.com" target="_blank">Cogitools</a>
-            <br/>JavaScript instructor
-            </h5>
-            </div>
-
-          </div>
-          <div class="row">
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/pub/aaron-arnett/61/594/b08" target="_blank"><img src="/img/aaron_arnett.jpg" alt="Aaron Arnett"><h4>Aaron Arnett</h4></a><h5>Software Architect, <a href="http://www.hp.com/Exstream‎" target="_blank">Hewlett-Packard</a>
-            <br/>Ruby on Rails instructor
-            </h5>
-            </div>
-          
-            <div class="span3">
-            <a href= "http://www.linkedin.com/pub/nick-profitt/6b/ab1/434" target="_blank"><img src="/img/nick_profitt.jpg" alt="Nick Profitt"><h4>Nick Profitt</h4></a><h5>Mobile Developer, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a>
-            <br/>iOS instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/pub/justin-hall/67/853/8a6" target="_blank"><img src="/img/justin_hall.jpg" alt="Justin Hall"><h4>Justin Hall</h4></a><h5>Co-founder, <a href="http://www.neatfactory.com/" target="_blank">Neat Factory</a>
-            <br/>Unity instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/nicksuch" target="_blank"><img src="/img/nick_such.jpg" alt="Nick Such"><h4>Nick Such</h4></a><h5>Co-founder, <a href="http://awesomeinc.org" target="_blank">Awesome Inc</a>
-            <br/>iOS, Python &amp; Basic Web instructor
-            </h5>
-            </div>
-
-          </div><!-- /row -->
-          <div class="row">
-          
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/tommycrush" target="_blank"><img src="/img/tommy_crush.jpg" alt="Tommy Crush"><h4>Tommy Crush</h4></a><h5>Software Engineering Intern, <a href="http://developers.facebook.com/" target="_blank">Facebook</a>
-            <br/>PHP instructor
-            </h5>
-            </div>
-          
-            <div class="span3">
-            <a href= "http://www.linkedin.com/in/brianraney" target="_blank"><img src="/img/brian_raney.jpg" alt="Brian Raney"><h4>Brian Raney</h4></a><h5>Co-founder, <a href="http://apaxsoftware.com" target="_blank">Apax Software</a> &amp; <a href="http://awesomeinc.org" target="_blank">Awesome Inc</a>
-            <br/>iOS &amp; Basic Web instructor
-            </h5>
-            </div>
-
-            <div class="span3">
-            <a href= "http://www.linkedin.com/pub/chris-allen/35/a36/1b2" target="_blank"><img src="/img/chris_allen.jpg" alt="Chris Allen"><h4>Chris Allen</h4></a><h5>Software Engineer, <a href="http://www.volarvideo.com/" target="_blank">Volar Video</a>
-            <br/>Android instructor
-            </h5>
-            </div>
-
-          </div><!-- /row -->
-        </div><!-- /team-row -->
-      </div><!-- /container -->
-
-<!-- /INSTRUCTORS ############################################### -->
-	  
-	  <hr>
-	  
-<!-- /TESTIMONIALS ############################################### -->	  
-	  
     	<div class="container">
-  			<div class="row head1">
-    			<div class="span12" >
-    				<h2>Testimonials</h2>
-    			</div>
-      	</div>
-        <div class="row">        
-          <div class="span10 offset1" >
-<div class="faq_content">
-<h2 align="center">Alumni Reviews!</h2> <br />
-<br />
-
-<p><img src="/img/testimonials/robert.jpg" alt="Robert Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">"Good introduction to Android programming for both new and experienced programmers. The instructors were very knowledgeable, willing to answer any questions, and intent on making sure everyone understood the concepts behind the coding. The pace of the class was ideal as each new topic built upon the last. As a result, I have a much more confidence in doing mobile development on my own. I would recommend this class for anyone looking to develop coding skills that are in high demand. I plan on signing up for the more of these classes in the future." <strong>-Robert B.</strong></p>
-	<p>Courses Taken: Android</p>
-	
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	
-	<p><img src="/img/testimonials/chelsea.jpg" alt="Chelsea Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">
-"This was a fantastic course and I'd highly recommend taking it. The Awesome Inc. team kept a seemingly tedious subject fun and interesting with games, jokes and sandbox time. It was a very hands on class and by the end, we had built an actual website from scratch. They're not just blowing smoke -- Awesome Inc. really is awesome!" <strong>-Chelsea Nicole Stamper</strong></p>
-	<p>Courses Taken: Basic Web Development</p>
-	
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	
-	<p><img src="/img/testimonials/kyle.jpg" alt="Kyle Testimonial" style="float:left; padding: 0px 10px 0px 0px;">
-"I think the Awesome Inc U courses are Awesome! They are extremely helpful, way more helpful than the several computer science courses I've taken at my University." <strong>-Kyle R.</strong></p>
-	<p>Courses Taken: iOS, Android, Python, Unity, and Basic Web Development</p>
-	
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	
-	<p><img src="/img/testimonials/david.jpg" alt="David Testimonial" style="float:left; padding: 0px 10px 0px 0px;">
-"I've always wanted to learn how to code but thought it would be too hard. I feel like a coding guru after taking just a few Ainc U courses. The hands-on approach makes learning how to code easy." <strong>-David B.</strong></p>
-	<p>Courses Taken: Ruby on Rails and Basic Web Development</p>
-	
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-
-	<p><img src="/img/testimonials/steam.jpg" alt="STEAM Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">
-"It was my pleasure to work with you all. We had a great experience doing this and had many students/staff express their appreciation and enjoyment in participating. Thanks for providing the information beforehand and the efforts you and your staff made on our behalf.
-<br><br>
-Please pass along our appreciation to everyone else at Awesome Inc. It was great to work with everyone on this event and look forward to growing our partnership into the future." <strong>-Michael Wlosinski, STEAM Academy</strong></p>
-	<p><a href="http://csedweek.org">Hour of Code</a> school taught by Awesome Inc U</p>
-	
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>	
-	
-	<p><img src="/img/testimonials/ben.jpg" alt="Ben Testimonial" style="float:left; padding: 0px 10px 0px 0px;" height="200" width="200">
-"The basic web development course was an extremely well thought out and well executed class. In a world where coding jobs are plentiful, I now feel confident in my ability to create a basic web site with a hope to further develop my web development skill in the future." <strong>-Ben Childress</strong></p>
-	<p>Courses Taken: Basic Web Development</p>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-      </div> <!-- faq-content -->
-     </div><!-- span8 -->
-  </div><!-- row -->
-</div> <!-- /container -->
-  
- <!-- /TESTIMONIALS ############################################### --> 
-
-<hr>
-
-<!-- /EMPLOYERS ############################################### -->
-
-    <div id="employers">
+    		
+			<div class="row head1">
+      			<div class="span12">
+      				<h2>About us</h2>
+      			</div>
+    		</div> 
     
-      <div class="container">
-        <div class="row head1">
-            <div class="span12">
-              <h2>Employers</h2>
-            </div>
-        </div> 
+    		<div class="row" id="starlight">
+      			<div class="span3">
+      				<h3>Starlight</h3>
+      				<div id="abouttext">
+      					<h4>Don’t design for everyone. It’s impossible. All you end up doing is designing something that makes everyone unhappy.</h4>
+      					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+      
+      				</div><!-- /abouttext -->
+      			</div>
+
     
-        <div class="row">        
-          <div class="span8 offset2" >
-            <h3>Employment Partners</h3>
-            <p>It's no secret that software developers are some of the most sought-after employees today. Awesome Inc U partners with technology companies and startups to help employers find the best candidates, and to help our students find the best jobs out there. Learn more about our <a href="/employers/">Employer Partnership Program</a></p>
-            <p>Current employment partners include:</p>
-            <ul class="list">
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://dell.com" target="_blank"><img width="150" height="150" src="/img/logo-dell.png" alt="Dell" title="Dell"/></a></li>
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://apaxsoftware.com" target="_blank"><img width="150" height="150" src="/img/logo-apax.png" alt="Apax Software" title="Apax Software" /></a></li>
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://thinksis.com" target="_blank"><img width="150" height="150" src="/img/logo-sis.png" alt="SIS" title="SIS"/></a></li>
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://supersoul.co" target="_blank"><img width="150" height="150" src="/img/logo-supersoul.png" alt="SuperSoul" title="SuperSoul"/></a></li>
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://frogdice.com" target="_blank"><img width="150" height="150" src="/img/logo-frogdice.png" alt="FrogDice" title="FrogDice"/></a></li>
-              <li style="float:left; padding:0 15px 15px 0;"><a href="http://volarvideo.com" target="_blank"><img width="150" height="150" src="/img/logo-volar.png" alt="Volar Video" title="Volar Video"/></a></li>
-            </ul>
-          </div><!-- span8 -->
-        </div><!-- row -->
-      </div>
-    </div>
+        		<div class="span8 offset1">
+        			<h3>Our approach</h3>
+        			<div class="row" id="approach">
+            			<div class="span2">
+							<img src="./Starlight_files/icon1.png" alt=""><h5>1. idea</h5><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elitUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+      					</div>
+            			<div class="span2">
+							<img src="./Starlight_files/icon2.png" alt=""><h5>2. design</h5><p> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+      					</div>
+            			<div class="span2">
+							<img src="./Starlight_files/icon3.png" alt=""><h5>3. coding</h5><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+      					</div>
+            			<div class="span2">
+							<img src="./Starlight_files/icon4.png" alt=""><h5>4. success</h5><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  </p>
+      					</div>       
+        			</div><!-- /approach -->
 
-<!-- /EMPLOYERS ############################################### -->
+        		</div>
+    
+    
+			</div><!-- /starlight-row  -->
+        
 
-<!-- FOOTER ############################################### -->
+			
+			<div class="row" id="team">
+				
+      			<div class="span12">
+      				<h3>Our team</h3>
+      				
+					<div class="row">
+						<div class="span3">
+      					<img src="./Starlight_files/team1.jpg" alt=""><h4>John Kowalski</h4><h5>CEO</h5><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elitUt wisi enim ad minim veniam, quis nostrud exerci.</p>
+      					</div>
+
+						<div class="span3">
+      					<img src="./Starlight_files/team2.jpg" alt=""><h4>Samantha Carter</h4><h5>Creative Director</h5><p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
+      					</div>
+
+						<div class="span3">
+      					<img src="./Starlight_files/team3.jpg" alt=""><h4>Daniel Jackson</h4><h5>Web designer</h5><p>Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>
+      					</div>
+
+						<div class="span3">
+      					<img src="./Starlight_files/team4.jpg" alt=""><h4>Elizabeth Weir</h4><h5>Copywriter</h5><p>Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol.</p>
+      					</div>
+      				</div>
+      			</div>
+
+			</div><!-- /team-row  -->
+
+    	</div> <!-- /container -->
+    
+    </div> <!-- /about -->   
+
+    <!-- /ABOUT ############################################### -->      
+
+
+
+
+    <!-- SERVICES ############################################### -->
+    
+    <div id="services">
+    
+    	<div class="container">
+        	
+			<div class="row head2">
+            	<div class="span12">
+            		<h2>Services</h2>
+            	</div>
+        	</div> 
+    
+    		<div class="row">
+				
+      			<div class="span12">
+      				
+					<div class="row">
+						<div class="span4">
+      					<img src="./Starlight_files/service1.png" alt=""><h3>Discover.</h3><p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li tot Europa usa li sam vocabularium. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilita; de un nov lingua franca: on refusa continuar payar custosi traductores. It solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</p>
+						<ul class="list bordered rectangle-red">
+	                        <li>User research, usability testing</li>
+	                        <li>Web analytics</li>
+	                        <li>Benchmarking and competitive analysis</li>
+	                        <li>Conceptualizing new products</li>
+	                        <li>Information architecture</li>
+	                    </ul>
+
+      					</div>
+
+						<div class="span4">
+      					<img src="./Starlight_files/service2.png" alt=""><h3>Design.</h3><p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental: in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
+						<ul class="list bordered rectangle-red">
+	                        <li>Wireframing</li>
+	                        <li>Prototyping</li>
+	                        <li>Content creation</li>
+	                        <li>Visual identity and styleguide development</li>
+	                    </ul>
+      					</div>
+
+						<div class="span4">
+      					<img src="./Starlight_files/service3.png" alt=""><h3>Develop.</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan .</p>
+						<ul class="list bordered rectangle-red">
+	                        <li>Front-end development (HTML/CSS)</li>
+	                        <li>Back-end development</li>
+	                        <li>Integrating third party CMS</li>
+	                        <li>Flash AS3 development</li>
+						</ul>
+      					</div>
+
+      				</div>
+      			</div>
+
+			</div><!-- /team-row  -->
+
+			
+        	
+      	</div><!-- /container -->
+    </div><!-- /services -->
+
+    <!-- /SERVICES ############################################### --> 
+     
+         
+                 
+ 
+    <!-- WORK 01 ############################################### -->
+    
+    <div id="work1">
+    
+    	<div class="container">
+    		<div class="row head1">
+      			<div class="span12">
+      				<h2>Works</h2>
+      			</div>
+    		</div> 
+		
+   			<div class="row">				 
+     				<div class="span4">
+     				<h3>Lorem ipsum dolor</h3>
+     				<h4>Web design, development</h4>
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>
+      				<a class="btn btn-red" href="">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+                    <div class="span8 visible-phone hidden-tablet mobile-img"><img src="./Starlight_files/work01.png" alt=""></div>
+					<div class="span8 flexslider hidden-phone " id="work1-slider">
+					<ul class="slides">
+	    				<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;"><img src="./Starlight_files/work01.png" alt=""></li>
+						<li style="width: 100%; float: left; margin-right: -100%; position: relative;"><div class="row margin-left">
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01a.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01b.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01c.jpg" alt=""></a></figure></div>						
+							</div>
+							
+							<div class="row margin-left">
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01d.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01e.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work01f.jpg" alt=""></a></figure></div>
+							</div></li>
+					</ul>	
+				<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li></ol></div>
+   			</div> 		
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work1 -->  
+
+    <!-- /WORK 01 ############################################### -->
+
+
+
+
+	<!-- WORK 02 ############################################### -->
+    
+    <div id="work2">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4">
+     				<h3>Lorem ipsum dolor</h3>
+     				<h4>Web design, development</h4>
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>
+      				<a class="btn btn-red" href="">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img"><img src="./Starlight_files/work02.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone " id="work2-slider">
+					<ul class="slides">
+	    				<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;"><img src="./Starlight_files/work02.png" alt=""></li>
+                        <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><img src="./Starlight_files/work02g.png" alt=""></li>
+						<li style="width: 100%; float: left; margin-right: -100%; position: relative;"><div class="row margin-left">
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02a.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02b.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02c.jpg" alt=""></a></figure></div>						
+							</div>
+							
+							<div class="row margin-left">
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02d.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02e.jpg" alt=""></a></figure></div>
+								<div class="span2"><figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="circle" src="./Starlight_files/work02f.jpg" alt=""></a></figure></div>
+							</div></li>
+					</ul>	
+				<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li></ol></div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work2 -->  
+
+    <!-- /WORK 02 ############################################### -->
+
+
+
+
+	<!-- WORK 03 ############################################### -->
    
-    <div id="footer">
+     <div id="work3">
     
-      <div class="container">
-          
-      <div class="row" id="footer_bar">
-              <div class="span12" >
-                <p>&copy;2015 Awesome Inc</p>
-                <ul class="list-social hidden-phone">
-                  <li class="facebook"><a href="http://www.facebook.com/awesomeincorporated"></a></li>
-                  <li class="twitter"><a href="http://twitter.com/awesome_inc"></a></li>
-                  <li class="rss"><a href="/blog/"></a></li>
-                </ul>
-              </div>
-          </div> 
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4">
+     				<h3>Lorem ipsum dolor</h3>
+     				<h4>Web design, development</h4>
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>
+      				<a class="btn btn-red" href="">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img"><img src="./Starlight_files/work03.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone " id="work3-slider">
+					<ul class="slides">
+	    				<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;"><img src="./Starlight_files/work03.png" alt=""></li>
+						<li style="width: 100%; float: left; margin-right: -100%; position: relative;"><img src="./Starlight_files/work03b.png" alt=""></li>
+					</ul>	
+				<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li></ol></div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work3 -->  
 
-        </div><!-- /container -->
+	<!-- /WORK 03 ############################################### -->
+
+
+
+
+	<!-- WORK 04 ############################################### -->
+    
+    <div id="work4">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4">
+     				<h3>Lorem ipsum dolor</h3>
+     				<h4>Web design, development</h4>
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>
+      				<a class="btn btn-red" href="">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img"><img src="./Starlight_files/work04.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone" id="work4-slider">
+					<ul class="slides">
+	    				<li style="display: list-item;"><img src="./Starlight_files/work04.png" alt=""></li>
+					</ul>	
+				</div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work4 -->  
+
+	<!-- /WORK 04 ############################################### -->
+
+
+
+
+    <!-- GALLERY ############################################### -->
+   
+     <div id="gallery">
+    
+    	<div class="container">
+        	
+			<div class="row head3">
+            	<div class="span12">
+            		<h2>Gallery</h2>
+            	</div>
+        	</div> 
+    		
+			<div class="row">
+                <div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery1.jpg" alt=""></a></figure>
+				<h3>Vision</h3><h4>Lorem ipsum dolor sit</h4>
+				</div>
+                <div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery2.jpg" alt=""></a></figure>
+				<h3>Mesmerized</h3><h4>Amet consectetuer adipiscing elit</h4>
+				</div>
+                <div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery3.jpg" alt=""></a></figure>
+                <h3>Unleashed</h3><h4>Diam nonummy nibh</h4>
+                </div>
+                
+			</div>	
+    		
+			<div class="row">
+            	<div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery4.jpg" alt=""></a></figure>
+				<h3>Playground</h3><h4>Euismod tincidunt ut laoreet</h4>
+				</div>
+                
+				<div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery5.jpg" alt=""></a></figure>
+				<h3>Invasion</h3><h4>Magna aliquam erat</h4>
+				</div>
+				
+                <div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery6.jpg" alt=""></a></figure>
+				<h3>Make a wish</h3><h4>Volutpat ut wisi enim</h4>
+				</div>
+			</div>
+			
+			<div class="row">
+            	<div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery7.jpg" alt=""></a></figure>
+				<h3>Remember</h3><h4>Minim veniam quis</h4>
+				</div>
+                
+				<div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery8.jpg" alt=""></a></figure>
+				<h3>Tiger</h3><h4>Nostrud exerci tation ullamcorper</h4>
+				</div>
+                
+				<div class="span4">
+            	<figure><a class="enlarge fancybox" href="http://shegy.nazwa.pl/themeforest/starlight/video/img/img_placeholder.jpg"><img class="rounded-corners" src="./Starlight_files/gallery9.jpg" alt=""></a></figure>
+				<h3>Silver</h3><h4>Lobortis nisl ut</h4>
+				</div>
+			</div>
+			
+        	
+      	</div><!-- /container -->
+    </div><!-- /gallery -->
+
+    <!-- /Gallery############################################### -->
+
+   
+	<!-- CONTACT FORM ############################################### -->
+    
+    <div id="form">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span8" >
+     				<h3>Let's keep in touch</h3>
+     				
+     				<p>Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen.</p>      				
+     				
+		
+     				<form action="js/sendmail.php" method="post" id="contact-form">
+						                   
+						<fieldset>
+						<div class="row"> 
+                        <div class="holder span8"><div class="message"><div class="top"></div><div class="contents"><div id="alert"></div></div><div class="bottom"></div></div></div>
+                        <div class="field span8"><label for="name">Your name (*):</label><input type="text" value="" class="input-text" id="name" name="name" /></div>
+                        <div class="field span8"><label for="email">Your email (*):</label><input type="text" value="" class="input-text" id="email" name="email" /></div>
+                        <div class="field span8"><label for="message">Message (*):</label><textarea  class="input-textarea" id="message" name="message"></textarea></div>
+                        <div class="flied span8"><input type="submit" class="input-submit btn btn-red" value="Submit" /></div></div>
+                    </fieldset>
+                    </form>
+					</div>
+					
+					<div class="span3 offset1" >
+						<h3>Contact info</h3>
+
+	     				<p>30 South Park Avenue
+						San Francisco, CA 94108
+						USA<br><br>
+
+						Phone: (123) 456-7890<br>
+						Fax: +08 (123) 456-7890<br>
+						Email: contact@companyname.com<br>
+						Web: companyname.com</p>	
+						
+						
+						
+						<h3 class="hidden-phone">Social stuff</h3>
+						<ul class="list-social hidden-phone">
+			            	<li class="facebook"><a href="#"></a></li>
+			                <li class="twitter"><a href="#"></a></li>
+			                <li class="forrst"><a href="#"></a></li>
+			                <li class="dribbble"><a href="#"></a></li>
+							<li class="rss"><a href="#"></a></li>
+			            </ul>
+						
+					</div>
+					
+					
+   			</div> 		
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /form  -->  
+
+    <!-- /CONTACT FORM  ############################################### -->
+
+
+	<!-- FOOTER ############################################### -->
+   
+     <div id="footer">
+    
+    	<div class="container">
+        	
+			<div class="row" id="footer_bar">
+            	<div class="span12" >
+            		<p>© 2012 Starlight HTML/CSS Template by Shegy</p>
+            	</div>
+        	</div> 
+
+      	</div><!-- /container -->
     </div><!-- /footer -->
 
-<!-- /Footer ############################################### -->
-    
-<!-- /Google Analytics ############################################### -->
+    <!-- /Footer ############################################### -->
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-40742716-1', 'awesomeincu.com');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
-    </script>
-
-
-
-<!-- /Google Analytics ############################################### -->
 
   </body>
 </html>

@@ -551,7 +551,7 @@ a.enlarge:before {
 .intro p{font: 57px 'JournalRegular', Arial, sans-serif; color: #E6E6E6;text-shadow: 1px 1px 1px black;line-height: 5px; margin-bottom: 25px; display:block; width: 100%; } 
 .intro .btn {font-size: 18px;}
 
-.more {background: url(../img/more.png) center no-repeat ;text-align: center; height:70px; padding-top:25px; position:absolute; bottom:0px; margin-bottom:-13px; display:block; z-index:100; }
+.more {background: url(../img/more.png) center no-repeat ;text-align: center; height:70px; padding-top:25px; position:absolute; bottom:0px; margin-bottom:-200px; display:block; z-index:100; }
 .more a {font: 35px 'JournalRegular', Arial, sans-serif; color:#ff1440;}
 .more a:hover {text-decoration:none; color:#ff728c;}
 /*--------------------------------------------------------------------------------------------------*/
