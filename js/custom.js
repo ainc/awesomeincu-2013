@@ -1,6 +1,3 @@
-var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ? true : false );
-
-
 $(document).ready(function(){
 
 //this function is used to position elements on the homepage
@@ -35,41 +32,25 @@ slide2.css("max-width",windowWidth2+"px");
 }
 sniffer();
 
+//this function is used display the vidoe on the homepage
+function video() {
 
-if (iOS) {
-  //flexslider on the homepage
-  $('#intro-slider').flexslider({
-    directionNav: false,
-    controlNav: false,
-    keyboardNav: false
-  }); 
+var videoHeight=$(window).height();
+	
+$('#home').videoBG({
+    mp4:'video/videobg.mp4',
+    ogv:'video/videobg.ogv',
+    webm:'video/videobg.webm',
+    poster:'video/videobg.jpg',
+    scale:true, 
+	});	
 
-  $('#intro-slider-container').show();
-
-} else {
-
-  $('#intro-slider-container').hide();
-
-  //this function is used display the vidoe on the homepage
-  function video() {
-
-  var videoHeight=$(window).height();
-  	
-  $('#home').videoBG({
-      mp4:'video/videobg.mp4',
-      ogv:'video/videobg.ogv',
-      webm:'video/videobg.webm',
-      poster:'video/videobg.jpg',
-      scale:true
-  	});	
-
-  }
-  video();
 }
+video();
 
 
 //flexsliders for the works section - here you need to add/remove slider id when adding/removing portfolio position
-$('#perks-slider, #work2-slider, #work3-slider, #work4-slider ').flexslider({
+$('#work1-slider, #work2-slider, #work3-slider, #work4-slider ').flexslider({
   directionNav: false,
   controlNav: true,
   keyboardNav: false,
