@@ -1,13 +1,13 @@
-- title: Minecraft Party
+- title: Minecraft Party (Day of Code Special)
   curriculum: minecraft
-  date: Mar 27th 
+  date: May 15th 
   time: 6pm - 9pm
   early-bird-price:
-  standard-price: 10
+  standard-price: 20 (free with <a href="">Day of Code</a>)
   early-bird-date:
   url: https://www.eventbrite.com/e/awesome-inc-u-minecraft-party-tickets-15888307355
   logo: minecraft.png
-  status: 'active'  
+  status: 'active' 
 
 - title: Awesome Inc Academy
   curriculum: academy
@@ -174,16 +174,16 @@
   landingHeader: "What your kids can learn this Spring!"
   landingDiscount: "Make a website, mobile app, and video game at this camp!"
 
-- title: Day of Code for Kids
+- title: Day of Code for Kids (Minecraft Party Special)
   curriculum: k12-day
-  date: TBD
+  date: May 16
   time: 12pm - 5pm
   student-price: 
-  early-bird-price: 100
+  early-bird-price: 100 + free minecraft party ticket
   standard-price: 125
   early-bird-date:
-  url: http://www.awesomeincu.com/curriculum/#k12-day
-  eid: 14735529365
+  url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-16293433097
+  eid: 16293433097
   logo: Day-of-Code-Logo.png
   status: 'active'
   landingTitle: Day of Code for Kids
