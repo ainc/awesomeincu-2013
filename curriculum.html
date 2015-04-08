@@ -412,7 +412,9 @@ redirect_from: /curriculum.html
 
             <div class="row" id="k12-week"><br><br><br><br>
               <div class="span1">
-                <a href="http://www.eventbrite.com/e/kids-code-camp-weekofcode-tickets-9821589639?aff=aincwebsite" target="_blank"><img src="/img/courses/code-camp.png" width="70" alt="logo"></a>
+                <a href="http://www.eventbrite.com/o/awesome-inc-202032396?s=35741249">
+                  <img src="/img/courses/code-camp.png" width="70" alt="logo">
+                </a>
               </div>
               <div class="span7">
                 <h2>Kids Code Camp</h2>
@@ -428,7 +430,14 @@ redirect_from: /curriculum.html
                 </ul>
                 <h4>Course Dates</h4>
               {% for course in site.data.course-list-eventbrite %}
-                {% if course.curriculum == 'k12-week' and course.status == 'active' %}
+                {% if course.curriculum == 'k12-week' and course.status == 'active' and course.location == 'Louisville' %}
+                  <h4> Louisville </h4>
+                
+                <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                {% endif %}
+                {% if course.curriculum == 'k12-week' and course.status == 'active' and course.location == 'Lexington' %}
+                  <h4> Lexington </h4>
+                
                 <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
                 {% elsif course.curriculum == 'k12-week' and course.status == 'inactive' %}
                 <p>TBD</p>
