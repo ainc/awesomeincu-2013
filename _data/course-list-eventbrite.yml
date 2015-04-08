@@ -20,14 +20,25 @@
   logo: logo_big.png
   status: 'active'
 
-- title: After School Coding Club
+- title: After School Coding Club - Monday
   curriculum: club
-  date: May 2015
-  time: time TBD
+  date: May 4 - May 25
+  time: 5pm - 6:30pm
   early-bird-price: 
   standard-price: 25 / week
   early-bird-date:
-  url: https://docs.google.com/forms/d/19xYvE86og_LebaeQRXqvpIu34utjlstGgbYFQ9UREUw/viewform
+  url: https://www.eventbrite.com/e/awesome-inc-after-school-coding-club-mondays-in-may-tickets-16473902887
+  logo: logo_big.png
+  status: 'active'
+
+- title: After School Coding Club - Tuesday
+  curriculum: club
+  date: May 5 - May 26
+  time: 4:15pm - 5:45pm
+  early-bird-price: 
+  standard-price: 25 / week
+  early-bird-date:
+  url: https://www.eventbrite.com/e/awesome-inc-after-school-coding-club-tuesdays-in-may-tickets-16474372291
   logo: logo_big.png
   status: 'active'
 
