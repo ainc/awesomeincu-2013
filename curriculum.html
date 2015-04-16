@@ -489,7 +489,15 @@ redirect_from: /curriculum.html
                 <h4>Course Dates</h4>
               {% for course in site.data.course-list-eventbrite %}
                 {% if course.curriculum == 'club' and course.status == 'active' %}
-                <p>{{ course.date }}, {{ course.time }} <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                <p>{{ course.date }}, {{ course.time }} 
+                  {% if course.curriculum-date == 'mon' %} 
+                    (Monday's) </p>
+                  {% else %}
+                    (Tuesday's) </p>
+                  {% endif %}
+                 <a class="btn btn-red" href="{{ course.url }}" target="_blank">Register</a></p>
+                  
+                
                 {% elsif course.curriculum == 'club' and course.status == 'inactive' %}
                 <p>TBD</p>
                 {% endif %}
