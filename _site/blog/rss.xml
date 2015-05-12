@@ -7,6 +7,31 @@
                 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Academy Spring 2015 Recap</title>
+                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch/&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;While the bitter January winds were still galloping through downtown Lexington, a group of thirteen students, ages ten through seventeen, began a three-month journey into the world of software development. What began with the simple desires of, “I want to make my own video game,” led down the complex path of GitHub commits, nested If statements, and the challenges of debugging C# code with Mono. Last week, as April neared a close, ten students completed this step of their learn-to-code journey, with nearly 100 hours of programming practice behind them, and a slew of experiences and portfolio projects that coders twice their age would be honored to display.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/academy_s15_1.jpg&quot; alt=&quot;Awesome Inc Academy Spring 2015 programming students and instructors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The semester-long &lt;a href=&quot;http://www.awesomeincu.com/academy/&quot;&gt;Awesome Inc Academy program&lt;/a&gt; grew from humble beginnings. In 2013, we visited several area schools to help facilitate Code.org’s global &lt;a href=&quot;https://hourofcode.com/&quot;&gt;Hour of Code&lt;/a&gt; event, a one-hour long introduction to computer science concepts through hands-on exercises. Prompted by the engagement of the middle and high school students we worked with, we followed this up with the logical next step: the Day of Code. Moving beyond block-based programming, we got into typing syntax from industry-standard programming languages, Day of Code challenging students to go beyond fun games to building useful software. When our Day of Code alumni asked us for their next challenge, we responded with the &lt;a href=&quot;http://www.awesomeincu.com/curriculum/#k12-week&quot;&gt;Week of Code&lt;/a&gt;, diving into Website, Mobile App, and Video Game development during our first multi-day camps in the summer of 2014. We thought we had satiated the desires of students and parents at this point. Could middle and high school-aged kids possibly want to learn more beyond this? It turned out, we had underestimated the lengths to which they were capable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/academy_s15_2.jpg&quot; alt=&quot;Awesome Inc Academy programming students shows iPhone app to Brian Raney&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first semester of the Awesome Inc Academy began in September 2014 with nine students. Most had taken Day and Week of Code classes with us, or other programming lessons through Newton’s Attic, Transylvania University summer camps, or the few CS courses available in Lexington-area schools. Different from our day-long and week-long courses, the content for the 14-week Academy session was neither predetermined nor homogeneous. Each student chose his or her own goals, and worked with our team of coaches to craft an individualized learning plan. A handful of students marveled at the iPhone and chose to build their own mobile apps, some comparing breeds of dogs, and some displaying features of leading lacrosse sticks. Other students dove into websites for cats, or custom-crafted video games, with their own 3D environments, keyboard control schemes, and unique characters. Three months later, these students amazed us with their &lt;a href=&quot;https://www.youtube.com/watch?v=ioax1z620vs&quot;&gt;final presentations&lt;/a&gt;, and made us all wonder, “Was I doing something this cool at their age?”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/academy_s15_3.jpg&quot; alt=&quot;Awesome Inc Academy students working on programming projects with instructors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week marked the completion of our second semester of the Academy, and once again our students rose to the occasion. These boys and girls, representing 11 different area schools, both public and private, not only designed, created, and tested their own software, but also had the eloquence to present it in front of a group. Nearly 50 people were in attendance for &lt;a href=&quot;https://www.flickr.com/photos/awesomeinc/sets/72157652375068985/&quot;&gt;Academy final presentations&lt;/a&gt;, ranging from parents and siblings of our students, to Awesome Inc staff and Academy coaches, to software developers and executives of local tech companies. While these teenage students may not be starting tech companies in their parents’ basements this summer, they’re well on their way to polishing the skills that will enable them to do so in the future. If the likes of Bill Gates and Mark Zuckerberg got started programming before they graduated high school, shouldn’t more of Kentucky’s kids be doing the same?&lt;/p&gt;
+
+&lt;p&gt;PS: &lt;a href=&quot;http://www.awesomeincu.com/academy/&quot;&gt;Academy applications for Fall 2015&lt;/a&gt; are now open.&lt;/p&gt;
+</description>
+                                <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
+                                <link>/blog/2015/05/12/academy-s15-recap/</link>
+                                <guid isPermaLink="true">/blog/2015/05/12/academy-s15-recap/</guid>
+                        </item>
+                
+                        <item>
                                 <title>Georgetown College Minecraft ALU </title>
                                 <description>&lt;p&gt;by Danny Thorne&lt;/p&gt;
 
@@ -268,75 +293,6 @@
                                 <pubDate>Wed, 28 May 2014 00:00:00 -0400</pubDate>
                                 <link>/blog/2014/05/28/why-21st-century-kids-should-learn-to-code/</link>
                                 <guid isPermaLink="true">/blog/2014/05/28/why-21st-century-kids-should-learn-to-code/</guid>
-                        </item>
-                
-                        <item>
-                                <title>Our Learning Philosophy at Awesome Inc U</title>
-                                <description>&lt;p&gt;by &lt;a href=&quot;https://plus.google.com/+NickSuch?rel=author&quot;&gt;Nick Such&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href=&quot;http://www.awesomeincu.com&quot;&gt;Awesome Inc U&lt;/a&gt;, our goal is not only to create excellent programmers, but also to create a better way of learning. We think the ability to create stuff and solve problems using computer software is a skill with a significant term of usefulness, but some other skill &lt;em&gt;du jour&lt;/em&gt; will eventually replace it. This is why the latter achievement, creating a great way to learn anything, is the more important of our two goals. In addition to the &lt;a href=&quot;http://blog.awesomeinc.org/post/65083231094/core-value-training&quot;&gt;Core Values&lt;/a&gt; we live by at Awesome Inc, we have identified some basic tenets that we’re applying to our Awesome Inc U program.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-strategy-how-to-create-excellent-programmers&quot;&gt;Our Strategy: How to Create Excellent Programmers&lt;/h2&gt;
-
-&lt;p&gt;This strategy is what our core team at Awesome Inc U is working to implement. As we’re designing courses, scheduling summer camps, marketing our products, and coaching our instructors, this is what we keep in mind.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-1-find-great-programmers-to-be-instructors&quot;&gt;Step 1: Find great programmers to be instructors&lt;/h3&gt;
-
-&lt;p&gt;If we’re looking to create excellent programmers, we want to create them in the image of existing excellent programmers. This is our end goal, so this is where we must start. By having these living, breathing examples, our students will get to interact with their end goal. This makes it tangible: when the student can do what the master can do, he or she has made sufficient progress.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-instructors.jpg&quot; alt=&quot;Awesome Inc U instructors&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;step-2-choose-instructors-who-remember-what-it-was-like-to-not-be-a-programmer&quot;&gt;Step 2: Choose instructors who remember what it was like to not be a programmer&lt;/h3&gt;
-
-&lt;p&gt;Being an expert has a downside: it makes it tough to remember what it was like to be a beginner. Becoming a great programmer means increasing your leverage. You start to use tools like Vim. You have Dotfiles set up so that your environment works the way you want. You use Vagrant like a boss. You speak with fellow programmers in a particular dialect with a particular set of assumptions before beginning any conversation. You follow &lt;a href=&quot;https://github.com/airbnb/javascript&quot;&gt;style guides for your JavaScript&lt;/a&gt;. You understand enough conventions to choose Convention over Configuration. From a UX design perspective, most of the things you do aren’t visible and discoverable to a first-time user. There are keystroke combinations and subconscious habits that you’ve developed over years of practice. But as a programming instructor, you must understand that for your newest students, everything is foreign. You must remember what that great unknown felt like in order to teach for us. You must have a high capacity for empathy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-flow.png&quot; alt=&quot;The Flow diagram, showing Anxiety and Boredom regions&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;step-3-have-a-goal-in-mind&quot;&gt;Step 3: Have a goal in mind&lt;/h3&gt;
-
-&lt;p&gt;Our students come to us to achieve a goal. They don’t come here to learn Objective-C. They come here to make their dream iPhone app or to land a great job. Our job is to understand their intended destination, then to craft a path to lead them from their current state to their goal. This path will almost certainly adjust as we encounter new obstacles, but if we don’t set an initial goal, we’ll have nothing to measure against. When crafting this path, our team must target an &lt;a href=&quot;http://www.quora.com/Self-Improvement/How-can-I-accelerate-my-personal-growth&quot;&gt;optimal level of difficulty&lt;/a&gt;. Too easy, and our students will get bored. Too difficult, and our students will give up. This is the hard part of being a teacher, and this is the part for which subject-matter experts aren’t often equipped. Fortunately, simply having a feedback loop here is a massive step up from reading a programming book in solitude, or watching a tutorial video on YouTube. In addition to feedback from our instructors, we’ve found that peer interaction is one of the best types of support. Peers offer a valuable perspective as they’re currently working through the same material. Learning-by-teaching is also a great way to demonstrate mastery of a subject.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/philosophy-fun.jpg&quot; alt=&quot;Students playing the Oreo Challenge game&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;step-4-make-it-fun&quot;&gt;Step 4: Make it fun&lt;/h3&gt;
-
-&lt;p&gt;Fun does not mean idly entertaining. Difficult is fun. Competition is fun. Make a game out of it. At all of our 1-day courses, we take breaks to play games like the &lt;a href=&quot;https://vine.co/v/hQ7bX9mKQiF&quot;&gt;Minute to Win It Oreo Challenge&lt;/a&gt;, Around-The-World Ping Pong, and Rock, Paper, Scissors…War. These games have nothing to do with programming, but they have everything to do with being a programmer. Like any focused, desk-bound task, you’ll go crazy if you don’t get up and move every once in a while. Plus, we think there’s much more to being an effective programmer than slinging code. You need to communicate well, be able to work as part of a team, and know how to follow Rule #17 - Bring the Fun. These set the tone. But the true fun comes from challenging our students with a difficult task, guiding them along the way, and seeing them achieve something that they considered impossible only a short time before.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-tactics-how-to-create-excellent-programmers&quot;&gt;Our Tactics: How to Create Excellent Programmers&lt;/h2&gt;
-
-&lt;p&gt;These tactics are some of the things that we remind our students and teaching assistants. While small, we’ve found that&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;If you get stuck, first try to FIO (Figure It Out™) on your own.&lt;/strong&gt; Then ask a peer. Then ask an instructor. Then ask Google.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Projects are more valuable than PowerPoints.&lt;/strong&gt; Trust people who build stuff.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Move Fast And Break Things&lt;/strong&gt;. &lt;a href=&quot;http://startupquote.com/post/1624569753&quot;&gt;Borrowed from Facebook&lt;/a&gt;, this is an embrace of the learning opportunities gained through failure, and is why we have a Failure Dashboard at Awesome Inc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Track your progress.&lt;/strong&gt; It’s hard to tell how far you’ve come if you don’t remember where you’ve been.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Take breaks.&lt;/strong&gt; We play lots of ping pong. We have a piano and guitar readily available. There’s a nice park and several coffee shops near Awesome Inc. Take a walk, clear your mind, come back to find that your seemingly-hard problem is not so bad.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Listen, then talk.&lt;/strong&gt; What does your client want you to build? What is your team member actually asking you for? What does the &lt;a href=&quot;http://www.urbandictionary.com/define.php?term=op&quot;&gt;OP&lt;/a&gt; actually want to know?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Don’t &lt;em&gt;assume&lt;/em&gt; that something is &lt;em&gt;obvious&lt;/em&gt;.&lt;/strong&gt; Avoid using those 2 words, and you’ll drastically improve your communication and empathy skills.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;additional-reading&quot;&gt;Additional Reading&lt;/h2&gt;
-
-&lt;p&gt;The above are just a few guidelines that we’re following as we’re growing Awesome Inc U into a premier training program for technical skills. We’re constantly learning through this process as well, so we hope to add further insights to this list. There are some other great resources out there for improving the learning process. We’re a big fan of the work the &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;Khan Academy&lt;/a&gt; is doing. Purely online education still has a long way to go, but Sal Khan and his team are thinking about it in the right way. Jeff Casimir’s &lt;a href=&quot;http://blip.tv/rubynation/jeff-casimir-4337403&quot;&gt;How to Teach Anyone Anything&lt;/a&gt; is a great reference, especially for others who are helping people learn to code. But perhaps the best advice comes from my one of my math professors in college. He asked our class a question, which most of us initially thought to be self-serving, but was quite the opposite: “Who’s the best teacher you’ve ever had?” After shooting down a series of answers, he let us know the only answer that he would accept: “You, yourself, are the best teacher you will ever have.”&lt;/p&gt;
-</description>
-                                <pubDate>Tue, 20 May 2014 00:00:00 -0400</pubDate>
-                                <link>/blog/2014/05/20/our-learning-philosophy/</link>
-                                <guid isPermaLink="true">/blog/2014/05/20/our-learning-philosophy/</guid>
                         </item>
                 
         </channel>
