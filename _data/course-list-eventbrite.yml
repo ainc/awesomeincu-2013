@@ -163,7 +163,7 @@
   student-price: 
   early-bird-price: 495
   standard-price: 695
-  early-bird-date: June 29
+  early-bird-date: May 31
   url: https://www.eventbrite.com/e/awesome-inc-kids-code-camp-july-tickets-15971507208
   eid: 15971507208 # this entry will be deprecated, can be regex'd from url
   logo: Week-of-Code-Logo.png
