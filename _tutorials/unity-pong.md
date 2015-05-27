@@ -5,7 +5,7 @@ title: Make A Pong Game With Unity 2D
 
 # Let’s Make: PONG
 
-![image alt text](/tutorials/image_0.png)
+![image alt text](/img/tutorials/unity-pong/image_0.png)
 
 By Will Oldham
 
@@ -39,7 +39,7 @@ Now, let’s start with the paddles. When we open up Unity, we’re used to seei
 
 2. New Project. You should see something like this:
 
-	![image alt text](/tutorials/image_1.png)
+	![image alt text](/img/tutorials/unity-pong/image_1.png)
 
 3. Name the Project something like ‘Pong Game’
 
@@ -49,25 +49,25 @@ You should now see the camera in a more 2D space. If you don’t, in the scene v
 
 So the first thing to do is click and drag the background image into the project space at the bottom of your Unity window. The background image is going to be in the downloadable file as "Background.jpg" or you can use whatever other image you want (by doing this, you may have to adjust some size or view settings - as a warning). Just drag and drop it in the Project space, as denoted by the red box below:
 
-![image alt text](/tutorials/image_2.png)
+![image alt text](/img/tutorials/unity-pong/image_2.png)
 
 Click on the image. The Inspector on the right side of your screen should look like this:
 
-![image alt text](/tutorials/inspector_1.png)
+![image alt text](/img/tutorials/unity-pong/inspector_1.png)
 
 Take some time to make sure it does. The only thing you  should worry about here is Pixels to Units. Let’s set it at 150, but changing that number is what affects how zoomed in or out from the background image it appears we are. Once you finish updating these settings, hit the Apply button. Then drag the image into the Scene view, and center it in the Inspector by making sure X and Y are 0. If this doesn’t work, make sure you set that 2D perspective lock set in the menu bar above your Scene. Once you add the background image to your Scene, you should also see that that makes a Game Object in the Hierarchy menu to the left. Rename this to ‘BG’ for Background, like this:
 
-![image alt text](/tutorials/image_3.png)
+![image alt text](/img/tutorials/unity-pong/image_3.png)
 
 With ‘BG’ selected in your Hierarchy pane, look at the Inspector pane and the ‘Sprite renderer’ dropdown menu. We want to make sure the background doesn’t accidentally get moved later on when we’re interacting in the scene view more. Go to ‘Sorting Layer’, and add a new Sorting Layer called Background. Drag the new layer above the Default Layer. You may need to re-select your BG object in the Hierarchy pane so that it will show up in the Inspector again. Change the Order in Layer to -10 back in the sprite renderer menu. This is all just to make sure the Background stays in the back. Now go to the Layer dropdown menu in the top right of the Inspector, and add a new Layer called ‘Background’ here too. Now under the Layers drop down menu above the Inspector, we can lock the Background so we don’t actually move it. It should look like this image to the left by the end.
 
-![image alt text](/tutorials/inspector_2.png)
+![image alt text](/img/tutorials/unity-pong/inspector_2.png)
 
 **REMEMBER: Always hit Apply when you finish in the Inspector for an object.**
 
 Now we’re cooking. Lets select the Main Camera object in your Hierarchy pane. Rename it so ‘MainCamera’ is one word. That will be important later in some of our scripting so that our code knows what object to look for. Next, make your camera settings look like mine, here to the left. All these settings are doing is getting the camera in the right position for the later pieces we’ll be adding. The camera box won’t exactly match with the Background, but that’s fine - if the screen gets resized, we won’t go past the background as quickly. The Scale options refer to how big a given object will be. The position refers to where it is on a graph - which is what your scene view is. Changing these numbers will change where the object is. The center is always 0,0,0.
 
-![image alt text](/tutorials/inspector_3.png)
+![image alt text](/img/tutorials/unity-pong/inspector_3.png)
 
 **Continue….**
 
@@ -77,15 +77,15 @@ The next obvious step is to make our paddles. Find the image in the downloadable
 
 Now drag the paddle onto the scene in scene view. A ‘Player’ object should appear in your Hierarchy menu. Rename that to Player01. Cool. Click on that. Make it look like this under the inspector:
 
-![image alt text](/tutorials/inspector_4.png)
+![image alt text](/img/tutorials/unity-pong/inspector_4.png)
 
 All we’re doing here is making sure that the paddle is positioned where we want it. You could position it wherever, but I found that for our settings, I like this location the best. The sorting layer and other settings don’t matter this time because we want this object to be drawn on top, which is what Unity defaults to.
 
 Next we’re going to add two components to the Player object. Click on the ‘Add Component’ button, and then on ‘Physics 2D.’ Once you’ve done that add both a ‘Box Collider 2D’ and a ‘Rigidbody 2D.’ The Box Collider 2D is to make sure the ball will bounce off your paddle, and the Rigidbody 2D is there so we can move the paddle around. their menus should look like this:
 
-![image alt text](/tutorials/image_4.png)
+![image alt text](/img/tutorials/unity-pong/image_4.png)
 
-![image alt text](/tutorials/image_5.png)
+![image alt text](/img/tutorials/unity-pong/image_5.png)
 
 The mass is high because that will help to make sure the paddles don’t move when the ball collides with them. Unity uses realistic physics, so when the ball hits, Unity wants to make the paddle absorb some energy and move back too. We don’t want that. The Fixed angle helps make sure the paddles don’t rotate when we move them either. The Box Collider 2D size is set so that it is the same shape as our paddle image. It’s important to use Physics, BoxCollider, and RigidBody 2D here because 3D versions of those exist - that’s not what we want in our 2D game though. 
 
@@ -93,7 +93,7 @@ Now we want to do the hard part: add a script for movement for our paddles. I’
 
 To add a script, make sure that Player01 is still selected in your Hierarchy pane, then go to ‘Add Component’, and then ‘New Script.’ Call this one ‘PlayerControls’ and make sure the language is C# (or CSharp, as it is spelled out in Unity). Hit ‘Create and Add’. Now double click the icon that appears below in the Project pane to open it up in [MonoDevelop](http://en.wikipedia.org/wiki/MonoDevelop), Unity’s Integrated Development Environment (or IDE) - essentially, it’s the program Unity uses to let us write our scripts in.
 
-![image alt text](/tutorials/image_6.png)
+![image alt text](/img/tutorials/unity-pong/image_6.png)
 
 This is what we need the file to look like:
 
@@ -101,31 +101,31 @@ This is what we need the file to look like:
 
 **In short, the first two lines are packages of pre-written code we want to tell our program it can use.**
 
-![image alt text](/tutorials/image_7.png)
+![image alt text](/img/tutorials/unity-pong/image_7.png)
 
 **The next line is the class name, the name of our file. It’s the same thing that we named our Component.**
 
-![image alt text](/tutorials/image_8.png)
+![image alt text](/img/tutorials/unity-pong/image_8.png)
 
 **the next couple of lines are variables, or objects the class should know about. By making these variables ‘public,’ we can adjust them through our Unity interface as well. If we have variables we don’t want other developers to see in the Unity interface, we should call them ‘private’. Unity may automatically add lines for a function called Start(), but we won’t be using that, so you can delete that function.**
 
 **The first two lines we add denote the keys we’ll press to move the paddles, and the last one is the speed of the paddle.**
 
-![image alt text](/tutorials/image_9.png)
+![image alt text](/img/tutorials/unity-pong/image_9.png)
 
 **Update is function that tells us what button is being pressed, and then moves the paddle accordingly, or, if no button is pressed, keeps the paddle still.**
 
-![image alt text](/tutorials/image_10.png)
+![image alt text](/img/tutorials/unity-pong/image_10.png)
 
 **The last bit of code should help keep the paddle still when the ball hits it - it’s basically saying, after anything happens, put yourself back at the right x-coordinate. This is part of the ‘Update()’ function.**
 
-![image alt text](/tutorials/image_11.png)
+![image alt text](/img/tutorials/unity-pong/image_11.png)
 
 ***NOTE: Sometimes as we’re writing code, our method (or function) names are important to keep the same, as they come from our packages. Make sure that you name methods the same thing that I do. For instance, an ‘Update()’ function is one that Unity knows to run once every frame, because it is called ‘Update()’. If you want to / know how to play with how the methods accomplish what they do, you can do that. This doesn’t apply to all methods, but be aware!***
 
 Cool. Save that, and exit out. Now, when we go back to Unity, we should have a paddle that moves. Go to the ‘Game’ tab next to the ‘Scene’ tab, and hit the play button at the top of the screen. Use the up and down arrow keys. Does it work? Awesome! Go back to scene view, and click on our ‘Player01’ object. Under the Inspector pane, you should see a place to change the key bindings for up and down, and the speed that it moves at. Mess around with those as you please. The next step is to make a second paddle. All we need to do is right click ‘Player01’ in the Hierarchy menu, and choose Duplicate from the menu that appears when we right click. Rename it to be ‘Player02’. Next, change its key bindings (I recommend using ‘W’ for up and ‘S’ for down), and move it to be the opposite location on the board - change the X value in Transform -> Position to be positive. Now go to ‘Game’ and test this one too. That work? AWESOME! You should have something that looks like this now:
 
-![image alt text](/tutorials/image_12.png)
+![image alt text](/img/tutorials/unity-pong/image_12.png)
 
 If so, move on - if not, go back and make sure you’ve done everything right. 
 
@@ -135,7 +135,7 @@ You’ve made it to the Ball. Congrats! Things get more complicated from here on
 
 The first step is going to be finding the Ball image in the downloadable file, and dragging that into the Project view. Do that now. Drag it into the scene, same as our paddles and Background. Rename the object that now appears under the ‘Hierarchy’ menu to ‘Ball,’ and then head over to the Inspector to get the ball rolling. First, I’ve scaled down the size on the X and Y fields to .5. A smaller ball helps make the game not quite so awkward. Next we need to add similar components that we did to the paddle. Instead of adding ‘BoxCollider 2D’ we need to add ‘Circle Collider 2D’ and of course ‘RigidBody 2D.’ We don’t need to change anything in the Circle Collider, except for adding a Material, so the ball will bounce. To do this, right click in the bottom Project pane, and create a new Physics2D material. Rename it ‘BallBounce’, and look at the Inspector. Change the friction value to 0, and the bounce factor to 1. That way our ball doesn’t have friction from anything, including our paddles and wall. This means we control the speed of the ball from our script entirely. The bounciness factor means that it also doesn’t lose any speed. It bounces back with the exact same speed it hit the object with. Select ‘Ball’ in the inspector. Drag ‘BallBounce’ to the ‘Circle Collider 2D’ box in the Inspector for ‘Ball’. We also need to adjust a lot in ‘Rigidbody 2D’ so we can get pong ball behavior. It should look like this at the end:
 
-![image alt text](/tutorials/image_13.png)
+![image alt text](/img/tutorials/unity-pong/image_13.png)
 
 But of course, to actually get the Ball to move, we need a script. It’s time to write our next one, this time called ‘BallControl’. I’ll do the same thing as before, and post the code with an explanation of what’s happening:
 
@@ -143,31 +143,31 @@ But of course, to actually get the Ball to move, we need a script. It’s time t
 
 **First, as always, we import our packages and name our file.**
 
-![image alt text](/tutorials/image_14.png)
+![image alt text](/img/tutorials/unity-pong/image_14.png)
 
 **In our ‘Start()’ function, we use the ‘hi()’ function to wait two seconds by using some code from the packages we imported into our file - this is to give people time to get ready before the ball starts.**
 
-![image alt text](/tutorials/image_15.png)
+![image alt text](/img/tutorials/unity-pong/image_15.png)
 
 **Then we make the ball start to move using the ‘GoBall()’ function. This function chooses a random direction to go.**
 
-![image alt text](/tutorials/image_16.png)
+![image alt text](/img/tutorials/unity-pong/image_16.png)
 
 **‘resetBall()’ and ‘hasWon()’ are two function used by other scripts which we will write later. In short, ‘hasWon()’ looks for a win condition and resets the ball.**
 
-![image alt text](/tutorials/image_17.png)
+![image alt text](/img/tutorials/unity-pong/image_17.png)
 
 **‘resetBall()’ is used when our reset button is pushed. We’ll add that button later, but essentially it centers the ball on the board, and then tells it to start again.**
 
-![image alt text](/tutorials/image_18.png)
+![image alt text](/img/tutorials/unity-pong/image_18.png)
 
 **‘OnCollisionEnter2D’ waits until we collide with a paddle, then adjusts the velocity appropriately using both the speed of the ball and of the paddle.**
 
-![image alt text](/tutorials/image_19.png)
+![image alt text](/img/tutorials/unity-pong/image_19.png)
 
 Nifty swifty, neato spedito, our game is looking swell. Let’s recap. We have two paddles that work, and now a ball that bounces around realistically. Does yours look like this in the Scene view, with a ball underneath the Camera symbol? The Game view should have just two paddles and a ball there, while the Scene view looks like this:
 
-![image alt text](/tutorials/image_20.png)
+![image alt text](/img/tutorials/unity-pong/image_20.png)
 So we’re done right? Nope. You might have noticed I have something under the Hierarchy menu called HUD (or Heads Up Display) - this is what we need to write next.
 
 ## Step Four: The Walls
@@ -178,16 +178,16 @@ So you may have also noticed by now that your paddles can fly off the screen, an
 
 We import our packages as usual, and then declare some variables. The first two will be for our paddles, the next four are for each of our four walls. This helps create a slot in the Inspector for the HUD for us to put each of these objects. 
 
-![image alt text](/tutorials/image_21.png)
+![image alt text](/img/tutorials/unity-pong/image_21.png)
 This also sets us up to get creative with the sizing of our game - if you want, you can try and figure out how to make the game resize using this script as you shrink or grow the game window. We’re not going to write that today though as part of this tutorial, as that gets a little complicated to do.
 
 Cool. Now lets save that and head back over to Unity. Go to the GameObject menu and Create Empty to make a new object. Call it ‘rightWall.’ Make sure you go to ‘AddComponent’ and add a Box Collider 2D - we want the walls to make the ball and paddles bounce off. Duplicate it three more times, and name each ‘leftWall’, ‘botWall’, and ‘upWall.’ You should have four walls now, each for a different direction. Under the Hierarchy menu, drag and drop those in the HUD variable, which should get a drop down arrow next to it. Click on Hud in the Hierarchy menu. You should see 6 new slots for objects. drag your walls and player objects into those slots from the Hierarchy menu. it should look like this at the end:
 
-![image alt text](/tutorials/image_22.png)
+![image alt text](/img/tutorials/unity-pong/image_22.png)
 
 Now we need to size those walls so they are in the right spot in our game view - right now, they’re just points sitting in the middle of our board. We need to make them look like walls. To do this you have two options, one of which I’ll be explaining. The first and harder option is to write in the HUD script some code in an ‘Update()’ function that keeps track of the size of the screen, and adjusts the wall sizes appropriately using the Box Collider 2D size and center. It wouldn’t be too hard, but it’s a little more than we need right now. We’re just going to hard code in the right size. The "right size" depends on what your game is sized like. My top and bottom walls are Scaled to 13x1 (XxY) and centered at Position (0,3.5) and (0,-3.5). My right and left walls are Scaled to 1x6.4 (XxY) and centered at Position (5.9,0) and (-5.9,0). If it’s sized like mine, it should look like this:
 
-![image alt text](/tutorials/image_23.png)
+![image alt text](/img/tutorials/unity-pong/image_23.png)
 
 Now comes an important, but slightly harder part. We need to make this an actual game, not just a ball bouncing around. We need a score system, a way to display the score, some win condition, and a reset button. That’s right. It’s time for….
 
@@ -201,25 +201,25 @@ We need to make a script. A big one, relatively speaking. It’s going to be att
 
 **First, as always, we import our packages and declare our class.**
 
-![image alt text](/tutorials/image_24.png)
+![image alt text](/img/tutorials/unity-pong/image_24.png)
 
 **Next we make four variables. The first two variables are just integers to keep track of the scores for the two players. The next is a GUI object. ‘GUI’ stands for graphical user interface. This object is going to be responsible for displaying all our different buttons and graphics. We’ll make this skin object in Unity after we finish here. The last object is so we can move our ball from this class.**
 
-![image alt text](/tutorials/image_25.png)
+![image alt text](/img/tutorials/unity-pong/image_25.png)
 
 **Then comes the ‘Start()’ function, which we use when the game first starts.**
 
-![image alt text](/tutorials/image_26.png)
+![image alt text](/img/tutorials/unity-pong/image_26.png)
 
 **Next is the ‘Score()’ function. It will get called by another script we write in just a minute, that detects when the ball hits the side walls.**
 
-![image alt text](/tutorials/image_27.png)
+![image alt text](/img/tutorials/unity-pong/image_27.png)
 
 **The OnGUI() function takes care of displaying the score and the reset button functionality. Then, it checks every time something happens if someone has won yet, and triggers the function ‘hasWon()’ if someone has.**
 
-![image alt text](/tutorials/image_28.png)
+![image alt text](/img/tutorials/unity-pong/image_28.png)
 
-![image alt text](/tutorials/image_29.png)
+![image alt text](/img/tutorials/unity-pong/image_29.png)
 
 **The ‘SendMessage’ call is something we’ve been using a lot in this chunk of code - it will trigger any function that matches the name that we send it in a class we specify. So when we say theBall.gameObject.SendMessage("hasWon"), we tell the program to access the ‘BallControl’ class and trigger the “hasWon” method.**
 
@@ -229,11 +229,11 @@ Ok cool. Looking at the HUD, we now see there’s one new variable under this sc
 
 First, drag and drop that file into the Project pane. Right click on the Project pane, and create a GUI Skin. Click on that Skin, and you should see a variable field at the top of the Inspector pane. Drag our font to that variable slot. If you scroll down and look under the dropdown menu ‘TextField’ you can also change the size of your text, etc. Play around with size until it looks good. In the end, mine looks like this:
 
-![image alt text](/tutorials/image_30.png)
+![image alt text](/img/tutorials/unity-pong/image_30.png)
 
 Awesome! Now you should, when you play, see something like this:
 
-![image alt text](/tutorials/image_31.png)
+![image alt text](/img/tutorials/unity-pong/image_31.png)
 
 Cool. Now let’s make sure that the game knows when we do score. To do that, we need to add a script to the ‘rightWall’ and ‘leftWall’ object under the HUD dropdown. It’s the same script so it should  be pretty easy to do. It should look like this:
 
@@ -241,7 +241,7 @@ Cool. Now let’s make sure that the game knows when we do score. To do that, we
 
 **After we import our packages, we just need to write one function. This function detects when something is colliding with our left or right walls. If it’s the ball, we call the score method in GameManager, and reset the ball to the middle. That’s about it really. Huh. That was easy.**
 
-![image alt text](/tutorials/image_32.png)
+![image alt text](/img/tutorials/unity-pong/image_32.png)
 
 ***NOTE: if you skipped writing the ‘Score()’ function before, go back and write it NOW.***
 
@@ -255,7 +255,7 @@ We’re DONE! Almost.
 
 Now, we only have to make our game playable outside of unity. To do this, go to File at the top of Unity. Go to ‘Build Settings’ and then choose ‘Mac, PC, Linux Standalone.’ This will make an executable (playable) file appear on our desktop. Now, click on ‘Player Settings.’ This is where you should put your name on the Project, choose an icon (I chose the Ball sprite), and set the default screen size to 1152x720. This is what looks best for our settings. You can play with it some, but it might start to look a little wonky if we play with it too much. We also don’t want to make the game fullscreen - there’s just no need. Your settings in the end should look like this:
 
-![image alt text](/tutorials/image_33.png)
+![image alt text](/img/tutorials/unity-pong/image_33.png)
 
 Now, choose where you want to save the file (I chose the desktop), and name it something (I named it Pong v1.0). Look at your desktop. Is it there? Sweet. If you want to see my completed version, here's the [sample code on GitHub](https://github.com/ainc/unity-pong).
 
@@ -263,5 +263,5 @@ Congratulations, and enjoy your game. Thanks for going through this tutorial, an
 
 ## THANKS, AND GAME ON.
 
- ![image alt text](/tutorials/image_34.png)
+ ![image alt text](/img/tutorials/unity-pong/image_34.png)
 
