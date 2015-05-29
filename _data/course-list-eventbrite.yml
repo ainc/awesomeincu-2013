@@ -20,29 +20,17 @@
   logo: logo_big.png
   status: 'active'
 
-- title: After School Coding Club (Mondays)
+- title: After School Coding Club (Starting in August)
   curriculum: club
-  date: May 4 - June 1
-  time: 5pm - 6:30pm
+  date: August
+  time: After School
   early-bird-price: 
   standard-price: 25 / week
   early-bird-date:
   url: https://www.eventbrite.com/e/awesome-inc-after-school-coding-club-mondays-in-may-tickets-16473902887
   logo: logo_big.png
-  status: 'active'
-  curriculum-date: mon
-
-- title: After School Coding Club (Tuesdays)
-  curriculum: club
-  date: May 5 - May 26
-  time: 4:15pm - 5:45pm
-  early-bird-price: 
-  standard-price: 25 / week
-  early-bird-date:
-  url: https://www.eventbrite.com/e/awesome-inc-after-school-coding-club-tuesdays-in-may-tickets-16474372291
-  logo: logo_big.png
   status: 'inactive'
-  curriculum-date: tues
+  curriculum-date: mon
 
 - title: iPhone App Development 2-Day Advanced Course
   curriculum: ios-advanced
@@ -225,8 +213,8 @@
 
 - title: Day of Code for Kids (Minecraft Party Special)
   curriculum: k12-day
-  date: May 16
-  time: 12pm - 5pm
+  date: TBD
+  time: 
   student-price: 
   early-bird-price: 100 + free minecraft party ticket
   standard-price: 125
@@ -234,7 +222,7 @@
   url: https://www.eventbrite.com/e/kids-code-camp-dayofcode-tickets-16293433097
   eid: 16293433097
   logo: Day-of-Code-Logo.png
-  status: 'active'
+  status: 'inactive'
   landingTitle: Day of Code for Kids
   landingSubTitle: Come Learn to Code with us this Spring
   landingHeader: In just ONE day your student will have made at least two programs!
